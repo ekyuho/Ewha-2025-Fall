@@ -40,34 +40,38 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
-## Team 18 팀명 AIDERS 
+##  Team18 AIDERS  
 |항목|내용|
 |---|---|
-|프로젝트명|AI 기반 개인 일정 자동 스케줄링 에이전트 시스템|
-|프로젝트 키워드|AI Agent, MCP, 일정 자동화, 자연어 스케줄링|
-|트랙|산학|
+|프로젝트명|AI 기반 개인 일정 자동 스케줄링 에이전트 시스템 (가칭: 루틴메이트)|
+|프로젝트 키워드|AI Agent, MCP, LangGraph, 일정 자동화, 자연어 스케줄링, 구글 캘린더 연동|
+|트랙|AI 응용 서비스 트랙|
 |프로젝트멤버|함하경(2176414),박시원(2276130),강민서(2271006)|
 |팀지도교수|오세은 교수님|
-|무엇을 만들고자 하는가|
-사용자가 자연어로 일정 요청을 입력하면, 에이전트 시스템이 해당 일정을 자동 분해, 문서 기반 분석, 우선순위 판단, 시간표 자동 배치를 수행한 뒤, Google Calendar에 자동 등록하는 AI 기반 루틴 추천 및 반영 시스템을 개발하고자 한다.|
-|고객|시간 관리를 어려워하는 대학생|
-|Pain Point|
+|무엇을 만들고자 하는가|  
+사용자가 자연어로 일정 요청을 입력하면, 멀티 에이전트 시스템이 해당 일정을 자동 분해, 문서 기반 분석(RAG), 우선순위 판단, 시간표 자동 배치를 수행한 뒤, Google Calendar에 자동 등록하는 AI 기반 루틴 추천 및 반영 시스템을 개발하고자 한다.
+|고객|  
+시간 관리를 어려워하는 대학생
+|Pain Point|  
 - 다양한 일정(고정, 마감, 루틴)을 직접 분류하고 정리하기 어렵다  
 - 추천 시간표 앱은 많지만, 내 상황(과제 마감, 집중시간대 등)을 반영해주는 시스템은 없다  
-- 일정 추천 시스템은 많지만, 성공/실패 결과를 학습하여 개선하는 피드백 구조는 드물다|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|
+- 일정 추천 시스템은 많지만, 성공/실패 결과를 학습하여 개선하는 피드백 구조는 드물다
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|  
 - **LangGraph**: 멀티에이전트 구조 설계 및 흐름 제어  
 - **Google Calendar API**: 일정 자동 등록, 고정 일정 조회  
 - **Pinecone or PGVector**: 문서 기반 일정 추천용 벡터 검색  
 - **OpenAI API**: 자연어 → 일정 변환, 설명 생성, 요약 등  
-- **Next.js**: 사용자 입력, 루틴 선택, 피드백 입력 UI 구현 |
-|사용할 소프트웨어 패키지의 명칭과 URL|
+- **Next.js**: 사용자 입력, 루틴 선택, 피드백 입력 UI 구현  
+|사용할 소프트웨어 패키지의 명칭과 URL|  
 - LangGraph: https://github.com/langchain-ai/langgraph  
 - OpenAI API: https://platform.openai.com/docs  
 - Google Calendar API: https://developers.google.com/calendar/api  
 - Pinecone: https://www.pinecone.io/  
-- Next.js: https://nextjs.org/|
-|팀그라운드룰|https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md|
+- Next.js: https://nextjs.org/  
+|팀그라운드룰|  
+https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md
 |최종수정일|2025-09-11|
+
+
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
