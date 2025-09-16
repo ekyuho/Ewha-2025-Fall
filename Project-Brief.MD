@@ -3,6 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
+|[10](#team-10-JL)|JL|탐조 입문자를 위해 새 이미지를 받아 종을 알려주고, 추가적으로 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
@@ -41,6 +42,24 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score를 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
 |사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 10 JL
+|항목|내용|
+|---|---|
+|프로젝트명|탐조 입문자를 위해 새 이미지를 받아 종을 알려주고, 추가적으로 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공|
+|프로젝트 키워드|위치 기반 데이터를 이용한 탐조, AI를 이용한 image detection, 게이미피케이션|
+|트랙|산학|
+|프로젝트멤버|최이준, 최유선, 이윤성|
+|팀지도교수|오유란 교수님(예정)|
+|무엇을 만들고자 하는가| - 새 이미지를 통해 새에 대한 정보를 제공하고, 위치정보를 받아 새 출현 장소 DB를 확립해 서식지 정보 제공</br> - 사용자별 새 도감을 만들어 수집하는 과정을 통해 사용자의 풀을 확대</br> - 추가적으로 주요 서식지별 미션을 제공해 사용자의 참여도 향상|
+|고객| - 탐조 입문자</br> - 탐조에 대한 최신 정보를 공유받고 싶어하는 고객</br> - 탐조를 엔터테인먼트적인 요소로 즐기고 싶은 고객|
+|Pain Point| 1. 새의 종을 알지못해 탐조 입문에 있어 애로사항 발생</br> 2. 탐조 기록 관리의 어려움|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - Flutter: 모바일 앱 레이어 사용</br> - PyTorch: 새 종 판별|
+|사용할 소프트웨어 패키지의 명칭과 URL|TBD|
+|팀그라운드룰|https://github.com/jun-glitch/JL/blob/main/GroundRule.MD|
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
