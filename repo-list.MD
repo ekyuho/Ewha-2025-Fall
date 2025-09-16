@@ -1,7 +1,7 @@
 |팀번호|팀명|Repository|
 |:---|:---|:---|
 | 1 | Qubit(큐비트) | https://github.com/solmingming/Qubit_research.git  |
-| 2 | BBP | https://github.com/capstone25-2-MBP/MBP |
+| 2 | MBP | https://github.com/capstone25-2-MBP/MBP |
 | 3 | 세얼간이(All_Is_Well) | https://github.com/yoozafree/ALL_IS_WELL  |
 | 4 | ADHD | https://github.com/kelly96110jung/Start |
 | 5 | Hibee | https://github.com/firstprojectof3/Hibee  |
