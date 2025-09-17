@@ -3,27 +3,89 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
+|[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
+|[16](#team-16-트리오링고)|트리오링고|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[30](#team-30-LGTM)|LGTM|대학생을 위한 팀매칭 플랫폼|
+|[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
+|[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 
 
 
-## Team 2 팀명2
+## Team 2 MBP
 |항목|내용|
 |---|---|
-|프로젝트명|프로젝트명2|
-|프로젝트 키워드||
-|트랙||
-|프로젝트멤버||
-|팀지도교수||
-|무엇을 만들고자 하는가||
-|고객||
-|Pain Point||
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오||
-|사용할 소프트웨어 패키지의 명칭과 URL||
-|팀그라운드룰||
-|최종수정일||
+|프로젝트명|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|프로젝트 키워드|Multi-modal AI, Medical, Benchmark|
+|트랙|연구|
+|프로젝트멤버|김채영, 박지호, 정지현|
+|팀지도교수|황의원|
+|무엇을 만들고자 하는가|한국 대학원·연구소의 의료 인공지능 연구자, 국내 AI 연구센터, 공공 연구기관들을 위해 국내 의료 환경에 맞춘 영상과 텍스트를 결합한 한국어 의료 데이터셋을 확보·전처리하고, 이에 기반한 태스크 정의·지표 설계·평가 코드·베이스라인 모델을 포함하는 표준 벤치마크를 구축한다.|
+|고객|대학병원/의료원 AI센터, 의료 AI 스타트업, 학계 연구실, 공공연구기관, 규제기관·심사평가원, 모델/플랫폼 사업자|
+|Pain Point|- 한국어 데이터·지표 부재<br>-기관 간 라벨·형식 불일치<br>-개인정보/규제 제약<br>-실제 임상질문과 벤치마크 과업의 괴리|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score를 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
+|사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
+|팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
+|최종수정일|2025.09.16|
 
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 6 Brownie
+|항목|내용|
+|---|---|
+|프로젝트명|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|프로젝트 키워드|Multi-modal AI(CLIP), 경량화(knowledge distillation or pruning), Loss Function|
+|트랙|연구 트랙|
+|프로젝트멤버|양인경, 장한나, 정진이|
+|팀지도교수|심재형|
+|무엇을 만들고자 하는가|멀티모달 모델인 CLIP을 중심으로, 자원이 제한되는 환경에서도 성능은 유지할 수 있도록, knowledge distillation 또는 Pruning 기법을 적용하여 모델을 경량화하고자 합니다.|
+|고객|AI/ML 기술을 사용하는 스타트업 또는 기업: 데이터 용량이 제한적이거나, 실시간 응답 속도가 중요한 서비스를 개발하는 기업들은 가벼우면서도 성능이 우수한 모델이 필요로 합니다. 기존의 거대 Transformer 기반 멀티모달 모델은 높은 연산 비용과 느린 추론 속도 때문에 사용하기 어려워, 연구를 통해 빠르고 가벼운 CLIP 모델 제공하고자 합니다.|
+|Pain Point|최근 텍스트, 이미지, 음성 등 여러 종류의 데이터를 동시에 이해하고 처리하는 멀티모달(Multi-modal) 모델이 AI 기술의 새로운 핵심으로 부상하고 있습니다. 하지만 멀티모달 모델의 특성상 여러 인코더와 이를 통합하는 복잡한 아키텍처를 가지고, 이는 단일 모델보다 훨씬 더 큰 모델 크기와 많은 연산량을 요구합니다. 이는 곧 배포의 한계, 비용 부담, 환경 문제 등으로 이어지며 기술의 대중화와 실용화를 막는 걸림돌이 되고 있습니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - CLIP: 이미지와 텍스트를 함께 이해하도록 학습된 멀티모달 모델입니다. 핵심 기능은 이미지-텍스트의 동일한 임베딩 공간에 매핑, 대조 학습, 제로샷 분류로 정의됩니다.|
+|사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP|
+|팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 14 BestFriend 
+|항목|내용|
+|---|---|
+|프로젝트명|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임|
+|프로젝트 키워드|AI, 공포, 게임|
+|트랙|산학|   
+|프로젝트멤버|양동선, 박주영, 윤소진|
+|팀지도교수|민동보|
+|무엇을 만들고자 하는가|스토리 진행 과정에서 플레이어가 두려움을 느끼는 요소를  AI기반 NPC가 취득하여 강화학습함으로써 플레이할 때마다 새로운 ‘개인 맞춤형 공포 시나리오’를 제공하는 AI 기반 심리 공포 게임. 진화할 수 있는 공포요소를 제공함으로써 게임을 ‘마스터’했다는 느낌이 들지 않는다.. |
+|고객| **이름:** 김지현 (26세, 대학원생)<br>**성별:** 여성<br><br>**문제 시나리오**<br>기존 게임들은 스토리가 고정되어 있어, 플레이어는 단순히 스토리를 따라가야함.<br>특히 공포게임의 경우 매번 반복되는 동일한 공포요소와 스토리에 익숙해져 플레이 회차가 반복될수록 지루하고 신선하지 못한 경험을 하게 됨.<br><br>**특징 및 요구사항**<br>평소 사용자의 선택이나 행동이 각기 다른 결말로 이어지는 게임을 선호<br>평소 공포게임을 자주 즐기며, 점프 스케어 위주보다는 서서히 조여오는 긴장감과 심리적 압박감이 있는 게임을 더 선호<br>본인의 플레이 스타일에 맞춰 변화하는 시나리오를 경험하며 개인화된 공포요소를 즐기고 싶어 함<br> |
+|Pain Point|기존 공포 게임은 반복적으로 플레이할 경우, 1차원적인 공포 연출 패턴에 익숙해져 긴장감이 떨어지고 지루함을 경험하게 된다.
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| Unity: 게임 개발 엔진, 전체적인 공포 씬 및 연출 구성<br>ML-agents: Unity의 Pytorch 기반 강화학습 플러그인, 플레이어의 행동패턴을 기반으로 강화학습하여 공포 연출을 실행<br>OpenAI: Open AI API키로 NPC의 스크립트를 동적으로 생성하는 Unity용 패키지, AI NPC의 대화 및 행동패턴 기반 변주 스토리 생성<br>OpenUPM: OpenAI 패키지를 사용하기 위해 필요한 Unity용 오픈 소스 패키지 레지스트리. |
+|사용할 소프트웨어 패키지의 명칭과 URL| Unity : https://unity.com/kr <br>ML-agents: https://github.com/Unity-Technologies/ml-agents <br>GPT-4o: https://chatgpt.com/ <br>OpenUPM : https://github.com/RageAgainstThePixel/com.openai.unity#upm  <br>https://github.com/Unity-Technologies/ml-agents |
+|팀그라운드룰|https://github.com/dongseon0/Friendly/blob/main/GROUNDRULE.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 16 트리오링고
+|항목|내용|
+|---|---|
+|프로젝트명|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|프로젝트 키워드|멀티모달 AI, 자기반영 시뮬레이션 게임, 개인화 스토리|
+|트랙| 산학 |
+|프로젝트멤버| 강한나, 박세은, 최은별|
+|팀지도교수|김영준|
+|무엇을 만들고자 하는가|이 게임은 황폐한 세계에서 플레이어와 자아 없는 로봇이 함께 생존하는 어드벤처입니다. 멀티모달 기술을 활용해 플레이어의 표정, 음성, 제스처와 같은 다양한 인풋 데이터를 수집하고, 이를 통해 플레이어의 성향 데이터베이스를 구축합니다. 로봇은 이 데이터를 학습하며 점차 플레이어를 닮아가는 존재로 변화하고, 시간이 지날수록 단순한 도구가 아닌 주체적인 동료로 성장합니다. 이를 통해 플레이어는 단순한 생존 경험을 넘어 자기반영적 서사를 체험하게 됩니다.|
+|고객|<ul><li><strong>판교 직장인 A씨</strong>는 퇴근 후 게임을 즐기는 열성 게이머로, 다양한 게임을 직접 해보고 싶지만 시간 제약으로 관심 있는 게임은 대부분 통근 중 유튜브 게임 스트리밍을 시청하며 즐긴다. A씨는 전개가 이미 정해져 스트리밍만으로도 충분히 대리만족을 주는 게임은 직접 플레이하지 않고 영상 시청으로 대신하며, 직접 플레이해야만 즐거움이 극대화되는 개인 맞춤형 게임은 기꺼이 구매해 즐긴다.</li><li><strong>B씨</strong>는 IT 스타트업에서 일하는 30대 초반 직장인이다. 그는 최신 트렌드와 신기술에 대한 호기심이 많고, 스레드(Threads)와 네이버 블로그에서 활발히 활동하는 얼리어답터로서 새로운 서비스나 기술이 등장하면 직접 체험해보는 성향을 가지고 있다. 최근에는 AI의 다양한 활용 방식에 관심이 많아 챗봇, 이미지 생성 도구 등을 직접 사용하며 업무 효율화와 창작 활동에 접목할 방법을 탐구한다. 단순 기능 테스트를 넘어, AI가 인간 행동을 학습하고 변화시키는 과정에 흥미를 느끼며, 이를 통해 미래의 디지털 경험 변화까지 상상한다.</li></ul>|
+|Pain Point|<ul><li><strong>상호작용 방식의 단조로움</strong><br>현재 PC 및 콘솔 게임들은 복잡하고 다층적인 사람의 의사소통 방식을 키보드, 마우스, 게임패드라는 물리적 입력 방식으로 축소시킵니다. 이는 플레이어의 감정, 뉘앙스, 복합적인 의도를 게임 세계에 전달하지 못하고, 플레이어 경험과 실제 게임의 상호작용 간 괴리를 유발하여 몰입을 저해하는 핵심 요인이 됩니다.</li><li><strong>예측 가능한 NPC와 피상적 관계의 한계</strong><br>대부분의 스토리 중심 게임에서 플레이어와 NPC의 관계는 개발자가 사전에 설계한 선택지 분기와 호감도 수치에 의해 결정됩니다. 플레이어의 실제 말투, 성향, 가치관과 상관없이 단지 어떤 선택을 했느냐에 따라 관계가 정형화되어, 역동적이고 유기적인 관계성을 기대하는 플레이어에게 피로감과 피상적인 경험만을 제공합니다.</li><li><strong>자기성찰과 개인적 의미 창출의 부재</strong><br>많은 스토리 게임들은 플레이어에게 개발자가 의도한 철학적 메시지나 교훈을 전달하는 데 집중합니다. 플레이어는 자신의 가치관과 정체성을 투영하거나 게임 속 사건을 통해 자기 성찰할 수 있는 경험을 제공받지 못하고, 게임이 제시하는 주제를 수동적으로 소비하거나 수용하게 됩니다.</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|<ul><li><strong>multimodal</strong>: 플레이어의 다양한 인풋 데이터 수집 및 학습<br>&nbsp;&nbsp;<strong> OpenCV</strong>: 컴퓨터비전 라이브러리 – 유저의 손동작을 웹캠으로 인식해 게임에 명령을 내릴 수 있게 함<br>&nbsp;&nbsp;<strong>GazeML</strong>: 실시간 시선 추적 –플레이어의 시선을 추적해 캐릭터 반응의 입력으로 사용<br>&nbsp;&nbsp;<strong>Whisper</strong>: 음성 인식 – 플레이어의 음성을 텍스트로 변환해 캐릭터에 명령을 내릴 수 있게 함<br> &nbsp;&nbsp;<strong>DeepFace</strong>: 얼굴·감정 분석 – 유저의 감정 상태를 데이터베이스에 저장해 게임 캐릭터 성격 업데이트에 반영</li>  <li><strong>Unity</strong>: 게임 엔진<br>&nbsp;&nbsp;<strong>Unity / Unity ML-Agents</strong>: 유니티 AI 모델 학습 연결 툴킷 – 캐릭터가 플레이어 성향 학습 <br> &nbsp;&nbsp; <strong>Unity NativeWebSocket</strong>: WebSocket 통신 – 유니티 <> AI 서버 백엔드 실시간 통신</li>  <li><strong>database</strong>: 플레이어 데이터 저장<br>&nbsp;&nbsp;<strong>PostgreSQL</strong>: 관계형 DB – 플레이어 성향 데이터 저장</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 URL|<ul><li><strong>OpenCV</strong><br>https://opencv.org/</li><li><strong>GazeML</strong><br>https://github.com/swook/GazeML</li><li><strong>Whisper</strong><br>https://github.com/openai/whisper</li><li><strong>DeepFace</strong><br>https://github.com/serengil/deepface</li><li><strong>Unity ML-Agents</strong><br>https://docs.unity3d.com/Packages/com.unity.ml-agents@3.0/manual/index.html</li><li><strong>Unity NativeWebSocket</strong><br>https://github.com/endel/NativeWebSocket</li><li><strong>FastAPI</strong><br>https://fastapi.tiangolo.com/</li><li><strong>PostgreSQL</strong><br>https://www.postgresql.org/</li></ul>|
+|팀그라운드룰|https://github.com/ob1hnk/Triolingo/blob/main/docs/GroundRules.MD|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
 ## Team 23 Synapse
 | 항목 | 내용 |
@@ -43,6 +105,7 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+
 ## Team 30 LGTM
 
 |항목|내용|
@@ -58,9 +121,65 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI, Google Cloud AI: AI 기반 부적절 공고 필터링, AI 챗봇을 구현한다.|
 |사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> 3. AI <br> Google Cloud Moderate Text AI <https://cloud.google.com/natural-language/docs/moderating-text?hl=ko><br> Chat GPT <https://openai.com/ko-KR/index/openai-api/>|
 |팀그라운드룰|<https://github.com/2025-TEAM-LGTM/LGTM-docs/blob/main/GroundRule.md>|
+| 최종 수정일 | 2025.09.16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 32 All Day Project
+
+| **항목** | **내용** |
+|---------|---------|
+| 프로젝트명 | **온세무 (OnTax)** <br>자영업자를 위한 AI 기반 자동화 세무관리 & 절세 서비스 |
+| 프로젝트 키워드 | 🧾 세무관리  &nbsp;&nbsp; 💼 자영업  &nbsp;&nbsp; ⚙️ 자동화  &nbsp;&nbsp; 💡 절세 |
+| 트랙 | 금융/세무 관리 자동화 서비스 개발 |
+| 프로젝트 멤버 | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)<br>👩‍💻 유서연 (Frontend, Data Visualization)<br>👩‍💻 이윤서 (AI, Frontend) |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | **온세무(OnTax)** 는 자영업자들의 세무 신고와 절세 전략을 **한 곳에서** 해결하는 올인원 플랫폼입니다.<br><br> - **자동 수집·정리** : 카드/현금영수증/세금계산서 등 분산된 증빙 데이터를 통합 관리 <br> - **스마트 분류** : 개인/사업 비용 자동 구분, 누락·과다 신고 방지 <br> - **실시간 세무 대시보드** : 예상 세액, 매출·비용 현황, 신고 마감일을 직관적으로 시각화 <br> - **AI 세무 도우미** : GPT-5 기반 챗봇으로 세무 용어 해설, 신고 절차 가이드 제공 <br> - **AI 기반 절세 추천** : 업종·매출 패턴·비용 구조를 분석하여 최적의 절세 전략 제안 (예: 경비 처리 항목 추천, 세액공제·감면 가이드) <br><br> → **궁극적 목표:** 자영업자가 본업에 집중할 수 있도록 **세무 관리 + 절세 전략까지 풀패키지로 지원**, 스트레스·시간·비용을 모두 절감 |
+| 고객 | - 초기 창업자 (음식점, 카페 등)<br>- 세무 지식이 부족한 개인사업자·소상공인<br>- 홈택스 사용이 익숙하지 않은 1인 사업자 |
+| Pain Point | - 세법과 신고 절차가 복잡하고 용어가 어려움<br>- 자료(카드/현금영수증/세금계산서)가 흩어져 관리·정리 시간 소모 큼<br>- 개인·사업 비용 구분 어려움 → 과다/누락 신고 위험<br>- 세무사 비용 부담, 직접 신고 시 실수 및 가산세 리스크<br>- 절세 전략을 모르거나, 세액공제 혜택을 놓치는 경우 많음<br>- 경영 판단에 필요한 현금 흐름, 예상 세액 확인이 어려움 |
+| 사용할 소프트웨어 패키지 (명칭·용도) | - **React, TypeScript, Next.js** → 프론트엔드 개발, 컴포넌트 기반 UI, 정적·SSR 렌더링 지원 <br> - **Spring Boot** → 백엔드 서버, REST API, DB 모델링 <br> - **GPT-5** → 세무 질의 응답, 신고 가이드, 절세 전략 추천 <br> - **BeautifulSoup, Selenium** → 세무 관련 공공데이터·홈택스 크롤링 <br> - **Hugging Face** → 머신러닝 모델 (텍스트 분류, NER, 추천 모델) 활용 <br> - **Playwright** → E2E 테스트 및 UI 자동화 |
+| 사용할 소프트웨어 패키지 URL | - [React](https://react.dev) : https://react.dev <br> - [TypeScript](https://www.typescriptlang.org/) : https://www.typescriptlang.org/ <br> - [Next.js](https://nextjs.org) : https://nextjs.org <br> - [Spring Boot](https://spring.io/projects/spring-boot) : https://spring.io/projects/spring-boot <br> - [OpenAI GPT-5](https://platform.openai.com) : https://platform.openai.com <br> - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) : https://www.crummy.com/software/BeautifulSoup/ <br> - [Selenium](https://www.selenium.dev/) : https://www.selenium.dev/ <br> - [Hugging Face](https://huggingface.co) : https://huggingface.co <br> - [Playwright](https://playwright.dev) : https://playwright.dev |
+| 팀 그라운드룰 URL | [GroundRule](https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md) : https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md |
+| 최종 수정일 | 2025-09-16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 35 EWIN
+|항목|내용|
+|---|---|
+|프로젝트명|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|프로젝트 키워드|음성 검색 및 인식(STT), 음성 안내(TTS), 길도우미, GPS, NLP|
+|트랙|산학|
+|프로젝트 멤버|이지원 이예은 김우빈|
+|팀지도교수| 심재형 |
+|무엇을 만들고자 하는가|시각장애인을 위해, 화면을 보고 목록을 선택해야 하는 기존 내비게이션의 불편함을 해소하고, 음성 인식을 통한 목적지 검색(STT)부터 음성 대화를 통한 최종 목적지 확정, 그리고 도보 안내(TTS)까지 모든 과정을 음성만으로 제공하는 길도우미 서비스입니다.|
+|고객| **&lt;페르소나&gt;** <BR>김땡땡(25세, 여)<br><br>**• 배경**<br>김땡땡 씨는 시각장애인으로, 일상생활에서 대부분 음성 지원 기술과 점자 표시에 의존한다. 어느 무더운 여름날, 그녀는 길을 걷다가 시원한 음료를 사기 위해 가까운 편의점을 찾고 싶었다. 스마트폰으로 목적지를 검색하려 했지만, 화면이 잘 보이지 않아 사용이 매우 번거롭고 불편했다. 기존 시각장애인용 내비게이션 앱은 화면 터치와 안내 선택이 필수여서, 그녀가 원하는 ‘음성만으로 길 안내’는 제공되지 않았다.<br><br>**• 사용자의 요구**<br>&nbsp;&nbsp;- 화면을 보거나 터치하지 않고도 음성 만으로 목적지를 검색하고 안내받고 싶다.<br>&nbsp;&nbsp;-‘가장 가까운 편의점’ 처럼 주변 시설을 거리순으로 쉽게 찾고 안내받고 싶다.<br><br>**• 기대 사항**<br>내 상황과 의도를 파악하여 "가장 가까운 편의점은 OO점입니다. 길안내를 시작할까요?" 와 같이 지능적으로 되묻고, 음성만으로 모든 과정을 완료해주는 서비스를 원한다. |
+|Pain Point|현재의 음성 검색 시스템은 사용자가 'GS25 이대역점'처럼 정확한 전체 명칭을 말해야 도착지로 설정합니다. 음성만으로 서비스를 이용하려면 사전에 모든 정확한 정보를 파악하고 있어야 합니다. <BR>예를 들어, '가까운 편의점 찾아줘'라고 검색하면, 시스템은 주변 편의점 전체 목록을 화면에 띄웁니다. 결국 사용자는 안내를 시작하기 위해 다시 화면을 보고 목록을 확인하고 손으로 직접 터치해야만 합니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|**[STT, TTS]** Google Cloud API<BR> **[NLP]** Open AI GPT API<BR> **[LBS]** Naver Maps API<BR> **[백엔드]** Flask<BR> **[앱 개발]** React Native<BR> **[DB]** Firebase Realtime|
+|사용할 소프트웨어 패키지의 명칭과 URL|Google Cloud Speech-to-Text API: [https://speech.googleapis.com](https://speech.googleapis.com/)<BR>Google Cloud Text-to-Speech API: [https://texttospeech.googleapis.com](https://texttospeech.googleapis.com/)<BR>Open AI GPT API: https://chatgpt.com/<BR>Naver Maps API: https://navermaps.github.io/maps.js.ncp/<BR>Flask: [https://flask.palletsprojects.com](https://flask.palletsprojects.com/)<BR>React Native: https://ko.legacy.reactjs.org/<BR>Firebase Realtime DB: https://firebase.google.com/products/realtime-database|
+|팀그라운드룰|https://github.com/25-2-team35/Capstone/blob/main/GroundRule.md|
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 37 OptimusPrime
+|항목|내용|
+|---|---|
+|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
+|트랙|연구|
+|프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
+|팀지도교수|반효경 교수님|
+|무엇을 만들고자 하는가|AI 기반 에너지 사용량 예측모델|
+|고객|클라우드/서버에 별도의 비용을 지불하고 사용중인 기업들 |
+|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Python 3.8+ : 메인 개발 언어 <br> - PyTorch : AI 모델 훈련/추론 <br> - scikit-learn : 머신러닝 모델 구현 <br> - pandas/numpy : 데이터 처리 및 분석 <br> - pynvml : NVIDIA GPU 전력 모니터링|
+|사용할 소프트웨어 패키지의 명칭과 URL|- PyTorch: https://pytorch.org/<br> - scikit-learn: https://scikit-learn.org/<br>- pynvml: https://pypi.org/project/pynvml/|
+|팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
 
 ## Team 40 MIND
 
