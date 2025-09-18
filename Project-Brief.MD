@@ -14,7 +14,7 @@
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
-|[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
+|[24](#team-24-이루리)|이루리|청년층의 지출/저축 패턴을 AI로 분석해, 맞춤 재정 관리 계획을 제안하고 올바른 금융 습관 형성을 돕는 청년 스마트 금융 케어 서비스|
 
 ## Team 1 팀명1
 |항목|내용|
@@ -275,7 +275,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스. |
+| 프로젝트명 | 청년층의 지출/저축 패턴을 AI로 분석해, 맞춤 재정 관리 계획을 제안하고 올바른 금융 습관 형성을 돕는 청년 스마트 금융 케어 서비스 |
 | 프로젝트 키워드 | 청년층, AI 소비 습관 분석, 금융 스트레스 진단, 개인 맞춤 장학/복지 혜택 추천 |
 | 트랙 | 산학 트랙 |
 | 프로젝트 멤버 | 송유진 / 정서진 / 임슬민 |
@@ -286,7 +286,7 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - Android Studio (Kotlin/Java): 모바일 앱 개발, 안정적 UX 제공 및 배포<br>- Firebase / Firestore: 사용자 인증, 챌린지 피드 및 알림 관리<br>- LightGBM / XGBoost: 지출·저축 데이터를 분석해 금융 스트레스 지수(FSI) 산출 및 이상 소비 패턴 탐지<br>- Room DB (온디바이스 DB): 모든 금융 데이터를 로컬에서만 저장·분석해 프라이버시 보호<br>- 공공데이터 API (정부24, 복지로, 청년정책 플랫폼 등) 장학금·복지 혜택 정보 수집 및 자동 매칭 |
 | 사용할 소프트웨어 패키지의 명칭과 URL | - Android Studio (Kotlin/Java):[https://developer.android.com/studio](https://developer.android.com/studio)<br>- Firebase / Firestore: [https://firebase.google.com](https://firebase.google.com)<br>- LightGBM: [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)<br>- XGBoost: [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost)<br>- RoomDB: [https://developer.android.com/training/data-storage/room](https://developer.android.com/training/data-storage/room)<br>-공공데이터 API: [https://www.data.go.kr](https://www.data.go.kr) |
 | 팀그라운드룰 URL |[2025-fall-iruri-start/docs/GroundRule.md](https://github.com/youjean-s/2025-fall-iruri-start/blob/main/docs/GroundRule.md)|
-| 최종수정일 | 2025-09-16 |
+| 최종수정일 | 2025-09-18 |
 
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
