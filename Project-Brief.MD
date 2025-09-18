@@ -248,20 +248,19 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
-| 프로젝트 키워드 | AI Agent, Multi-Agent, LangGraph, RAG, MCP, Contextual Planning, 외국인 관광, 마포구 |
+| 프로젝트명 | 실시간 K-pop 이슈 감지 및 레이블 대응 지원을 위한 Multi-Agent AI 시스템 |
+| 프로젝트 키워드 | AI Agent, Multi-Agent, LangGraph, RAG, Kafka, MCP, K-pop, 트렌드 분석, 실시간 피드백 |
 | 트랙 | 산학 트랙 |
 | 프로젝트 멤버 | 함하경, 박시원, 강민서 |
 | 팀 지도교수 | 오세은 교수님 |
-| 무엇을 만들고자 하는가 | 마포구에 방문한 외국인 관광객이 자신의 감정·목적·날씨·시간 등에 따라 현지인 기반 장소 루틴을 추천받을 수 있는 Multi-Agent 기반 AI 시스템을 개발하고자 합니다. 사용자가 자연어로 여행 목적이나 기분을 입력하면, 시스템은 문서 기반 장소 분석(RAG)과 사용자 선호 매핑을 통해 루틴을 추천하고, 현지인 리뷰/사용자 피드백 데이터를 반영한 최적 루틴을 제공합니다. 추천 결과는 타임라인 UI로 제공되며, 사용자가 루틴을 저장하거나 피드백을 줄 수 있습니다. |
-| 고객 | **Kevin, 27세, 미국 교환학생**<br>연세대학교에 교환학생으로 온 지 3개월 된 외국인 대학생. 한국어는 초급 수준이며 구글맵만 사용하는 편. "현지인처럼 로컬 문화를 체험하고 싶다"는 이유로 한국에 왔지만, 마포구에선 검색 상위 노출 맛집이나 관광지 정보만 반복적으로 나와 실망한 적이 많음. 비건 카페, 인디 공연 등 자신만의 취향에 맞는 덜 알려진 장소를 하루 루틴으로 추천해주는, 언어 장벽 없이 쓸 수 있는 AI 가이드를 원함. |
-| Pain Point | 블로그에는 광고성 콘텐츠가 많고, Google 평점은 흩어져 있으며, 현지인이 가는 진짜 장소나 루틴을 찾기 어렵습니다. 여행자가 직접 루트를 짜기 어렵고, 컨텍스트(기분·날씨 등)를 반영한 맞춤 루틴이 부재합니다. |
-| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | - **LangGraph**: 멀티에이전트 간 흐름 제어 및 분기<br> - **OpenAI API**: 자연어 입력 분석, 설명 생성 <br> - **Vector DB (Pinecone/PGVector)**: 장소 정보, 루틴 및 피드백  저장<br> - **Next.js**: 웹 UI 구성 및 일정 타임라인 시각화 |
-| 사용할 소프트웨어 패키지의 명칭과 URL | - LangGraph: https://github.com/langchain-ai/langgraph <br> - OpenAI API: https://platform.openai.com/docs <br> - Pinecone: https://www.pinecone.io/ <br> - Next.js: https://nextjs.org/ |
-| 팀 그라운드룰 | https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md |
-| 최종 수정일 | 2025-09-17 |
+| 무엇을 만들고자 하는가 | 본 프로젝트는 K-pop 레이블이 SNS 상의 팬 반응 및 이슈를 **에이전트 기반으로 실시간 감지 및 분석**하고, **즉각적인 대응 전략 수립**에 참고할 수 있는 **Multi-Agent 기반 AI 시스템**을 구현하고자 합니다. 에이전트들은 일정 주기로 팬덤 내 트렌드를 수집하고 (Kafka 기반 파이프라인), 이슈의 원인 및 맥락을 분석한 뒤, 유사 사례 기반의 대응 전략을 추천합니다. 각 에이전트는 역할 기반으로 분산 처리되며, LangGraph를 통해 비동기적 흐름을 구성하고, RAG 기반 문서 검색 및 MCP 서버를 통한 중앙 DB 접근을 수행합니다. |
+| 고객 | **K-pop 소속사 A사의 홍보팀**<br>수많은 아티스트 팬덤의 피드백을 실시간으로 모니터링해야 하지만, 모든 커뮤니티를 수작업으로 분석하는 데 한계가 있음. 특히 해외 팬덤의 이슈, 밈, 팬 요청 등을 놓치는 경우가 많고, 커뮤니티 반응의 '변화 시점'을 빠르게 캐치하지 못해 대응 타이밍을 놓친 경험이 있음. 홍보 담당자는 요약된 이슈와 맥락, 팬덤 톤 변화 등을 시각적으로 받아보고 싶어함. |
+| Pain Point | K-pop 팬덤 이슈는 빠르게 형성되고 빠르게 사라지며, 텍스트 기반 밈/비판/요청 등이 **소수 커뮤니티에서 번져** SNS 상 이슈로 커지는 경우가 많음. 그러나 현재 레이블은 이슈의 초기 발생, 전파 구조, 원인 등을 실시간으로 파악하기 어렵고, 유사한 대응 사례나 정책을 참고하기 위한 검색도 어렵습니다. |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오** | - **Apache Kafka**: SNS 트렌드/이슈 스트리밍 수집 파이프라인 구성<br> - **LangGraph**: 에이전트 간 흐름 제어, 조건부 분기 및 병렬 처리<br> - **OpenAI API**: 감정 톤 분석, 원인 추론, 대응 요약 생성<br> - **Vector DB (Weaviate/Pinecone)**: 유사 사례 검색 및 피드백 기반 RAG 수행<br> - **MCP Server (직접 개발)**: 에이전트 간 메타 정보 공유 및 요청/응답 제어<br> - **Next.js + D3.js**: 실시간 이슈 흐름 시각화 및 아티스트별 대시보드 구성 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - LangGraph: https://github.com/langchain-ai/langgraph <br> - OpenAI API: https://platform.openai.com/docs <br> - Kafka: https://kafka.apache.org/ <br> - Weaviate: https://weaviate.io/ <br> - Next.js: https://nextjs.org/ <br> - D3.js: https://d3js.org/ |
+| 팀 그라운드룰 | https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md|
+| 최종 수정일 | 2025-09-18 |
 
-[Return Top](#2025-Fall-전체-프로젝트-리스트)
 
 ## Team 19 상킷
 
