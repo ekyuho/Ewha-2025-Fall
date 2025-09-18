@@ -17,7 +17,7 @@
 |[19](#team-19-상킷)|상킷|AI를 활용해 금융 상품 정보를 요약, 비교하고 상품에 대한 후기를 남길 수 있는 웹서비스 |
 |[20](#team-20-POKI)|POKI|스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
-|[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Indepdent Space로 통합 처리하는 AI 시스템 개발 연구 |
+|[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Independent Space로 통합 처리하는 AI 시스템 개발 연구 |
 |[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
@@ -323,7 +323,7 @@
 ## Team 26 TriAI
 |항목|내용|
 |---|---|
-|프로젝트명|  지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Indepdent Space로 통합 처리하는 AI 시스템 개발 연구  |
+|프로젝트명|  지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Independent Space로 통합 처리하는 AI 시스템 개발 연구  |
 |프로젝트 키워드|  UMIS, 연합 학습, 지진 동향 분석  |
 |트랙|  연구  |
 |프로젝트 멤버|  조혜림, 김민, 박소영  |
