@@ -2,7 +2,24 @@
 |팀번호|팀명|프로젝트명|
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
-|[2](#team-2-팀명2)|팀명2|프로젝트명2|
+|[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
+|[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
+|[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
+|[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
+|[16](#team-16-트리오링고)|트리오링고|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|[18](#team-18-AIDERS)|AIDERS|외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
+|[20](#team-20-POKI)|POKI|스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
+|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
+|[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
+|[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
+|[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
+|[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
+|[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
 
 ## Team 1 팀명1
 |항목|내용|
@@ -22,20 +39,353 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
-## Team 2 팀명2
+## Team 2 MBP
 |항목|내용|
 |---|---|
-|프로젝트명|프로젝트명2|
-|프로젝트 키워드||
-|트랙||
-|프로젝트멤버||
-|팀지도교수||
-|무엇을 만들고자 하는가||
-|고객||
-|Pain Point||
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오||
-|사용할 소프트웨어 패키지의 명칭과 URL||
-|팀그라운드룰||
-|최종수정일||
+|프로젝트명|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|프로젝트 키워드|Multi-modal AI, Medical, Benchmark|
+|트랙|연구|
+|프로젝트멤버|김채영, 박지호, 정지현|
+|팀지도교수|황의원|
+|무엇을 만들고자 하는가|한국 대학원·연구소의 의료 인공지능 연구자, 국내 AI 연구센터, 공공 연구기관들을 위해 국내 의료 환경에 맞춘 영상과 텍스트를 결합한 한국어 의료 데이터셋을 확보·전처리하고, 이에 기반한 태스크 정의·지표 설계·평가 코드·베이스라인 모델을 포함하는 표준 벤치마크를 구축한다.|
+|고객|대학병원/의료원 AI센터, 의료 AI 스타트업, 학계 연구실, 공공연구기관, 규제기관·심사평가원, 모델/플랫폼 사업자|
+|Pain Point|- 한국어 데이터·지표 부재<br>-기관 간 라벨·형식 불일치<br>-개인정보/규제 제약<br>-실제 임상질문과 벤치마크 과업의 괴리|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score를 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
+|사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
+|팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 6 Brownie
+|항목|내용|
+|---|---|
+|프로젝트명|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|프로젝트 키워드|Multi-modal AI(CLIP), 경량화(knowledge distillation or pruning), Loss Function|
+|트랙|연구 트랙|
+|프로젝트멤버|양인경, 장한나, 정진이|
+|팀지도교수|심재형|
+|무엇을 만들고자 하는가|멀티모달 모델인 CLIP을 중심으로, 자원이 제한되는 환경에서도 성능은 유지할 수 있도록, knowledge distillation 또는 Pruning 기법을 적용하여 모델을 경량화하고자 합니다.|
+|고객|AI/ML 기술을 사용하는 스타트업 또는 기업: 데이터 용량이 제한적이거나, 실시간 응답 속도가 중요한 서비스를 개발하는 기업들은 가벼우면서도 성능이 우수한 모델이 필요로 합니다. 기존의 거대 Transformer 기반 멀티모달 모델은 높은 연산 비용과 느린 추론 속도 때문에 사용하기 어려워, 연구를 통해 빠르고 가벼운 CLIP 모델 제공하고자 합니다.|
+|Pain Point|최근 텍스트, 이미지, 음성 등 여러 종류의 데이터를 동시에 이해하고 처리하는 멀티모달(Multi-modal) 모델이 AI 기술의 새로운 핵심으로 부상하고 있습니다. 하지만 멀티모달 모델의 특성상 여러 인코더와 이를 통합하는 복잡한 아키텍처를 가지고, 이는 단일 모델보다 훨씬 더 큰 모델 크기와 많은 연산량을 요구합니다. 이는 곧 배포의 한계, 비용 부담, 환경 문제 등으로 이어지며 기술의 대중화와 실용화를 막는 걸림돌이 되고 있습니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - CLIP: 이미지와 텍스트를 함께 이해하도록 학습된 멀티모달 모델입니다. 핵심 기능은 이미지-텍스트의 동일한 임베딩 공간에 매핑, 대조 학습, 제로샷 분류로 정의됩니다.|
+|사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP|
+|팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 7 삼각형에대한광기는더욱커져만갔다
+| **항목** | **내용** |
+| --- | --- |
+| 프로젝트명 | **개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼** |
+| 프로젝트 키워드 | 이미지 브랜딩, AI, 음성 분석 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 강민서, 김서현, 이소이 |
+| 팀지도교수 | 심재형 |
+| 무엇을 만들고자 하는가 | 개인 또는 단체가 성격, 목소리, 선호를 기반으로 자신에게 어울리는 색상, 폰트, 이미지, 키워드, 심볼을 추천받아 브랜딩 카드/팔레트를 생성할 수 있고, 동시에 팬덤/창작자들은 캐릭터 해석을 시각화하여 활용할 수 있는 웹 플랫폼. |
+| 고객 | <페르소나> • 이름: 김서연 • 나이: 21세 • 성별: 여성 • 배경: 인플루언서를 꿈꾸며 개인 인스타그램 계정을 운영하고 있는 대학생. 팔로워를 늘리고 자신의 이미지와 개성을 효과적으로 보여주고 싶어 하지만 자기 브랜딩 전략을 어떻게 세워야 할지 어려움을 겪고 있다. • 사용자의 요구: 간단한 사진 업로드, 성향 및 성격 테스트 등을 통해 짧은 시간과 최소한의 비용으로 개인에게 어울리는 이미지 메이킹 방향성을 객관적으로 진단해주는 도구가 필요하다. 단순한 취향 분석에 그치지 않고, 최신 트렌드와 시장에서 선호되는 이미지 유형을 반영하여 개인의 강점을 부각시키는 결과를 제공해야 한다. <페르소나> • 이름: 강민수 • 나이: 43세 • 성별: 남성 • 배경: 중소기업의 임원으로 근무하고 있는 강민수씨는 회사가 점차 성장함에 따라 대외적인 이미지와 브랜드 아이덴티티를 확립할 필요성을 절실히 느끼고 있다. 그러나 내부적으로는 뚜렷한 기업 정체성이 정립되지 않아 난감한 상황이다. • 사용자의 요구- 현재 기업이 가진 객관적인 평판과 이미지를 분석하여 앞으로 어떤 브랜드 이미지와 광고 전략을 취해야 할지 방향성을 제공받고자 한다. |
+| Pain Point | **김서연 (20대 여성) - 진부하고 부정확한 이미지 분석** 기존 AI 서비스는 단순히 외모를 평가하는 데 그쳐, **진정한 자기 브랜딩**이라는 니즈를 충족시켜지 못함. 개인의 성격, 목소리, 취향을 반영한 깊이 있는 분석이 부족 - **경제적 부담:** 전문 컨설턴트의 도움을 받기에는 비용 부담과 많은 시간 소요의 문제가 있음 **강민수 (40대 남성) - 객관적 평판 분석의 부재** 기업의 브랜드 이미지를 구축할 때 내부 구성원의 주관적인 의견에만 의존하여, **실제 시장이나 소비자가 기업을 어떻게 인식하는지**에 대한 객관적인 데이터를 고려하기 어려움 - **트렌드 및 소통의 어려움:** 젊은 세대가 선호하는 **최신 트렌드**를 파악하기 어렵고, 기업의 핵심 가치를 유지하면서도 젊은 층과 효과적으로 소통할 수 있는 **브랜드 아이덴티티**를 구축하기 어려움 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - [backend]	SpringBoot	(웹 애플리케이션 개발 프레임워크), AWS EC2(클라우드 호스팅), AWS S3	(대용량 파일 저장소), Docker	(애플리케이션 패키징 및 배포) - [frontend] React	(UI 구축), Tailwind CSS	(웹 디자인 및 스타일링) -[AI] Python, Librosa, pyAudioAnalysis	(음성 분석), PyTorch	(딥러닝 모델 개발), Langchain + Gemini (자연어 분석), Adobe Firefly (AI 이미지 생성) |
+| 사용할 소프트웨어 패키지의 명칭과 URL | AWS(https://aws.amazon.com/ko/)Docker(https://www.docker.com/) Spring Boot (https://spring.io/projects/spring-boot) React ([https://react.dev](https://react.dev/)) Tailwind CSS ([https://tailwindcss.com](https://tailwindcss.com/)) Librosa ([https://librosa.org/](https://librosa.org/)) pyAudioAnalysis([https://pypi.org/project/pyAudioAnalysis/](https://pypi.org/project/pyAudioAnalysis/)) pyTorch([https://pytorch.org/](https://pytorch.org/)) LangChain([https://www.langchain.com/](https://www.langchain.com/)) AdobeFirefly([https://firefly.adobe.com/](https://firefly.adobe.com/))|
+| 팀그라운드룰 | https://github.com/2025-capstone-Triangle/2025CapstoneProject/blob/a389e2fcc77b631c32d465f5087bdb9e3ec8199f/GroudRule.MD |
+| 최종수정일 | 2025-09-16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
+## Team 8 SEAquence
+|항목|내용|
+|---|---|
+|프로젝트명| UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브 |
+|프로젝트 키워드| 웹앱, 유학생 지원, AI 챗봇, 정보요약, 스마트 추천 |
+|트랙| 산학 |
+|프로젝트멤버| Siti Hajar Asyiqin Binti Fazillah / Heimvichit, Nunnalin / Yuzana Win |
+|팀지도교수| TBD 이형준 |
+|무엇을 만들고자 하는가| 유학생들이 한국 대학 생활에 보다 쉽게 적응할 수 있도록, 정보와 경험을 한 곳에서 제공하는 디지털 허브 플랫폼을 개발하고자 합니다. <br><br> 이 플랫폼에서는 AI 챗봇을 통해 흩어진 대학 생활 정보를 실시간으로 요약·추천하며, 학생 유형과 학업/문화 성향을 반영한 맞춤형 가이드 질문을 통해 필요한 정보를 자연스럽게 확인할 수 있도록 돕습니다. 또한, 학생들이 학사 일정, 캠퍼스 생활 팁, 문화 체험 기록 등을 개인화된 대시보드 형태로 정리하고 관리할 수 있습니다. 사용자는 제공된 자료를 학업 계획이나 생활 참고용으로 활용하거나, 공유 가능한 형태로 저장할 수 있으며, 월간/연말 통계를 통해 자신의 대학 생활 적응 현황과 경험을 쉽게 확인할 수 있습니다. |
+|고객| 이화여대 유학생 (학부, 편입, 대학원) <br><br> [1] 푸릿차야 (19세, 태국인 유학생, 학부생 ) <br> 특징: <br> - 유학 처음 와서 한국 대학 생활과 문화에 적응하기 어려움 <br> - 외로움으로 인해 우울한 느낌 종종 있음 <br> - 한국어 아직 익숙하지 않음 <br> 고민: <br> - 한국어로 쓴 공지나 일정을 체계적으로 정리되어 있지 않아서 FOMO (Fear Of Missing Out; ‘포모 증후군' 또는 '고립 공포) 심리 상태를 가짐 <br> - 신입생은 아직 MT나 OT같은 대학 활동 몰라서 친구를 구하기 어려움 <br> - 가이드 없이 학교 보험 납부, 등록금 납부 같은  대학 관련된 정보 알기 어려워서 막히는 경우 많음 <br><br> [2] 다니엘라 (27세, 미국인 유학생, 대학원) <br> 특징: <br> - 다양한 여행지나 워크샵 프로그램 같은 즐거운 유학 생활을 경험해 보고 싶어함 <br> - 교육에 관련된 컨퍼런스나 진로 탐색에 대한 소식을 받고 싶어함 <br> - 네트워킹에 관심 있음 <br> 고민: <br> - 대학원 다니면서 관심사에 맞게 스펙을 쌓고 싶으면 정보를 어떻게 구해야 되는지 모름 <br> - 대학원 정보와 학부생 정보 매우 달라서 혼란스러움 <br> - 학부생과 달리 참여 가능한 교내 행사나 동아리 한계가 있다. |
+|Pain Point|  - 유학생들이 대학 생활과 관련된 정보를 찾을 때, 자료가 여러 사이트와 커뮤니티에 흩어져 있어 혼란과 스트레스가 심함. <br> -  한국 대학 생활과 문화에 대한 적응 어려움: 수업 방식, 과제 관리, 학사 제도, 교내 활동 등에서 생기는 혼란. <br> - 학생 유형별 필요 차이: 학부, 편입, 대학원 학생마다 관심사와 요구사항이 달라, 일률적인 정보 제공으로는 충분하지 않음. <br> - 기존 정보는 텍스트 중심이 많아, 즉각적인 이해와 활용이 어려움. <br> - 학교 생활과 개인 경험을 체계적으로 정리할 방법이 부족하여, 정보 활용과 기록 관리에 부담을 느낌. <br> - 새로운 유학생에게는 커뮤니티 기반 정보나 추천이 부족하여, 스스로 경험을 찾아야 하는 어려움 존재. |
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - **React / Next.js**: 프론트엔드, 반응형 UI <br> - **FastAPI** : 백엔드 API <br> - **Node.js / Express** 또는 **Django**: 백엔드 API <br> - **PostgreSQL / MongoDB**: 데이터 관리 <br> - **OpenAI API**: 챗봇, 요약 기능 <br> - **Firebase**: 인증, 알림 |
+|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - Next.js – https://nextjs.org <br> - FastAPI - https://fastapi.tiangolo.com/ko/ <br> - MongoDB – https://www.mongodb.com <br> - OpenAI – https://platform.openai.com <br> - Firebase – https://firebase.google.com |
+|팀그라운드룰| [SEAquence's Team Ground Rules](./GroundRule.md) |
+|최종수정일| 2025-09-17 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 9 SiYa
+|항목|내용|
+|---|---|
+|프로젝트명|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
+|프로젝트 키워드|Computer Vision, Multimodal, Medical AI|
+|트랙|연구|
+|프로젝트 멤버|류다현, 박은서, 유지혜|
+|팀지도교수|황의원 교수님|
+|무엇을 만들고자 하는가|주어진 데이터를 기반으로 tumor 여부를 정확히 진단할 뿐만 아니라 임상적 이점(설명 가능성, 범용성 등)을 갖는 설명 가능한 의료 AI|
+|고객|multimodal data를 활용해 환자의 병명을 정확히 진단하고, 진단 과정을 설명할 수 있어야 하는 병원과 보건소 등의 의료기관|
+|Pain Point|의료 AI는 높은 정확성과 더불어 설명가능성 확보가 중요하나, 기존 의료 AI 연구는 단순히 예측 성능 향상에만 주목하고 있다. 더불어 기존의 모델들은 image data에 관한 예측 성능이 떨어지며 범용성 또한 떨어진다는 문제점을 안고 있으며 모델이 무거워 성능을 끌어올리는 데에 하드웨어적 한계도 존재한다. 이러한 점들은 의료 AI의 성능을 끌어올리는 데에 있어 핵심적인 과제로 주목받고 있다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|- MuSeGNN(scRNAseq+transcriptomics 통합 활용, gene-gene relationship 학습) <br> - scBERT(scRNAseq 기반 LLM을 활용해 gene-gene interaction 학습 및 cell type annotation 수행) <br> - Gene2vec(co-expression 패턴 기반 gene embedding 제공) <br> - CS-CORE(scRNAseq 데이터 기반 co-expression 예측하는 R 패키지) <br> - scTransform(scRNAseq data normalization, variance stabilization하는 R 패키지) <br> - Celcomen(인과적 식별성을 보장하는 공간전사체(ST) 데이터 기반 모델) <br> - Scanpy(single-cell data 분석하는 python 패키지)|
+|사용할 소프트웨어 패키지의 명칭과 URL|- MuSeGNN(https://github.com/HelloWorldLTY/MuSe-GNN) <br> - scBERT(https://github.com/TencentAILabHealthcare/scBERT) <br> - Gene2vec(https://github.com/jingcheng-du/Gene2vec) <br> - CS-CORE(https://github.com/ChangSuBiostats/CS-CORE) <br> - scTransform(https://github.com/satijalab/sctransform) <br> - Celcomen(https://github.com/Teichlab/celcomen) <br> - Scanpy(https://github.com/scverse/scanpy)|
+|팀그라운드룰|https://github.com/EWHA-CAPSTONE-VISION/team_project_repo/blob/main/GroudRule.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 12 HABITS
+| 항목 | 내용 |
+| ------- | ---------------- |
+| 프로젝트명 | 자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스 |
+| 프로젝트 키워드 | 습관 코칭 자기 관리, 심리 분석, 주기적 피드백을 통한 사용자 분석, 감정 트래킹 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 양설아, Deng Yuanrong |
+| 팀 지도교수 | 오유란 교수님(예정) |
+| 무엇을 만들고자 하는가 | 사용자 맞춤 습관 제안과 자기 관리를 돕는 시스템을 만들고자 한다. |
+| 고객 | <페르소나><br>- 이름: 김민지<br>- 나이: 24세<br>- 성별: 여자<br>- 배경: 최근 휴학한 김민지 씨는 부산에서 상경해 서울에서 자취를 하고 있다. 대학 생활을 하다 번아웃이 와 휴학을 신청한 김민지 씨는 휴학 기간을 알차게 쓰고 싶지만 본인이 느끼기에는 어딘가 부족하고 방향성 없는 하루하루를 보내기 일쑤인 자신의 모습을 보고 휴학이 잘 한 선택이 맞았는지 모르겠다고 생각하고 있다. 구체적인 방향성과 목표를 정하려고 해도 김민지 씨는 자신이 무엇을 원하는지, 어떤 사람인지, 어떤 사람이 되고 싶은지, 어떤 삶을 살고 싶은지 그 무엇도 제대로 모르겠다는 생각만 든다. 김민지 씨는 대학 생활 외에 다른 부분에서 자신을 성장시키고 충분한 휴식을 취하기 위해 휴학을 결정했지만, 결국 제대로 살아가지 못하고 있는 것 같다는 불안함에 온전한 휴식조차 취할 수 없는 상황이다.<br>- 사용자의 요구:<br> - 자신의 성향과 자신이 무엇을 원하는지, 어떤 삶을 살고 싶어 하는지 파악할 수 있도록 자기 이해를 돕는 서비스를 원한다.<br> - 자신이 원하는 삶의 모습에 가까워지게 만들어줄 수 있는, 실질적이고 구체적인 방법을 원한다. <br> - 꾸준히 서비스를 이용하며 자신이 어떻게 변화했는지 돌아볼 수 있는 분석 서비스를 원한다.
+| Pain Point | 1. 성향/성격 측정 관련<br>- 정확도 문제: 간단한 질문지나 일회성 테스트로는 성격/성향을 정확히 반영하기 어렵다. <br>- 지속성 부족: 사용자는 한 번만 테스트하고 끝낼 가능성이 높다. 성격은 변할 수 있는데, 업데이트 과정이 귀찮으면 오래 쓰지 않는다.<br>- 표준화 한계: MBTI, Big Five 같은 심리척도를 차용해도 “너무 뻔하다”는 피드백이 있을 수 있다.<br>2. 습관 제안 및 일정 관리<br>- 개인화 난이도: 사용자의 라이프스타일, 업무량, 기상·취침 시간 등 다양한 변수를 반영해야 한다. 지나치게 일반적이면 "나랑 안 맞는다"고 느껴서 이탈한다.<br>- 실행 가능성: AI가 추천하는 습관이나 일정이 현실적이지 않으면 금방 포기. (예: 밤형 인간에게 아침 6시 운동 권장)<br>- 권장/강요 균형: 사용자가 “잔소리”처럼 느끼면 거부감 커짐.<br>4. 사용자 경험 (UX)<br>- 진입 장벽: 초반에 테스트나 기록이 많으면 피곤해서 onboarding 단계에서 이탈률 높음.<br>- 피드백 과부하: 매번 “분석해드립니다” 식으로 장황하면 오히려 귀찮아짐.<br>- 지속 동기 부여: 습관/일정/기분 분석 같은 기능이 다 있어도, 일관되게 쓰게 만드는 “재미”나 “보상” 설계가 필요.<br>5. 기술적/운영적 문제<br>- AI 모델 학습 한계: 개인 데이터는 적고, 맞춤형 모델을 학습하기엔 데이터가 부족할 수 있음.<br>- 클라우드 비용: 일기/일정/습관 데이터를 NLP로 처리하면 비용이 커진다.<br>- 윤리적 책임: 감정/심리 분석이기 때문에 사용자의 정신건강에 영향을 줄 수 있다. 잘못된 분석이 오히려 해로울 수 있음.|
+| 사용할 소프트웨어 패키지의 명칭과 핵심 기능/용도 | 다중 피드백 학습 최적화 모델 Hugging Face Transformers(사전학습 NLP 모델, 감정부넉 파인튜닝)<br>상황 반응별 추천 필터링 Recombee (머신러닝 기반 추천 API)<br>하이브리드 개인화 콘텐츠 엔진 FastAPI(백엔드 서버, 개인화 로직/추천 모델 연동)<br>사용자 데이터 관리 및 분석 PostgreSQL(관계형 DB, 일정/습관 관리)<br>모바일 클라이언트 인터페이스 React Native(크로스 플랫폼 앱 개발)<br>상황별 알림 전송 엔진 Firebase Cloud Messagingg(푸시 알림 서비스) |
+| 사용할 소프트웨어 패키지의 명칭과 URL | Hugging Face Transformers: https://huggingface.co/transformers<br>Recombee: https://www.recombee.com/<br>FastAPI:https://fastapi.tiangolo.com/<br>PostgreSQL: https://www.postgresql.org/<br>React Native: https://reactnative.dev/<br>Firebase Cloud Messaging: https://firebase.google.com/products/cloud-messaging |
+| 팀 그라운드 룰 | https://github.com/27marchsa-debug/HABITS_gdProject/blob/main/GroundRule.md |
+| 최종 수정일 | 2025.9.17 |
+
+ [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+
+## Team 14 BestFriend 
+|항목|내용|
+|---|---|
+|프로젝트명|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임|
+|프로젝트 키워드|AI, 공포, 게임|
+|트랙|산학|   
+|프로젝트멤버|양동선, 박주영, 윤소진|
+|팀지도교수|민동보|
+|무엇을 만들고자 하는가|스토리 진행 과정에서 플레이어가 두려움을 느끼는 요소를  AI기반 NPC가 취득하여 강화학습함으로써 플레이할 때마다 새로운 ‘개인 맞춤형 공포 시나리오’를 제공하는 AI 기반 심리 공포 게임. 진화할 수 있는 공포요소를 제공함으로써 게임을 ‘마스터’했다는 느낌이 들지 않는다.. |
+|고객| **이름:** 김지현 (26세, 대학원생)<br>**성별:** 여성<br><br>**문제 시나리오**<br>기존 게임들은 스토리가 고정되어 있어, 플레이어는 단순히 스토리를 따라가야함.<br>특히 공포게임의 경우 매번 반복되는 동일한 공포요소와 스토리에 익숙해져 플레이 회차가 반복될수록 지루하고 신선하지 못한 경험을 하게 됨.<br><br>**특징 및 요구사항**<br>평소 사용자의 선택이나 행동이 각기 다른 결말로 이어지는 게임을 선호<br>평소 공포게임을 자주 즐기며, 점프 스케어 위주보다는 서서히 조여오는 긴장감과 심리적 압박감이 있는 게임을 더 선호<br>본인의 플레이 스타일에 맞춰 변화하는 시나리오를 경험하며 개인화된 공포요소를 즐기고 싶어 함<br> |
+|Pain Point|기존 공포 게임은 반복적으로 플레이할 경우, 1차원적인 공포 연출 패턴에 익숙해져 긴장감이 떨어지고 지루함을 경험하게 된다.
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| Unity: 게임 개발 엔진, 전체적인 공포 씬 및 연출 구성<br>ML-agents: Unity의 Pytorch 기반 강화학습 플러그인, 플레이어의 행동패턴을 기반으로 강화학습하여 공포 연출을 실행<br>OpenAI: Open AI API키로 NPC의 스크립트를 동적으로 생성하는 Unity용 패키지, AI NPC의 대화 및 행동패턴 기반 변주 스토리 생성<br>OpenUPM: OpenAI 패키지를 사용하기 위해 필요한 Unity용 오픈 소스 패키지 레지스트리. |
+|사용할 소프트웨어 패키지의 명칭과 URL| Unity : https://unity.com/kr <br>ML-agents: https://github.com/Unity-Technologies/ml-agents <br>GPT-4o: https://chatgpt.com/ <br>OpenUPM : https://github.com/RageAgainstThePixel/com.openai.unity#upm  <br>https://github.com/Unity-Technologies/ml-agents |
+|팀그라운드룰|https://github.com/dongseon0/Friendly/blob/main/GROUNDRULE.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 16 트리오링고
+|항목|내용|
+|---|---|
+|프로젝트명|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|프로젝트 키워드|멀티모달 AI, 자기반영 시뮬레이션 게임, 개인화 스토리|
+|트랙| 산학 |
+|프로젝트멤버| 강한나, 박세은, 최은별|
+|팀지도교수|김영준|
+|무엇을 만들고자 하는가|이 게임은 황폐한 세계에서 플레이어와 자아 없는 로봇이 함께 생존하는 어드벤처입니다. 멀티모달 기술을 활용해 플레이어의 표정, 음성, 제스처와 같은 다양한 인풋 데이터를 수집하고, 이를 통해 플레이어의 성향 데이터베이스를 구축합니다. 로봇은 이 데이터를 학습하며 점차 플레이어를 닮아가는 존재로 변화하고, 시간이 지날수록 단순한 도구가 아닌 주체적인 동료로 성장합니다. 이를 통해 플레이어는 단순한 생존 경험을 넘어 자기반영적 서사를 체험하게 됩니다.|
+|고객|<ul><li><strong>판교 직장인 A씨</strong>는 퇴근 후 게임을 즐기는 열성 게이머로, 다양한 게임을 직접 해보고 싶지만 시간 제약으로 관심 있는 게임은 대부분 통근 중 유튜브 게임 스트리밍을 시청하며 즐긴다. A씨는 전개가 이미 정해져 스트리밍만으로도 충분히 대리만족을 주는 게임은 직접 플레이하지 않고 영상 시청으로 대신하며, 직접 플레이해야만 즐거움이 극대화되는 개인 맞춤형 게임은 기꺼이 구매해 즐긴다.</li><li><strong>B씨</strong>는 IT 스타트업에서 일하는 30대 초반 직장인이다. 그는 최신 트렌드와 신기술에 대한 호기심이 많고, 스레드(Threads)와 네이버 블로그에서 활발히 활동하는 얼리어답터로서 새로운 서비스나 기술이 등장하면 직접 체험해보는 성향을 가지고 있다. 최근에는 AI의 다양한 활용 방식에 관심이 많아 챗봇, 이미지 생성 도구 등을 직접 사용하며 업무 효율화와 창작 활동에 접목할 방법을 탐구한다. 단순 기능 테스트를 넘어, AI가 인간 행동을 학습하고 변화시키는 과정에 흥미를 느끼며, 이를 통해 미래의 디지털 경험 변화까지 상상한다.</li></ul>|
+|Pain Point|<ul><li><strong>상호작용 방식의 단조로움</strong><br>현재 PC 및 콘솔 게임들은 복잡하고 다층적인 사람의 의사소통 방식을 키보드, 마우스, 게임패드라는 물리적 입력 방식으로 축소시킵니다. 이는 플레이어의 감정, 뉘앙스, 복합적인 의도를 게임 세계에 전달하지 못하고, 플레이어 경험과 실제 게임의 상호작용 간 괴리를 유발하여 몰입을 저해하는 핵심 요인이 됩니다.</li><li><strong>예측 가능한 NPC와 피상적 관계의 한계</strong><br>대부분의 스토리 중심 게임에서 플레이어와 NPC의 관계는 개발자가 사전에 설계한 선택지 분기와 호감도 수치에 의해 결정됩니다. 플레이어의 실제 말투, 성향, 가치관과 상관없이 단지 어떤 선택을 했느냐에 따라 관계가 정형화되어, 역동적이고 유기적인 관계성을 기대하는 플레이어에게 피로감과 피상적인 경험만을 제공합니다.</li><li><strong>자기성찰과 개인적 의미 창출의 부재</strong><br>많은 스토리 게임들은 플레이어에게 개발자가 의도한 철학적 메시지나 교훈을 전달하는 데 집중합니다. 플레이어는 자신의 가치관과 정체성을 투영하거나 게임 속 사건을 통해 자기 성찰할 수 있는 경험을 제공받지 못하고, 게임이 제시하는 주제를 수동적으로 소비하거나 수용하게 됩니다.</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|<ul><li><strong>multimodal</strong>: 플레이어의 다양한 인풋 데이터 수집 및 학습<br>&nbsp;&nbsp;<strong> OpenCV</strong>: 컴퓨터비전 라이브러리 – 유저의 손동작을 웹캠으로 인식해 게임에 명령을 내릴 수 있게 함<br>&nbsp;&nbsp;<strong>GazeML</strong>: 실시간 시선 추적 –플레이어의 시선을 추적해 캐릭터 반응의 입력으로 사용<br>&nbsp;&nbsp;<strong>Whisper</strong>: 음성 인식 – 플레이어의 음성을 텍스트로 변환해 캐릭터에 명령을 내릴 수 있게 함<br> &nbsp;&nbsp;<strong>DeepFace</strong>: 얼굴·감정 분석 – 유저의 감정 상태를 데이터베이스에 저장해 게임 캐릭터 성격 업데이트에 반영</li>  <li><strong>Unity</strong>: 게임 엔진<br>&nbsp;&nbsp;<strong>Unity / Unity ML-Agents</strong>: 유니티 AI 모델 학습 연결 툴킷 – 캐릭터가 플레이어 성향 학습 <br> &nbsp;&nbsp; <strong>Unity NativeWebSocket</strong>: WebSocket 통신 – 유니티 <> AI 서버 백엔드 실시간 통신</li>  <li><strong>database</strong>: 플레이어 데이터 저장<br>&nbsp;&nbsp;<strong>PostgreSQL</strong>: 관계형 DB – 플레이어 성향 데이터 저장</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 URL|<ul><li><strong>OpenCV</strong><br>https://opencv.org/</li><li><strong>GazeML</strong><br>https://github.com/swook/GazeML</li><li><strong>Whisper</strong><br>https://github.com/openai/whisper</li><li><strong>DeepFace</strong><br>https://github.com/serengil/deepface</li><li><strong>Unity ML-Agents</strong><br>https://docs.unity3d.com/Packages/com.unity.ml-agents@3.0/manual/index.html</li><li><strong>Unity NativeWebSocket</strong><br>https://github.com/endel/NativeWebSocket</li><li><strong>FastAPI</strong><br>https://fastapi.tiangolo.com/</li><li><strong>PostgreSQL</strong><br>https://www.postgresql.org/</li></ul>|
+|팀그라운드룰|https://github.com/ob1hnk/Triolingo/blob/main/docs/GroundRules.MD|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 18 AIDERS
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
+| 프로젝트 키워드 | AI Agent, Multi-Agent, LangGraph, RAG, MCP, Contextual Planning, 외국인 관광, 마포구 |
+| 트랙 | 산학 트랙 |
+| 프로젝트 멤버 | 함하경, 박시원, 강민서 |
+| 팀 지도교수 | 오세은 교수님 |
+| 무엇을 만들고자 하는가 | 마포구에 방문한 외국인 관광객이 자신의 감정·목적·날씨·시간 등에 따라 현지인 기반 장소 루틴을 추천받을 수 있는 Multi-Agent 기반 AI 시스템을 개발하고자 합니다. 사용자가 자연어로 여행 목적이나 기분을 입력하면, 시스템은 문서 기반 장소 분석(RAG)과 사용자 선호 매핑을 통해 루틴을 추천하고, 현지인 리뷰/사용자 피드백 데이터를 반영한 최적 루틴을 제공합니다. 추천 결과는 타임라인 UI로 제공되며, 사용자가 루틴을 저장하거나 피드백을 줄 수 있습니다. |
+| 고객 | **Kevin, 27세, 미국 교환학생**<br>연세대학교에 교환학생으로 온 지 3개월 된 외국인 대학생. 한국어는 초급 수준이며 구글맵만 사용하는 편. "현지인처럼 로컬 문화를 체험하고 싶다"는 이유로 한국에 왔지만, 마포구에선 검색 상위 노출 맛집이나 관광지 정보만 반복적으로 나와 실망한 적이 많음. 비건 카페, 인디 공연 등 자신만의 취향에 맞는 덜 알려진 장소를 하루 루틴으로 추천해주는, 언어 장벽 없이 쓸 수 있는 AI 가이드를 원함. |
+| Pain Point | 블로그에는 광고성 콘텐츠가 많고, Google 평점은 흩어져 있으며, 현지인이 가는 진짜 장소나 루틴을 찾기 어렵습니다. 여행자가 직접 루트를 짜기 어렵고, 컨텍스트(기분·날씨 등)를 반영한 맞춤 루틴이 부재합니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | - **LangGraph**: 멀티에이전트 간 흐름 제어 및 분기<br> - **OpenAI API**: 자연어 입력 분석, 설명 생성 <br> - **Vector DB (Pinecone/PGVector)**: 장소 정보, 루틴 및 피드백  저장<br> - **Next.js**: 웹 UI 구성 및 일정 타임라인 시각화 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - LangGraph: https://github.com/langchain-ai/langgraph <br> - OpenAI API: https://platform.openai.com/docs <br> - Pinecone: https://www.pinecone.io/ <br> - Next.js: https://nextjs.org/ |
+| 팀 그라운드룰 | https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md |
+| 최종 수정일 | 2025-09-17 |
+
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 20 POKI
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | **PitchCoach** (스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼) |
+| 프로젝트 키워드 | AI, 스타트업, IR 피칭 |
+| 트랙 | 산학 |
+| 프로젝트멤버 | 강민경, 김예린, 장현서 |
+| 팀지도교수 | 이민수 |
+| 무엇을 만들고자 하는가 | 이 프로젝트는 **스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, **1분 엘리베이터 피칭**, **투자 유치 피칭**, **IR 피칭** 등 다양한 피칭 상황에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다. |
+| 고객 | **다양한 피칭 상황을 준비하는 스타트업 대표** (1분 엘리베이터 피칭, 투자 유치 피칭, IR 피칭 등) |
+| Pain Point | 1. **IR 준비 비효율**: 공고별 요구사항에 맞춘 Deck/피칭 준비가 어려움<br>2. **실전 대비 부족**: 시간 관리·발화 습관·질문 대응력이 미흡<br>3. **정량적 지표 부족**: 발표 후 객관적인 피드백/점수가 없음<br>4. **평가자 관점 차이**: 창업자가 강조한 포인트와 VC/심사위원이 궁금한 포인트가 불일치 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 1. **OpenAI Whisper**: 리허설 발표 음성 업로드 → 텍스트 전사 생성 + 다국어 음성 인식(ASR), 발표 전사<br>2. **librosa, praat-parselmouth**: 전사된 발표 음성 분석 → 말 빠르기·억양·발음 명료도 진단 + Prosody 분석<br>3. **PDFPlumber**: IR Deck PDF·이미지 업로드 → 슬라이드 텍스트 추출 + 문서 OCR 파싱<br>4. **spaCy NER, KeyBERT**: 공고문 업로드 → TAM, LTV, ARR 등 투자 지표·핵심 키워드 추출<br>5. **LLM (GPT-4/5)**: 공고문 요약·Deck 매칭 → 부족 섹션 강조 + IR 질문 자동 생성<br>6. **ko-SBERT, sentence-transformers**: 발표 전사 + Deck 텍스트 분석 → 루브릭 점수 대시보드 생성<br>7. **LIME, SHAP**: 점수 결과 리포트 생성 → 근거 문장·슬라이드 하이라이트 표시<br>8. **LLM Fine-tuning**: Q&A 답변 평가(간결성·정확성·구조성)<br>9. **WebRTC + STT**: 실시간 Q&A 모드 → 음성 답변 전사 및 평가<br>10. **FastAPI, Flink**: 모델 서빙·운영<br>11. **PostgreSQL, S3**: 발표 파일·공고문·분석 결과 저장 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | 1. **OpenAI Whisper**: https://github.com/openai/whisper<br>2. **librosa**: https://librosa.org/ / **praat-parselmouth**: https://parselmouth.readthedocs.io/<br>3. **PDFPlumber**: https://github.com/jsvine/pdfplumber<br>4. **spaCy**: https://spacy.io/ / **KeyBERT**: https://github.com/MaartenGr/KeyBERT<br>5. **LLM (GPT-4/5)**: https://platform.openai.com/<br>6. **sentence-transformers (ko-SBERT 포함)**: https://www.sbert.net/<br>7. **LIME**: https://github.com/marcotcr/lime / **SHAP**: https://github.com/shap/shap<br>8. **HuggingFace Transformers**: https://huggingface.co/transformers/<br>9. **WebRTC**: https://webrtc.org/ / **Speech-to-Text**: https://cloud.google.com/speech-to-text<br>10. **FastAPI**: https://fastapi.tiangolo.com/ / **Apache Flink**: https://flink.apache.org/<br>11. **PostgreSQL**: https://www.postgresql.org/ / **Amazon S3**: https://aws.amazon.com/s3/ |
+| 팀그라운드룰 | [GroundRule](https://github.com/Capstone-POKI/POKI/blob/main/GroudRuld.MD) |
+| 최종수정일 | 2025-09-16 |
+
+
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 23 Synapse
+| 항목 | 내용 |
+| --- | --- |
+| 프로젝트명 | 다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
+| 프로젝트 키워드 | Knowledge Distillation, Model Partitioning, Scheduling, Multi-GPU Training, Distributed Optimization |
+| 트랙 | 연구 |
+| 프로젝트 멤버 | 김현영, 문원정, 최지희 |
+| 팀지도 교수 | 심재형 |
+| 무엇을 만들고자 하는가 | Teacher–Student 구조 기반의 지식 증류 과정을 다중 GPU 환경에서 수행할 수 있도록 모델을 파티셔닝하고, GPU 스케줄링을 최적화한 파이프라인 |
+| 고객 | GPU 자원 최적화가 중요한 클라우드/AI 인프라 기업 |
+| Pain Point | - 기업 AI 엔지니어<br>수십억 파라미터 규모의 LLM을 경량화해 서비스에 적용하려 하지만, 교사·학생 모델을 동시에 학습시키는 과정에서 GPU 메모리가 빠르게 소진된다. 이로 인해 학습 속도가 늦어지고, 모델 배포 일정이 지연된다.<br><br>- 클라우드 인프라 담당자<br> 연구팀들이 대규모 증류 실험을 반복하면서 GPU 자원 사용이 폭증하지만, 분산 처리 효율이 떨어진다. 결국 운영 비용이 불필요하게 커지고, 클러스터 전체 자원 활용률이 낮아진다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | PyTorch: 기본 딥러닝 프레임워크. 모델 정의, 학습 루프 구현, GPU 연산 지원<br>DeepSpeed: 대규모 모델 학습 최적화. 파이프라인 병렬화, ZeRO 메모리 최적화, 분산 학습 지원 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | PyTorch: https://pytorch.org/<br>DeepSpeed: https://www.deepspeed.ai/ |
+| 팀그라운드룰 | https://github.com/wonjungm/Synapse/blob/a5cbcfbee38afb6d1e9854926609495f76ede18b/GroundRule.md |
+| 최종수정일 | 2025.09.14 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 27 Matcha Tonic
+| **항목** | **내용** |
+| --- | --- |
+| **프로젝트명** | **ProMate**: 프로젝트를 자주 하지만 초기 세팅과 기준이 부족한 대학생 팀을 위해, 사용자의 목표·팀 구성·기간·도구 선호를 학습하고 수업·마감 등의 맥락을 반영하여, Notion 워크스페이스와 README·협업 규칙을 일관된 구조로 자동 생성하고 원클릭 Export로 배포해 주는 AI 기반 프로젝트 협업 스캐폴딩 서비스 |
+| **프로젝트 키워드** | 자동화, 협업, 생산성 |
+| **트랙** | 산학 |
+| **프로젝트 멤버** | 김서연, 지연경, 조수아 |
+| **팀 지도교수** | 오유란 교수님 |
+| **무엇을 만들고자 하는가** | - AI 기반 프로젝트 협업 플랫폼<br>- 지능형 일정 관리 도구<br>- 팀 맞춤형 재사용 기능 |
+| **고객** | [페르소나]<br>이름: ooo<br>나이: 21<br>성별: 여<br>배경: 교내 해커톤에서 5명 팀의 팀장을 맡고 있으며, 빠른 실행력은 있지만 매번 환경 세팅과 일정 관리에서 어려움을 겪음.<br><br>**사용자 요구**<br>- 프로젝트 초기 세팅의 부담: 해커톤은 제한 시간이 짧아 즉시 개발에 들어가야 하나, Notion·GitHub·Slack 등 세팅이 오래 걸림.<br>- 일정 조율의 어려움: 팀원 일정이 달라 회의 참석률 저조 → 마감 지연 발생.<br>- 산출물 관리와 협업 규칙 부재: 발표자료·시연영상·Repo·기록 등 문서화 부족, 규칙 없는 진행.<br> |
+| **Pain Point** | 1. **시간 낭비**: 초기 세팅에 많은 시간이 소요 → 개발/아이디어 집중 시간 부족<br>2. **협업 혼선**: 협업 툴/템플릿 선호가 달라 합의 과정에서 충돌, 역할 분담 불명확<br>3. **문서화 부족**: 발표자료·시연영상·Repo·기록 관리 부족<br>4. **팀장 부담 집중**: 일정·세팅·산출물 관리가 팀장에 집중 → 과중/심리적 압박 |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오** | 1. **Spring Boot**<br>핵심 기능/용도: Java 기반 백엔드 프레임워크, REST API 및 서버 구축<br>사용 시나리오: API 서버 구현, Notion·GitHub·Google Calendar·Discord API 연동, 사용자/프로젝트 데이터 관리<br><br>2. **FastAPI (Python)**<br>핵심 기능/용도: 경량 웹 프레임워크, AI 모델 서버<br>사용 시나리오: LLM 호출, 일정 자동화 로직, AI 추천 처리<br><br>3. **JPA (Java Persistence API)**<br>핵심 기능/용도: ORM 기반 데이터 영속성 관리<br>사용 시나리오: 팀원, 일정, 작업 데이터 모델 정의 및 영속화, Spring Boot와 결합<br><br>4. **Notion API**<br>핵심 기능/용도: 워크스페이스 자동 생성/업데이트<br>사용 시나리오: 대시보드 구축, 회의록/진행 상황 업데이트<br><br>5. **GitHub API**<br>핵심 기능/용도: 저장소 관리/협업 자동화<br>사용 시나리오: README 업데이트, Issue/Label 자동 생성<br><br>6. **Google Calendar API**<br>핵심 기능/용도: 일정 동기화/자동화<br>사용 시나리오: 마일스톤/마감일 등록, 개인/팀 일정 통합<br><br>7. **Slack API / Discord API**<br>핵심 기능/용도: 협업 메신저 자동화<br>사용 시나리오: 알림 전송, 온보딩 자동화, 이벤트 공지<br><br>8. **Next.js (App Router, RSC)**<br>핵심 기능/용도: React 기반 프론트엔드, SSR/SSG/RSC 지원<br>사용 시나리오: 초기 로딩 최적화, OAuth 콜백 처리, 서버 액션 기반 제출/마법사 구현, OG 태그 자동화<br><br>9. **TypeScript & 코드 품질 체인 (ESLint, Prettier, Husky, lint-staged, Commitlint)**<br>핵심 기능/용도: 정적 타입, 코드 스타일 통일, 프리커밋 검증<br>사용 시나리오: PR 품질 관리, 린팅/포맷 자동화, 릴리즈 노트 자동 생성 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | - [Spring Boot](https://spring.io/projects/spring-boot)<br>- [JPA](https://jakarta.ee/specifications/persistence/)<br>- [FastAPI](https://fastapi.tiangolo.com/)<br>- [Notion API](https://developers.notion.com/)<br>- [GitHub API](https://docs.github.com/en/rest)<br>- [Google Calendar API](https://developers.google.com/calendar)<br>- [Slack API](https://api.slack.com/)<br>- [Discord API](https://discord.com/developers/docs/intro)<br>- [Next.js](https://nextjs.org)<br>- [TypeScript](https://www.typescriptlang.org) |
+| **팀 그라운드룰** | [GroundRule.md](https://github.com/cse2348/2025_MatchaTonic/blob/main/GroundRule.md) |
+| **최종 수정일** | 2025.09.16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 31  플랜B
+| 항목 | 내용 |
+|------|------|
+| **프로젝트명** | 자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
+| **프로젝트 키워드** | AR 표정인식, 감정 소통 훈련, 디지털 치료, 상호작용 게임 |
+| **트랙** | 산학 |
+| **프로젝트 멤버** | 강수련(클라이언트 개발), 이수지(백엔드 개발), 권도연(기획 및 데이터 분석) |
+| **팀 지도 교수** | 오유란 교수님님 |
+| **무엇을 만들고자 하는가** | 자폐 아동이 타인의 표정을 인지하고 자신의 감정을 적절히 표현할 수 있도록 돕는 AR 기반 모바일 게임 애플리케이션을 개발하고자 합니다. Unity의 AR 기술과 실시간 얼굴 인식을 활용하여 표정 따라하기 게임, 이야기 기반 표정 학습, AR 스티커 놀이 등의 상호작용 콘텐츠를 제공하며, 부모와 교사가 아동의 학습 진행도를 체계적으로 모니터링할 수 있는 대시보드를 통합한 종합적인 감정 소통 교육 솔루션을 제공할 계획입니다. |
+| **고객** | 김민수 (6세, 남)<br>• 직업(상황): 자폐 스펙트럼 장애 진단을 받은 특수교육 대상 아동<br>• 배경: 서울 강남구에 거주하며 주 3회 특수교육 기관에 다니고 있습니다. 언어 발달은 또래 수준이지만 타인의 표정과 감정을 읽는 데 어려움이 있어 사회적 상호작용에서 혼란을 겪습니다. 집에서는 태블릿 게임을 좋아하지만 기존 교육용 앱들은 금세 흥미를 잃어버립니다.<br>• 문제 상황: <br>◦ 다른 아이들과 놀 때 상대방의 기분을 파악하지 못해 갈등이 자주 발생<br>◦ 자신의 감정을 적절히 표현하지 못해 짜증이나 떼쓰기로 의사표현<br>◦ 기존 감정 학습 교구나 카드는 단조로워 집중력이 5분을 넘지 못함<br>• 사용자 요구사항: <br>◦ 게임처럼 재미있으면서도 반복 학습이 가능한 앱<br>◦ 실제 얼굴 표정을 따라하며 체험할 수 있는 상호작용형 학습<br>◦ 부모가 아이의 학습 진도와 개선사항을 확인할 수 있는 기능 |
+| **Pain Point** | 1. 자폐 아동은 타인의 감정 표현을 해석하고 자신의 감정을 적절히 표현하는 데 근본적인 어려움을 겪어 사회적 상호작용에서 지속적인 어려움을 경험합니다.<br>2. 기존 감정 학습 교구(카드, 교육용 앱 등)는 단조로운 형태로 제공되어 자폐 아동의 특성상 짧은 집중력과 흥미 지속 시간을 고려하지 못해 효과적인 학습이 어렵습니다.<br>3. 특수교육 기관에서의 제한적인 교육 시간만으로는 일상생활에서의 감정 소통 능력 향상이 부족하며, 가정에서 지속적인 학습을 위한 체계적인 도구가 부족합니다.<br>4. 부모와 교사가 아동의 감정 학습 진도와 개선사항을 객관적으로 파악하고 관리할 수 있는 데이터 기반 모니터링 시스템이 부재합니다. |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도** | Unity 3D(AR 구현 및 게임 개발 엔진)<br>ARCore/ARKit(모바일 AR 및 실시간 얼굴 인식)<br>OpenCV(컴퓨터 비전 및 이미지 처리)<br>Spring Boot(백엔드 서버 및 API 개발)<br>MySQL(사용자 데이터 및 학습 진도 관리) |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | Unity 3D (https://unity.com)<br>ARCore (https://developers.google.com/ar)<br>OpenCV (https://opencv.org)<br>Spring Boot (https://spring.io/projects/spring-boot)<br>MySQL (https://www.mysql.com) |
+| **팀 그라운드룰 URL** | https://github.com/PLAN-B-EWHA/Capstone-31/blob/main/Team%20Ground%20Rules.md |
+| **최종 수정일** | 2025.09.16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 32 All Day Project
+
+| **항목** | **내용** |
+|---------|---------|
+| 프로젝트명 | **온세무 (OnTax)** <br>자영업자를 위한 AI 기반 자동화 세무관리 & 절세 서비스 |
+| 프로젝트 키워드 | 🧾 세무관리  &nbsp;&nbsp; 💼 자영업  &nbsp;&nbsp; ⚙️ 자동화  &nbsp;&nbsp; 💡 절세 |
+| 트랙 | 금융/세무 관리 자동화 서비스 개발 |
+| 프로젝트 멤버 | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)<br>👩‍💻 유서연 (Frontend, Data Visualization)<br>👩‍💻 이윤서 (AI, Frontend) |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | **온세무(OnTax)** 는 자영업자들의 세무 신고와 절세 전략을 **한 곳에서** 해결하는 올인원 플랫폼입니다.<br><br> - **자동 수집·정리** : 카드/현금영수증/세금계산서 등 분산된 증빙 데이터를 통합 관리 <br> - **스마트 분류** : 개인/사업 비용 자동 구분, 누락·과다 신고 방지 <br> - **실시간 세무 대시보드** : 예상 세액, 매출·비용 현황, 신고 마감일을 직관적으로 시각화 <br> - **AI 세무 도우미** : GPT-5 기반 챗봇으로 세무 용어 해설, 신고 절차 가이드 제공 <br> - **AI 기반 절세 추천** : 업종·매출 패턴·비용 구조를 분석하여 최적의 절세 전략 제안 (예: 경비 처리 항목 추천, 세액공제·감면 가이드) <br><br> → **궁극적 목표:** 자영업자가 본업에 집중할 수 있도록 **세무 관리 + 절세 전략까지 풀패키지로 지원**, 스트레스·시간·비용을 모두 절감 |
+| 고객 | - 초기 창업자 (음식점, 카페 등)<br>- 세무 지식이 부족한 개인사업자·소상공인<br>- 홈택스 사용이 익숙하지 않은 1인 사업자 |
+| Pain Point | - 세법과 신고 절차가 복잡하고 용어가 어려움<br>- 자료(카드/현금영수증/세금계산서)가 흩어져 관리·정리 시간 소모 큼<br>- 개인·사업 비용 구분 어려움 → 과다/누락 신고 위험<br>- 세무사 비용 부담, 직접 신고 시 실수 및 가산세 리스크<br>- 절세 전략을 모르거나, 세액공제 혜택을 놓치는 경우 많음<br>- 경영 판단에 필요한 현금 흐름, 예상 세액 확인이 어려움 |
+| 사용할 소프트웨어 패키지 (명칭·용도) | - **React, TypeScript, Next.js** → 프론트엔드 개발, 컴포넌트 기반 UI, 정적·SSR 렌더링 지원 <br> - **Spring Boot** → 백엔드 서버, REST API, DB 모델링 <br> - **GPT-5** → 세무 질의 응답, 신고 가이드, 절세 전략 추천 <br> - **BeautifulSoup, Selenium** → 세무 관련 공공데이터·홈택스 크롤링 <br> - **Hugging Face** → 머신러닝 모델 (텍스트 분류, NER, 추천 모델) 활용 <br> - **Playwright** → E2E 테스트 및 UI 자동화 |
+| 사용할 소프트웨어 패키지 URL | - [React](https://react.dev) : https://react.dev <br> - [TypeScript](https://www.typescriptlang.org/) : https://www.typescriptlang.org/ <br> - [Next.js](https://nextjs.org) : https://nextjs.org <br> - [Spring Boot](https://spring.io/projects/spring-boot) : https://spring.io/projects/spring-boot <br> - [OpenAI GPT-5](https://platform.openai.com) : https://platform.openai.com <br> - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) : https://www.crummy.com/software/BeautifulSoup/ <br> - [Selenium](https://www.selenium.dev/) : https://www.selenium.dev/ <br> - [Hugging Face](https://huggingface.co) : https://huggingface.co <br> - [Playwright](https://playwright.dev) : https://playwright.dev |
+| 팀 그라운드룰 URL | [GroundRule](https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md) : https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md |
+| 최종 수정일 | 2025-09-16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 34 200OK
+| 항목 | 내용 |
+| --- | --- |
+| **프로젝트명** | 고령층 사회복지 AI 상담 앱 |
+| **프로젝트 키워드** | AI 상담사, 고령층, 사회복지, 음성 인식, 접근성, Flutter |
+| **트랙** | 산학 트랙 |
+| **프로젝트멤버** | 김규린, 김연우, 심희윤 |
+| **팀지도교수** | 이민수 교수님 (확정X, 희망) |
+| **무엇을 만들고자 하는가** | 대한민국 고령층이 복잡한 절차와 낮은 디지털 리터러시 때문에 놓치는 사회복지 혜택을 음성 기반 대화형 AI 상담사 앱으로 쉽게 접근·탐색·신청할 수 있도록 돕는 서비스이다. |
+| **고객** | 대한민국 65세 이상 고령층, 복지 혜택 신청이 어려운 사람들, 간단한 UI/UX를 선호하는 사용자 |
+| **Pain Point** | ① 복잡한 복지 정보 접근의 어려움 <br> ② 디지털 리터러시 부족으로 인한 불편 <br> ③ 신청 절차 복잡성 <br> ④ 심리적 장벽 및 배제감 <br> ⑤ 개인 맞춤형 안내 부족 |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도** | ① **GPT 기반 대화 엔진** – 자연어 이해 및 맞춤형 복지 상담 <br> ② **Google Speech API / Whisper** – 음성 인식 및 명령 입력 <br> ③ **Flutter** – 크로스플랫폼 앱 개발 (Android/iOS 동시 지원) <br> ④ **MySQL** – 복지 서비스 DB 저장 및 조회 <br> ⑤ **고대비/큰 글씨 UI 모듈** – 접근성 강화를 위한 프론트엔드 UI 구성 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | ① [OpenAI GPT API](https://platform.openai.com) <br> ② [Google Speech-to-Text](https://cloud.google.com/speech-to-text) <br> ③ [Flutter](https://flutter.dev) <br> ④ [MySQL](https://www.mysql.com) |
+| **팀그라운드룰 URL** |[팀그라운드롤](https://github.com/capston-organization/2025-start-200OK/blob/main/GroundRule.MD)|
+| **최종수정일** | 2025-09-18 |
+
+ [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 35 EWIN
+|항목|내용|
+|---|---|
+|프로젝트명|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|프로젝트 키워드|음성 검색 및 인식(STT), 음성 안내(TTS), 길도우미, GPS, NLP|
+|트랙|산학|
+|프로젝트 멤버|이지원 이예은 김우빈|
+|팀지도교수| 심재형 |
+|무엇을 만들고자 하는가|시각장애인을 위해, 화면을 보고 목록을 선택해야 하는 기존 내비게이션의 불편함을 해소하고, 음성 인식을 통한 목적지 검색(STT)부터 음성 대화를 통한 최종 목적지 확정, 그리고 도보 안내(TTS)까지 모든 과정을 음성만으로 제공하는 길도우미 서비스입니다.|
+|고객| **&lt;페르소나&gt;** <BR>김땡땡(25세, 여)<br><br>**• 배경**<br>김땡땡 씨는 시각장애인으로, 일상생활에서 대부분 음성 지원 기술과 점자 표시에 의존한다. 어느 무더운 여름날, 그녀는 길을 걷다가 시원한 음료를 사기 위해 가까운 편의점을 찾고 싶었다. 스마트폰으로 목적지를 검색하려 했지만, 화면이 잘 보이지 않아 사용이 매우 번거롭고 불편했다. 기존 시각장애인용 내비게이션 앱은 화면 터치와 안내 선택이 필수여서, 그녀가 원하는 ‘음성만으로 길 안내’는 제공되지 않았다.<br><br>**• 사용자의 요구**<br>&nbsp;&nbsp;- 화면을 보거나 터치하지 않고도 음성 만으로 목적지를 검색하고 안내받고 싶다.<br>&nbsp;&nbsp;-‘가장 가까운 편의점’ 처럼 주변 시설을 거리순으로 쉽게 찾고 안내받고 싶다.<br><br>**• 기대 사항**<br>내 상황과 의도를 파악하여 "가장 가까운 편의점은 OO점입니다. 길안내를 시작할까요?" 와 같이 지능적으로 되묻고, 음성만으로 모든 과정을 완료해주는 서비스를 원한다. |
+|Pain Point|현재의 음성 검색 시스템은 사용자가 'GS25 이대역점'처럼 정확한 전체 명칭을 말해야 도착지로 설정합니다. 음성만으로 서비스를 이용하려면 사전에 모든 정확한 정보를 파악하고 있어야 합니다. <BR>예를 들어, '가까운 편의점 찾아줘'라고 검색하면, 시스템은 주변 편의점 전체 목록을 화면에 띄웁니다. 결국 사용자는 안내를 시작하기 위해 다시 화면을 보고 목록을 확인하고 손으로 직접 터치해야만 합니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|**[STT, TTS]** Google Cloud API<BR> **[NLP]** Open AI GPT API<BR> **[LBS]** Naver Maps API<BR> **[백엔드]** Flask<BR> **[앱 개발]** React Native<BR> **[DB]** Firebase Realtime|
+|사용할 소프트웨어 패키지의 명칭과 URL|Google Cloud Speech-to-Text API: [https://speech.googleapis.com](https://speech.googleapis.com/)<BR>Google Cloud Text-to-Speech API: [https://texttospeech.googleapis.com](https://texttospeech.googleapis.com/)<BR>Open AI GPT API: https://chatgpt.com/<BR>Naver Maps API: https://navermaps.github.io/maps.js.ncp/<BR>Flask: [https://flask.palletsprojects.com](https://flask.palletsprojects.com/)<BR>React Native: https://ko.legacy.reactjs.org/<BR>Firebase Realtime DB: https://firebase.google.com/products/realtime-database|
+|팀그라운드룰|https://github.com/25-2-team35/Capstone/blob/main/GroundRule.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 37 OptimusPrime
+|항목|내용|
+|---|---|
+|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
+|트랙|연구|
+|프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
+|팀지도교수|반효경 교수님|
+|무엇을 만들고자 하는가|AI 기반 에너지 사용량 예측모델|
+|고객|클라우드/서버에 별도의 비용을 지불하고 사용중인 기업들 |
+|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Python 3.8+ : 메인 개발 언어 <br> - PyTorch : AI 모델 훈련/추론 <br> - scikit-learn : 머신러닝 모델 구현 <br> - pandas/numpy : 데이터 처리 및 분석 <br> - pynvml : NVIDIA GPU 전력 모니터링|
+|사용할 소프트웨어 패키지의 명칭과 URL|- PyTorch: https://pytorch.org/<br> - scikit-learn: https://scikit-learn.org/<br>- pynvml: https://pypi.org/project/pynvml/|
+|팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
+## Team 40 MIND
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 뇌혈류 영상 분석을 통한 알츠하이머 조기 진단 |
+| 프로젝트 키워드 | Alzheimer’s disease, Mild Cognitive Impairment, rs-fMRI, ASL, CBF, ALFF, fALFF, ReHo, Functional Connectivity, Dynamic FC, Graph Neural Networks, Transformer, ComBat, Domain Generalization, Explainable AI, Radiomics |
+| 트랙 | 연구트랙 |
+| 프로젝트 멤버 | 김가영 / 한승연 |
+| 팀지도교수 | 황의원 교수님 |
+| 무엇을 만들고자 하는가 | BOLD rs-fMRI 및 ASL 기반 뇌혈류 대리지표(ALFF/fALFF/ReHo)와 기능 연결망(FC)을 분석하여 경도인지장애(MCI) 및 초기 알츠하이머(AD)를 조기 탐지할 수 있는 AI 모델을 구축하고, 해석가능성과 일반화 성능을 확보한다. |
+| 고객 | - 연구자 및 신경과학자 (뇌혈류/연결망 분석을 통한 신경학적 통찰 제공)<br>- 의료 인공지능 개발자 (조기 진단 알고리즘 및 보정 기법 참고)<br>- 임상 연구자 (MCI/AD 환자군 조기 탐지 연구 지원) |
+| Pain Point | - 알츠하이머 조기 진단의 어려움 및 진단 시점 지연<br>- 다기관/다스캐너 데이터 이질성으로 인한 일반화 성능 저하<br>- 소표본/고차원 문제와 과적합 위험<br>- 해석가능성과 재현성 부족 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - **Python 3.10+**: 개발 언어<br>- **PyTorch / PyTorch Geometric**: 딥러닝, GNN 구현<br>- **MONAI** (옵션): 의료 영상 AI 지원<br>- **scikit-learn**: 전통 ML 모델 (SVM, XGBoost 등)<br>- **Nilearn / NiBabel**: fMRI/신경영상 데이터 로딩 및 전처리<br>- **fMRIPrep** (옵션): 전처리 결과 재사용<br>- **SHAP/Permutation Importance, Grad-CAM**: 모델 해석<br>- **pandas, numpy**: 데이터 처리 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - PyTorch: https://pytorch.org/<br>- PyTorch Geometric: https://pytorch-geometric.readthedocs.io/<br>- MONAI: https://monai.io/<br>- scikit-learn: https://scikit-learn.org/<br>- Nilearn: https://nilearn.github.io/<br>- NiBabel: https://nipy.org/nibabel/<br>- fMRIPrep: https://fmriprep.org/ |
+| 팀그라운드룰 URL | https://github.com/mind-ewha/capstone-design/blob/main/GroundRule.md |
+| 최종수정일 | 2025-09-16 |
+
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 24 이루리
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스. |
+| 프로젝트 키워드 | 청년층, AI 소비 습관 분석, 금융 스트레스 진단, 개인 맞춤 장학/복지 혜택 추천 |
+| 트랙 | 산학 트랙 |
+| 프로젝트 멤버 | 송유진 / 정서진 / 임슬민 |
+| 팀지도교수 | 황의원 교수님 |
+| 무엇을 만들고자 하는가 | 청년들의 지출·저축 데이터를 AI로 분석해 금융 스트레스를 진단하고,<br>지출 급증·저축 부족·충동 구매·지출 변동성을 파악해 그 원인을 제시합니다.<br>이를 바탕으로 3분 안에 실행 가능한 맞춤 코칭 카드와 장학·복지 혜택 캘린더 알림을 제공해 청년들이 돈 관리와 청년 복지 혜택 챙기기를 한 번에 해결할 수 있도록 돕는 스마트 금융 케어 서비스를 개발하고자 합니다. |
+| 고객 |  - 학자금 대출로 생활비 부담이 크지만 장학금/복지 정보를 놓치기 쉬운 대학생<br>- 정규 수입이 없고 지원 제도를 잘 모르는 취업 준비 청년<br>- 정기 소득은 있으나 장기 재무 안정과 지속 가능한 저축 습관이 필요한 청년 근로자<br>- 충동적 소비가 잦아 저축이 어려운 청년 |
+| Pain Point |- 장학금/청년 복지 정보가 여러 플랫폼에 흩어져 있어 찾기 어렵고 신청 시기를 놓치기 쉽습니다.<br>- 충동 소비, 저축 부족, 지출 변동성 등 행동/심리적 요인까지 관리해주는 금융 서비스가 부재합니다.<br>- 기존 자산 관리 앱은 계좌 집계, 송금 중심으로, 생활 습관 개선이나 공공 혜택 연계가 부족합니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - Android Studio (Kotlin/Java): 모바일 앱 개발, 안정적 UX 제공 및 배포<br>- Firebase / Firestore: 사용자 인증, 챌린지 피드 및 알림 관리<br>- LightGBM / XGBoost: 지출·저축 데이터를 분석해 금융 스트레스 지수(FSI) 산출 및 이상 소비 패턴 탐지<br>- Room DB (온디바이스 DB): 모든 금융 데이터를 로컬에서만 저장·분석해 프라이버시 보호<br>- 공공데이터 API (정부24, 복지로, 청년정책 플랫폼 등) 장학금·복지 혜택 정보 수집 및 자동 매칭 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - Android Studio (Kotlin/Java):[https://developer.android.com/studio](https://developer.android.com/studio)<br>- Firebase / Firestore: [https://firebase.google.com](https://firebase.google.com)<br>- LightGBM: [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)<br>- XGBoost: [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost)<br>- RoomDB: [https://developer.android.com/training/data-storage/room](https://developer.android.com/training/data-storage/room)<br>-공공데이터 API: [https://www.data.go.kr](https://www.data.go.kr) |
+| 팀그라운드룰 URL |[2025-fall-iruri-start/docs/GroundRule.md](https://github.com/youjean-s/2025-fall-iruri-start/blob/main/docs/GroundRule.md)|
+| 최종수정일 | 2025-09-16 |
+
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
