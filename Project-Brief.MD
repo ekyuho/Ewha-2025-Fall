@@ -24,6 +24,7 @@
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
+|[39](#team-39-NexStep)|NexStep|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 |[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
 
@@ -463,6 +464,24 @@
 | 사용할 소프트웨어 패키지의 명칭과 URL |  • OpenAI CLIP: https://github.com/openai/CLIP <br> • HuggingFace Transformers: https://huggingface.co/transformers <br> • PyTorch: https://pytorch.org/ <br> • TensorFlow: https://www.tensorflow.org <br> • ONNXim: https://github.com/PSAL-POSTECH/ONNXim <br> • ONNX + PyTorch-XLA:https://github.com/pytorch/xla <br> • ONNX Runtime: https://onnxruntime.ai/ <br> • TensorRT: https://developer.nvidia.com/tensorrt <br> • Weights & Biases: https://wandb.ai/site <br> • TensorBoard: https://www.tensorflow.org/tensorboard |
 | 팀그라운드룰 | https://github.com/yoon0701/ModalArc/blob/main/GroundRule.md |
 | 최종수정일 | 2025-09-16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 39 NexStep
+|항목|내용|
+|---|---|
+|프로젝트명|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
+|프로젝트 키워드|언어재활치료, 음성 인식, 개인 맞춤형 프로그램, 발음·대화 훈련, 개인 기록|
+|트랙|산학 트랙|
+|프로젝트 멤버|김다은 / Mukhtorova, Madina Marat Kizi|
+|팀지도교수|오유란 교수님|
+|무엇을 만들고자 하는가| 언어장애 치료와 재활 과정은 개인별 상황과 증상에 따라 절차를 달리하지만, 주변 환경에서의 효율적인 의사소통 노출이 중요하다는 공통점이 있다. 음성 인식 AI를 활용해 이러한 과정에서 발생할 수 있는 현실적 어려움과 보호자의 부담을 줄이는 어플리케이션을 제작하고자 한다.<br> 이용자가 기입한 자신의 상태와 증상을 토대로 필요한 맞춤형 재활 프로그램을 생성하고 제시한다. 제시한 프로그램에 따라 음성 인식 AI를 사용하여 발음 훈련이나 대화 실습을 진행한다. 필요한 경우, 이용자의 발음에 대한 상세한 평가를 해 피드백을 남긴다. 진행된 훈련 내용과 성과는 요약되어 사용자의 개인 기록 공간에 자동 보관된다.|
+|고객|[Persona]<br>이름: 김보호 (40세, 직장인)<br>특징: 7세 아들이 발음 지연 진단을 받아 언어치료가 필요하지만, 직장과 가사 때문에 아들과 함께 주 1~2회 센터를 방문하기 어렵다. 집에서 디지털 기기를 활용해 아이가 스스로 발음을 교정하고 연습하기를 원한다.|
+|Pain Point|**- 언어장애 전문 재활 접근성**<br>언어치료 센터나 전문가 상담을 꾸준히 받기 어렵다. 시간과 거리 문제뿐만 아니라 장기적으로 재활을 지속해야 하는 만큼 비용 문제도 크다.<br>**- 비대면 치료 방법 부족**<br>집에서 활용할 수 있는 디지털 언어치료 솔루션이 현저히 부족하다.<br>**- 진행 상황 관리 비효율**<br>현재 치료와 발음 교정 과정의 결과가 체계적으로 기록되지 않아, 보호자가 직접 치료 과정에 참여하지 않으면 경과나 개선 정도를 파악하기 어렵다.<br>**- 일상 속 지속적 연습의 어려움**<br>집에서 혼자 연습을 할 때 정확한 피드백을 받기 어렵다. 보호자가 매번 발음 교정을 도와줘야 하므로 보호자의 부담이 크다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|**OpenAI Whisper** : 사용자가 입력한 음성을 텍스트로 변환한다.<br>**ETRI 발음평가 API** : 한국어 발음 평가를 수행하며, 음성을 분석하여 발음 점수와 피드백을 제공한다.<br>**OpenAI GPT-5** : 정해진 진단·평가 기준을 토대로 개인별 재활 프로그램과 단계를 설계하고 제시한다. 또한, 발음 연습이 완료된 후에는 결과와 진행 상황을 요약하여 개인 기록으로 저장한다.|
+|사용할 소프트웨어 패키지의 명칭과 URL|**OpenAI Whisper** : https://openai.com/ko-KR/index/whisper/<br<br>**ETRI 발음평가 API** : https://epretx.etri.re.kr/apiDetail?id=98<br>**OpenAI GPT-5** : https://platform.openai.com/docs/overview|
+|팀그라운드룰|[팀그라운드룰 URL](https://github.com/kde031126/capstone-project/blob/main/GroundRule.MD)|
+|최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
