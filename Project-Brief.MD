@@ -3,6 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|Qubit|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
 |[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|[3](#team-3-세얼간이)|세얼간이|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
 |[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
@@ -60,6 +61,24 @@
 |사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
 |최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 3 세얼간이
+|항목|내용|
+|---|---|
+|프로젝트명|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|프로젝트 키워드|프로젝트 관리, 협업, 팀 효율성|
+|트랙|산학 트랙|
+|프로젝트멤버|강민지, 임이랑, 정서윤|
+|팀지도교수|오세은 교수님|
+|무엇을 만들고자 하는가| 소규모 팀으로 협업 프로젝트를 진행하는 대학생이 작업 과정에서 발생하는 소통의 어려움과 참여 불균형 문제를 해소하기 위한 AI 기반 협업 프로젝트 지원 서비스입니다. AI가 회의록 기록, 발화 비율 분석, 참여도 시각화, 자동 피드백을 수행하여 팀 리더와 팀원 모두에게 효율적이고 공정한 협업 환경을 제공합니다. |
+|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황을 직관적으로 확인하고 싶음|
+|Pain Point|• 여러 대형 협업 툴을 혼용하다 보니 일정과 업무가 흩어져 관리 어려움 </br> • 개인 별 진행 상황이 직관적으로 파악되기 어려워 팀 전체 소통이 저해되고, 업무 분배가 원활하게 진행되지 않음 → 팀 내 참여도 불균형/ 업무 과부하 발생 </br> • 회의록에서 액션아이템(To-Do)이 누락되어 실제 실행력이 떨어짐 </br> • 팀원 간 감정적 갈등 발생 가능성을 우려해 직접적인 피드백 전달을 꺼리게 되어 업무 효율성 저해 발생 가능|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
+|사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
+|팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
