@@ -28,6 +28,7 @@
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[36](#team-36-이게되네)|이게되네|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
 |[39](#team-39-NexStep)|NexStep|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
@@ -541,6 +542,24 @@
 |사용할 소프트웨어 패키지의 명칭과 URL|Google Cloud Speech-to-Text API: [https://speech.googleapis.com](https://speech.googleapis.com/)<BR>Google Cloud Text-to-Speech API: [https://texttospeech.googleapis.com](https://texttospeech.googleapis.com/)<BR>Open AI GPT API: https://chatgpt.com/<BR>Naver Maps API: https://navermaps.github.io/maps.js.ncp/<BR>Flask: [https://flask.palletsprojects.com](https://flask.palletsprojects.com/)<BR>React Native: https://ko.legacy.reactjs.org/<BR>Firebase Realtime DB: https://firebase.google.com/products/realtime-database|
 |팀그라운드룰|https://github.com/25-2-team35/Capstone/blob/main/GroundRule.md|
 |최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 36 이게되네
+|항목|내용|
+|---|---|
+|프로젝트명|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
+|프로젝트 키워드|온디바이스 AI, 멀티모달 보안, 피싱/스미싱, 경량 NLP, URL/웹 탐지, Explainable Security|
+|트랙|산학|
+|프로젝트멤버|안례진, 양승혜, 최혜원|
+|팀지도교수|심재형 교수님|
+|무엇을 만들고자 하는가|문자/메신저, 링크(URL), 웹페이지 단계에서 각각 독립적으로 작동하고 필요 시 연동되는 온디바이스 피싱 탐지 앱을 개발한다. 모든 분석은 기기 내에서 수행되어 개인정보가 외부로 전송되지 않으며, 경고 시 근거(단어·도메인·폼/인증서)를 시각적으로 하이라이트해 사용자가 ‘왜 위험한지’를 이해하도록 돕는다. 한국어 스미싱/국내 피싱 패턴에 특화된 모델로 실사용 맥락에서의 정확도와 지연(배터리) 간 균형을 검증한다.|
+|고객|김영자 (72세, 여, 서울 거주)<br>• **특징**<br>- 스마트폰은 주로 문자·카톡·은행 앱 위주로 사용<br>- 디지털 기기 활용에 익숙하지 않고, 보안 인식이 낮음<br>- 공공기관·은행·가족 이름으로 온 문자에 신뢰를 쉽게 가짐<br>• **고민**<br>- 택배 배송, 연금 수령, 금융 안내 등 사칭 문자에 자주 노출됨<br>- 링크를 눌렀다가 악성 앱 설치 경험이 있음 → 불안감 존재<br>- 앱의 글씨가 작고, 기술 용어가 많아 이해하기 어려움<br>• **상황**<br>- 가족이 “모르는 링크 절대 누르지 말라”고 늘 말하지만, 실제 상황에서 구분이 잘 안 됨<br>- “왜 위험한지”를 바로 알려주고, 큰 글씨·쉬운 표현으로 경고해주는 앱 필요|
+|Pain Point|1. **실시간 대응 부족** : 네트워크 연결이 원활하지 않으면 탐지가 지연되고, 사용자는 피싱 메시지를 즉시 구분하지 못함.<br>2. **프라이버시 침해 우려** : 많은 보안 앱이 문자·메시지 원문을 서버로 전송해 분석하기 때문에, 민감한 개인정보가 외부에 노출될 위험이 있음.<br>3. **고령층의 취약성** : 보안 인식이 낮고 긴급·공공기관 사칭 메시지에 쉽게 속으며, 복잡한 UI나 기술 용어로 인해 사용이 어렵다.<br>4. **단계별 방어 공백** : 문자, 메신저, 브라우저 등 채널이 분리되어 있어, 피싱 공격이 여러 경로로 이어질 때 일관된 대응이 어렵다.<br>5. **현지화 탐지 부족** : 기존 글로벌 서비스는 한국어 스미싱이나 국내 특유의 피싱 패턴에 최적화되어 있지 않아 탐지 성능이 떨어진다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|**온디바이스 AI 프레임워크 (TensorFlow Lite / ONNX Runtime Mobile)**<br>- 핵심 기능/용도: 경량화된 NLP/ML 모델을 스마트폰 내에서 실행, 네트워크 의존성 최소화<br>- 사용 시나리오: 문자·메신저 알림 분석, 로컬 환경에서 피싱 패턴 탐지<br>**멀티모달 보안 모듈 (TextGuard / LinkGuard / PageGuard)**<br>- 핵심 기능/용도: 문자·URL·웹페이지 단계별 독립적 탐지 및 연동<br>- 사용 시나리오: 문자 수신 → URL 클릭 → 웹 접속 과정 전체를 다단계 보호<br>**경량 NLP 모델 (TinyBERT / DistilKoBERT)**<br>- 핵심 기능/용도: 한국어 피싱/스미싱 문장 탐지에 특화, 배터리·메모리 최적화<br>- 사용 시나리오: 스미싱 패턴이 포함된 단어·구문을 실시간 탐지<br>**URL/웹 분석 라이브러리 (scikit-learn, BeautifulSoup, OpenCV)**<br>- 핵심 기능/용도: URL 패턴 분류, HTML 구조 파싱, 시각적 유사도 기반 웹페이지 탐지<br>- 사용 시나리오: 의심 링크 검사 및 피싱 웹사이트 차단<br>**보안/UX 패키지 (SQLCipher, Android Keystore, Material Design UI)**<br>- 핵심 기능/용도: 데이터 암호화 및 직관적 경고 UX 제공<br>- 사용 시나리오: 사용자 개인정보 보호 + 고령층 친화 경고 화면 구현|
+|사용할 소프트웨어 패키지의 명칭과 URL|- [TensorFlow Lite](https://www.tensorflow.org/lite)<br>- [ONNX Runtime Mobile](https://onnxruntime.ai)<br>- [PyTorch Mobile](https://pytorch.org/mobile/home/)<br>- [scikit-learn](https://scikit-learn.org)<br>- [BeautifulSoup (bs4)](https://www.crummy.com/software/BeautifulSoup/)<br>- [OpenCV](https://opencv.org)<br>- [SQLCipher](https://www.zetetic.net/sqlcipher/)<br>- [Android Keystore](https://developer.android.com/training/articles/keystore)<br>- [Material Design](https://m3.material.io)|
+|팀그라운드룰|[팀 그라운드룰](https://github.com/hyewonchoi-cs/it_is_possible/blob/main/GROUNDRULE.md)|
+|최종수정일|2025-09-18|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
