@@ -4,10 +4,14 @@
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
+|[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
 |[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
 |[16](#team-16-트리오링고)|트리오링고|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
-|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
-|[30](#team-30-LGTM)|LGTM|대학생을 위한 팀매칭 플랫폼|
+|[18](#team-18-AIDERS)|AIDERS|외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
+|[20](#team-20-POKI)|POKI|스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
+|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
+|[30](#team-30-lgtm)|LGTM|대학생을 위한 팀매칭 플랫폼|
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
@@ -50,6 +54,43 @@
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
+## Team 8 SEAquence
+|항목|내용|
+|---|---|
+|프로젝트명| UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브 |
+|프로젝트 키워드| 웹앱, 유학생 지원, AI 챗봇, 정보요약, 스마트 추천 |
+|트랙| 산학 |
+|프로젝트멤버| Siti Hajar Asyiqin Binti Fazillah / Heimvichit, Nunnalin / Yuzana Win |
+|팀지도교수| TBD 이형준 |
+|무엇을 만들고자 하는가| 유학생들이 한국 대학 생활에 보다 쉽게 적응할 수 있도록, 정보와 경험을 한 곳에서 제공하는 디지털 허브 플랫폼을 개발하고자 합니다. <br><br> 이 플랫폼에서는 AI 챗봇을 통해 흩어진 대학 생활 정보를 실시간으로 요약·추천하며, 학생 유형과 학업/문화 성향을 반영한 맞춤형 가이드 질문을 통해 필요한 정보를 자연스럽게 확인할 수 있도록 돕습니다. 또한, 학생들이 학사 일정, 캠퍼스 생활 팁, 문화 체험 기록 등을 개인화된 대시보드 형태로 정리하고 관리할 수 있습니다. 사용자는 제공된 자료를 학업 계획이나 생활 참고용으로 활용하거나, 공유 가능한 형태로 저장할 수 있으며, 월간/연말 통계를 통해 자신의 대학 생활 적응 현황과 경험을 쉽게 확인할 수 있습니다. |
+|고객| 이화여대 유학생 (학부, 편입, 대학원) <br><br> [1] 푸릿차야 (19세, 태국인 유학생, 학부생 ) <br> 특징: <br> - 유학 처음 와서 한국 대학 생활과 문화에 적응하기 어려움 <br> - 외로움으로 인해 우울한 느낌 종종 있음 <br> - 한국어 아직 익숙하지 않음 <br> 고민: <br> - 한국어로 쓴 공지나 일정을 체계적으로 정리되어 있지 않아서 FOMO (Fear Of Missing Out; ‘포모 증후군' 또는 '고립 공포) 심리 상태를 가짐 <br> - 신입생은 아직 MT나 OT같은 대학 활동 몰라서 친구를 구하기 어려움 <br> - 가이드 없이 학교 보험 납부, 등록금 납부 같은  대학 관련된 정보 알기 어려워서 막히는 경우 많음 <br><br> [2] 다니엘라 (27세, 미국인 유학생, 대학원) <br> 특징: <br> - 다양한 여행지나 워크샵 프로그램 같은 즐거운 유학 생활을 경험해 보고 싶어함 <br> - 교육에 관련된 컨퍼런스나 진로 탐색에 대한 소식을 받고 싶어함 <br> - 네트워킹에 관심 있음 <br> 고민: <br> - 대학원 다니면서 관심사에 맞게 스펙을 쌓고 싶으면 정보를 어떻게 구해야 되는지 모름 <br> - 대학원 정보와 학부생 정보 매우 달라서 혼란스러움 <br> - 학부생과 달리 참여 가능한 교내 행사나 동아리 한계가 있다. |
+|Pain Point|  - 유학생들이 대학 생활과 관련된 정보를 찾을 때, 자료가 여러 사이트와 커뮤니티에 흩어져 있어 혼란과 스트레스가 심함. <br> -  한국 대학 생활과 문화에 대한 적응 어려움: 수업 방식, 과제 관리, 학사 제도, 교내 활동 등에서 생기는 혼란. <br> - 학생 유형별 필요 차이: 학부, 편입, 대학원 학생마다 관심사와 요구사항이 달라, 일률적인 정보 제공으로는 충분하지 않음. <br> - 기존 정보는 텍스트 중심이 많아, 즉각적인 이해와 활용이 어려움. <br> - 학교 생활과 개인 경험을 체계적으로 정리할 방법이 부족하여, 정보 활용과 기록 관리에 부담을 느낌. <br> - 새로운 유학생에게는 커뮤니티 기반 정보나 추천이 부족하여, 스스로 경험을 찾아야 하는 어려움 존재. |
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - **React / Next.js**: 프론트엔드, 반응형 UI <br> - **FastAPI** : 백엔드 API <br> - **Node.js / Express** 또는 **Django**: 백엔드 API <br> - **PostgreSQL / MongoDB**: 데이터 관리 <br> - **OpenAI API**: 챗봇, 요약 기능 <br> - **Firebase**: 인증, 알림 |
+|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - Next.js – https://nextjs.org <br> - FastAPI - https://fastapi.tiangolo.com/ko/ <br> - MongoDB – https://www.mongodb.com <br> - OpenAI – https://platform.openai.com <br> - Firebase – https://firebase.google.com |
+|팀그라운드룰| [SEAquence's Team Ground Rules](./GroundRule.md) |
+|최종수정일| 2025-09-17 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 12 HABITS
+| 항목 | 내용 |
+| ------- | ---------------- |
+| 프로젝트명 | 자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스 |
+| 프로젝트 키워드 | 습관 코칭 자기 관리, 심리 분석, 주기적 피드백을 통한 사용자 분석, 감정 트래킹 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 양설아, Deng Yuanrong |
+| 팀 지도교수 | 오유란 교수님(예정) |
+| 무엇을 만들고자 하는가 | 사용자 맞춤 습관 제안과 자기 관리를 돕는 시스템을 만들고자 한다. |
+| 고객 | <페르소나><br>- 이름: 김민지<br>- 나이: 24세<br>- 성별: 여자<br>- 배경: 최근 휴학한 김민지 씨는 부산에서 상경해 서울에서 자취를 하고 있다. 대학 생활을 하다 번아웃이 와 휴학을 신청한 김민지 씨는 휴학 기간을 알차게 쓰고 싶지만 본인이 느끼기에는 어딘가 부족하고 방향성 없는 하루하루를 보내기 일쑤인 자신의 모습을 보고 휴학이 잘 한 선택이 맞았는지 모르겠다고 생각하고 있다. 구체적인 방향성과 목표를 정하려고 해도 김민지 씨는 자신이 무엇을 원하는지, 어떤 사람인지, 어떤 사람이 되고 싶은지, 어떤 삶을 살고 싶은지 그 무엇도 제대로 모르겠다는 생각만 든다. 김민지 씨는 대학 생활 외에 다른 부분에서 자신을 성장시키고 충분한 휴식을 취하기 위해 휴학을 결정했지만, 결국 제대로 살아가지 못하고 있는 것 같다는 불안함에 온전한 휴식조차 취할 수 없는 상황이다.<br>- 사용자의 요구:<br> - 자신의 성향과 자신이 무엇을 원하는지, 어떤 삶을 살고 싶어 하는지 파악할 수 있도록 자기 이해를 돕는 서비스를 원한다.<br> - 자신이 원하는 삶의 모습에 가까워지게 만들어줄 수 있는, 실질적이고 구체적인 방법을 원한다. <br> - 꾸준히 서비스를 이용하며 자신이 어떻게 변화했는지 돌아볼 수 있는 분석 서비스를 원한다.
+| Pain Point | 1. 성향/성격 측정 관련<br>- 정확도 문제: 간단한 질문지나 일회성 테스트로는 성격/성향을 정확히 반영하기 어렵다. <br>- 지속성 부족: 사용자는 한 번만 테스트하고 끝낼 가능성이 높다. 성격은 변할 수 있는데, 업데이트 과정이 귀찮으면 오래 쓰지 않는다.<br>- 표준화 한계: MBTI, Big Five 같은 심리척도를 차용해도 “너무 뻔하다”는 피드백이 있을 수 있다.<br>2. 습관 제안 및 일정 관리<br>- 개인화 난이도: 사용자의 라이프스타일, 업무량, 기상·취침 시간 등 다양한 변수를 반영해야 한다. 지나치게 일반적이면 "나랑 안 맞는다"고 느껴서 이탈한다.<br>- 실행 가능성: AI가 추천하는 습관이나 일정이 현실적이지 않으면 금방 포기. (예: 밤형 인간에게 아침 6시 운동 권장)<br>- 권장/강요 균형: 사용자가 “잔소리”처럼 느끼면 거부감 커짐.<br>4. 사용자 경험 (UX)<br>- 진입 장벽: 초반에 테스트나 기록이 많으면 피곤해서 onboarding 단계에서 이탈률 높음.<br>- 피드백 과부하: 매번 “분석해드립니다” 식으로 장황하면 오히려 귀찮아짐.<br>- 지속 동기 부여: 습관/일정/기분 분석 같은 기능이 다 있어도, 일관되게 쓰게 만드는 “재미”나 “보상” 설계가 필요.<br>5. 기술적/운영적 문제<br>- AI 모델 학습 한계: 개인 데이터는 적고, 맞춤형 모델을 학습하기엔 데이터가 부족할 수 있음.<br>- 클라우드 비용: 일기/일정/습관 데이터를 NLP로 처리하면 비용이 커진다.<br>- 윤리적 책임: 감정/심리 분석이기 때문에 사용자의 정신건강에 영향을 줄 수 있다. 잘못된 분석이 오히려 해로울 수 있음.|
+| 사용할 소프트웨어 패키지의 명칭과 핵심 기능/용도 | 다중 피드백 학습 최적화 모델 Hugging Face Transformers(사전학습 NLP 모델, 감정부넉 파인튜닝)<br>상황 반응별 추천 필터링 Recombee (머신러닝 기반 추천 API)<br>하이브리드 개인화 콘텐츠 엔진 FastAPI(백엔드 서버, 개인화 로직/추천 모델 연동)<br>사용자 데이터 관리 및 분석 PostgreSQL(관계형 DB, 일정/습관 관리)<br>모바일 클라이언트 인터페이스 React Native(크로스 플랫폼 앱 개발)<br>상황별 알림 전송 엔진 Firebase Cloud Messagingg(푸시 알림 서비스) |
+| 사용할 소프트웨어 패키지의 명칭과 URL | Hugging Face Transformers: https://huggingface.co/transformers<br>Recombee: https://www.recombee.com/<br>FastAPI:https://fastapi.tiangolo.com/<br>PostgreSQL: https://www.postgresql.org/<br>React Native: https://reactnative.dev/<br>Firebase Cloud Messaging: https://firebase.google.com/products/cloud-messaging |
+| 팀 그라운드 룰 | https://github.com/27marchsa-debug/HABITS_gdProject/blob/main/GroundRule.md |
+| 최종 수정일 | 2025.9.17 |
+
+ [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 
 ## Team 14 BestFriend 
 |항목|내용|
@@ -87,6 +128,74 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 18 AIDERS
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
+| 프로젝트 키워드 | AI Agent, Multi-Agent, LangGraph, RAG, MCP, Contextual Planning, 외국인 관광, 마포구 |
+| 트랙 | 산학 트랙 |
+| 프로젝트 멤버 | 함하경, 박시원, 강민서 |
+| 팀 지도교수 | 오세은 교수님 |
+| 무엇을 만들고자 하는가 | 마포구에 방문한 외국인 관광객이 자신의 감정·목적·날씨·시간 등에 따라 현지인 기반 장소 루틴을 추천받을 수 있는 Multi-Agent 기반 AI 시스템을 개발하고자 합니다. 사용자가 자연어로 여행 목적이나 기분을 입력하면, 시스템은 문서 기반 장소 분석(RAG)과 사용자 선호 매핑을 통해 루틴을 추천하고, 현지인 리뷰/사용자 피드백 데이터를 반영한 최적 루틴을 제공합니다. 추천 결과는 타임라인 UI로 제공되며, 사용자가 루틴을 저장하거나 피드백을 줄 수 있습니다. |
+| 고객 | **Kevin, 27세, 미국 교환학생**<br>연세대학교에 교환학생으로 온 지 3개월 된 외국인 대학생. 한국어는 초급 수준이며 구글맵만 사용하는 편. "현지인처럼 로컬 문화를 체험하고 싶다"는 이유로 한국에 왔지만, 마포구에선 검색 상위 노출 맛집이나 관광지 정보만 반복적으로 나와 실망한 적이 많음. 비건 카페, 인디 공연 등 자신만의 취향에 맞는 덜 알려진 장소를 하루 루틴으로 추천해주는, 언어 장벽 없이 쓸 수 있는 AI 가이드를 원함. |
+| Pain Point | 블로그에는 광고성 콘텐츠가 많고, Google 평점은 흩어져 있으며, 현지인이 가는 진짜 장소나 루틴을 찾기 어렵습니다. 여행자가 직접 루트를 짜기 어렵고, 컨텍스트(기분·날씨 등)를 반영한 맞춤 루틴이 부재합니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | - **LangGraph**: 멀티에이전트 간 흐름 제어 및 분기<br> - **OpenAI API**: 자연어 입력 분석, 설명 생성 <br> - **Vector DB (Pinecone/PGVector)**: 장소 정보, 루틴 및 피드백  저장<br> - **Next.js**: 웹 UI 구성 및 일정 타임라인 시각화 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - LangGraph: https://github.com/langchain-ai/langgraph <br> - OpenAI API: https://platform.openai.com/docs <br> - Pinecone: https://www.pinecone.io/ <br> - Next.js: https://nextjs.org/ |
+| 팀 그라운드룰 | https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md |
+| 최종 수정일 | 2025-09-17 |
+
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 20 POKI
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | **PitchCoach** (스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼) |
+| --- | --- |
+| 프로젝트 키워드 | AI, 스타트업, IR 피칭 |
+| 트랙 | 산학 |
+| 프로젝트멤버 | 강민경, 김예린, 장현서 |
+| 팀지도교수 | 이민수 |
+| 무엇을 만들고자 하는가 | 이 프로젝트는 **스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, **1분 엘리베이터 피칭**, **투자 유치 피칭**, **IR 피칭** 등 다양한 피칭 상황에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다.  |
+| 고객 | **다양한 피칭 상황을 준비하는 스타트업 대표** (1분 엘리베이터 피칭, 투자 유치 피칭, IR 피칭 등) |
+| Pain Point | 1. **IR 준비 비효율**: 공고별 요구사항에 맞춘 Deck/피칭 준비가 어려움
+2. **실전 대비 부족**: 시간 관리·발화 습관·질문 대응력이 미흡
+3. **정량적 지표 부족**: 발표 후 객관적인 피드백/점수가 없음
+4. **평가자 관점 차이**: 창업자가 강조한 포인트와 VC/심사위원이 궁금한 포인트가 불일치 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 1. **OpenAI Whisper**: 리허설 발표 음성 업로드 → 텍스트 전사 생성 + 다국어 음성 인식(ASR), 발표 전사
+2. **librosa, praat-parselmouth**: 전사된 발표 음성 분석 → 말 빠르기·억양·발음 명료도 진단 + Prosody(억양, 속도, 발음 명료도) 분석
+3. **PDFPlumber**: IR Deck PDF·이미지 업로드 → 슬라이드 텍스트 추출 + 문서 OCR 파싱
+4. **spaCy NER, KeyBERT**: 공고문 업로드 → TAM, LTV, ARR 등 투자 지표·핵심 키워드 추출 + 키워드·지표 분석
+5. **LLM (GPT-4/5)**: 공고문 요약 → 평가 항목 도출 → Deck과 매칭해 부족 섹션 강조 + 문서 요약 및 평가 항목 매칭, IR Deck 분석 → 예상 투자자 질문 5~10개 자동 생성 + 질문 자동 생성
+6. **ko-SBERT, sentence-transformers**: 발표 전사 + Deck 텍스트 분석 → IR 루브릭 점수 대시보드 생성 + 문장 임베딩, 섹션 분류, 루브릭 점수화
+7. **LIME, SHAP**: 점수 결과 리포트 생성 → 점수 근거 문장·슬라이드 하이라이트 표시 + 점수 근거 설명(Explainability)
+8. **LLM Fine-tuning**: 예상 질문 답변(음성) → 간결성·정확성·구조성 평가 + 투자자 Q&A 답변 평가
+9. **WebRTC + STT**: 실시간 Q&A 모드 실행 → 30초 제한 내 음성 답변 전사 및 평가 + 실시간 전사 및 Q&A 훈련
+10. **FastAPI, Flink**: 분석 요청 발생 → 서버가 모델 호출 → 결과 API 반환 + 모델 서빙 및 운영
+11. **PostgreSQL, S3**: 발표 파일·공고문·분석 결과 저장 → 리포트 재조회 가능 + 전사·오디오·리포트 저장7 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | 1. **OpenAI Whisper**: https://github.com/openai/whisper
+2. **librosa:** https://librosa.org/
+    **praat-parselmouth**: https://parselmouth.readthedocs.io/
+3. **PDFPlumber**: https://github.com/jsvine/pdfplumber
+4. **spaCy**: https://spacy.io/
+**KeyBERT**: https://github.com/MaartenGr/KeyBERT
+5. **LLM (GPT-4/5)**: https://platform.openai.com/
+6. **sentence-transformers (ko-SBERT 포함):** https://www.sbert.net/
+7. **LIME**: https://github.com/marcotcr/lime
+**SHAP**: https://github.com/shap/shap
+8. **HuggingFace Transformers (Fine-tuning)**: https://huggingface.co/transformers/
+9. **WebRTC**: https://webrtc.org/
+**Speech-to-Text** : https://cloud.google.com/speech-to-text
+10. **FastAPI**: https://fastapi.tiangolo.com/
+**Apache Flink:** https://flink.apache.org/
+11. **PostgreSQL**: https://www.postgresql.org/
+**Amazon S3**: https://aws.amazon.com/s3/ |
+| 팀그라운드룰 | [GroundRule](https://github.com/Capstone-POKI/POKI/blob/main/GroudRuld.MD) |
+| 최종수정일 | 2025-09-16 |
+
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 23 Synapse
 | 항목 | 내용 |
 | --- | --- |
@@ -105,6 +214,22 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+
+## Team 27 Matcha Tonic
+| **항목** | **내용** |
+| --- | --- |
+| **프로젝트명** | **ProMate**: 프로젝트를 자주 하지만 초기 세팅과 기준이 부족한 대학생 팀을 위해, 사용자의 목표·팀 구성·기간·도구 선호를 학습하고 수업·마감 등의 맥락을 반영하여, Notion 워크스페이스와 README·협업 규칙을 일관된 구조로 자동 생성하고 원클릭 Export로 배포해 주는 AI 기반 프로젝트 협업 스캐폴딩 서비스 |
+| **프로젝트 키워드** | 자동화, 협업, 생산성 |
+| **트랙** | 산학 |
+| **프로젝트 멤버** | 김서연, 지연경, 조수아 |
+| **팀 지도교수** | 오유란 교수님 |
+| **무엇을 만들고자 하는가** | - AI 기반 프로젝트 협업 플랫폼<br>- 지능형 일정 관리 도구<br>- 팀 맞춤형 재사용 기능 |
+| **고객** | [페르소나]<br>이름: ooo<br>나이: 21<br>성별: 여<br>배경: 교내 해커톤에서 5명 팀의 팀장을 맡고 있으며, 빠른 실행력은 있지만 매번 환경 세팅과 일정 관리에서 어려움을 겪음.<br><br>**사용자 요구**<br>- 프로젝트 초기 세팅의 부담: 해커톤은 제한 시간이 짧아 즉시 개발에 들어가야 하나, Notion·GitHub·Slack 등 세팅이 오래 걸림.<br>- 일정 조율의 어려움: 팀원 일정이 달라 회의 참석률 저조 → 마감 지연 발생.<br>- 산출물 관리와 협업 규칙 부재: 발표자료·시연영상·Repo·기록 등 문서화 부족, 규칙 없는 진행.<br> |
+| **Pain Point** | 1. **시간 낭비**: 초기 세팅에 많은 시간이 소요 → 개발/아이디어 집중 시간 부족<br>2. **협업 혼선**: 협업 툴/템플릿 선호가 달라 합의 과정에서 충돌, 역할 분담 불명확<br>3. **문서화 부족**: 발표자료·시연영상·Repo·기록 관리 부족<br>4. **팀장 부담 집중**: 일정·세팅·산출물 관리가 팀장에 집중 → 과중/심리적 압박 |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오** | 1. **Spring Boot**<br>핵심 기능/용도: Java 기반 백엔드 프레임워크, REST API 및 서버 구축<br>사용 시나리오: API 서버 구현, Notion·GitHub·Google Calendar·Discord API 연동, 사용자/프로젝트 데이터 관리<br><br>2. **FastAPI (Python)**<br>핵심 기능/용도: 경량 웹 프레임워크, AI 모델 서버<br>사용 시나리오: LLM 호출, 일정 자동화 로직, AI 추천 처리<br><br>3. **JPA (Java Persistence API)**<br>핵심 기능/용도: ORM 기반 데이터 영속성 관리<br>사용 시나리오: 팀원, 일정, 작업 데이터 모델 정의 및 영속화, Spring Boot와 결합<br><br>4. **Notion API**<br>핵심 기능/용도: 워크스페이스 자동 생성/업데이트<br>사용 시나리오: 대시보드 구축, 회의록/진행 상황 업데이트<br><br>5. **GitHub API**<br>핵심 기능/용도: 저장소 관리/협업 자동화<br>사용 시나리오: README 업데이트, Issue/Label 자동 생성<br><br>6. **Google Calendar API**<br>핵심 기능/용도: 일정 동기화/자동화<br>사용 시나리오: 마일스톤/마감일 등록, 개인/팀 일정 통합<br><br>7. **Slack API / Discord API**<br>핵심 기능/용도: 협업 메신저 자동화<br>사용 시나리오: 알림 전송, 온보딩 자동화, 이벤트 공지<br><br>8. **Next.js (App Router, RSC)**<br>핵심 기능/용도: React 기반 프론트엔드, SSR/SSG/RSC 지원<br>사용 시나리오: 초기 로딩 최적화, OAuth 콜백 처리, 서버 액션 기반 제출/마법사 구현, OG 태그 자동화<br><br>9. **TypeScript & 코드 품질 체인 (ESLint, Prettier, Husky, lint-staged, Commitlint)**<br>핵심 기능/용도: 정적 타입, 코드 스타일 통일, 프리커밋 검증<br>사용 시나리오: PR 품질 관리, 린팅/포맷 자동화, 릴리즈 노트 자동 생성 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | - [Spring Boot](https://spring.io/projects/spring-boot)<br>- [JPA](https://jakarta.ee/specifications/persistence/)<br>- [FastAPI](https://fastapi.tiangolo.com/)<br>- [Notion API](https://developers.notion.com/)<br>- [GitHub API](https://docs.github.com/en/rest)<br>- [Google Calendar API](https://developers.google.com/calendar)<br>- [Slack API](https://api.slack.com/)<br>- [Discord API](https://discord.com/developers/docs/intro)<br>- [Next.js](https://nextjs.org)<br>- [TypeScript](https://www.typescriptlang.org) |
+| **팀 그라운드룰** | [GroundRule.md](https://github.com/cse2348/2025_MatchaTonic/blob/main/GroundRule.md) |
+| **최종 수정일** | 2025.09.16 |
 
 ## Team 30 LGTM
 
