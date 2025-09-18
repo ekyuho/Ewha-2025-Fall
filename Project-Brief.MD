@@ -532,8 +532,9 @@
 | 팀그라운드룰 | https://github.com/smileblu/Capstone/blob/main/GroudRule.md |
 | 최종수정일 | 2025.09.16. |
 
-## Team 29 Nitro
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 29 Nitro
 | 항목 | 내용 |
 | --- | --- |
 | 프로젝트명 | **Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano** |
