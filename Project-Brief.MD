@@ -546,6 +546,25 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 33 할수있다 능
+
+| **항목** | **내용** |
+| --- | --- |
+| **프로젝트명** | 해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스 |
+| **프로젝트 키워드** | 큐싱 범죄 예방, 머신러닝, URL 데이터 분석 |
+| **트랙** | 산학 |
+| **프로젝트 멤버** | 황규리, 신예진, 김태연 |
+| **팀지도교수** | 오세은 교수님 |
+| **무엇을 만들고자 하는가** | 본 프로젝트는 해외여행자가 QR코드를 스캔했을 때 발생할 수 있는 큐싱 위험을 최소화하기 위한 AI 기반 보안 서비스를 개발하는 것을 목표로 합니다. <br> 사용자가 QR코드를 스캔하면 URL을 자동으로 추출하고, 랜덤 포레스트(Random Forest) 알고리즘을 활용한 URL 분석 모델을 적용하여 새로운 피싱 사이트까지 판별할 수 있도록 합니다. |
+| **고객** | 해외여행 중 QR 코드를 스캔해야 하는 사용자 (교통, 관광, 결제, 와이파이 접속 등) |
+| **Pain Point** | 해외여행자를 대상으로 한 큐싱(QR 피싱) 피해는 꾸준히 증가하고 있습니다.<br><br>낯선 환경에서 관광, 교통, 와이파이 접속, 결제 등 다양한 상황에서 QR코드를 사용하는 경우가 많지만, 사용자는 해당 URL이 안전한지 직접 확인하기 어렵습니다. 특히 언어 장벽과 낮은 보안 인식으로 인해 가짜 결제 페이지나 위장된 로그인 화면에 쉽게 속아 개인정보와 금융정보를 입력하게 되는 사례가 빈번합니다.<br><br>그럼에도 불구하고 현재까지 해외여행 상황에 특화된 큐싱 방지 서비스는 거의 존재하지 않아, 여행자들은 보안 공백 속에 노출되어 있는 실정입니다. |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도** | **React + react-qr-reader**: 모바일 웹에서 QR 이미지 스캔 → URL 추출 및 서버 전송, “안전 / 의심 / 위험” 상태 표시, 피처별 근거 안내, 실시간 분석 결과 확인 <br> **Spring Boot 라이브러리 (Apache Commons Validator, java.net.URL, PublicSuffix)**: URL 구조 검증, 도메인 분석, typosquatting 탐지 <br> **FastAPI + Python (scikit-learn / XGBoost, SHAP)**: URL 정상/악성 분류, 위험도 점수 계산, 신규 악성 URL 탐지, 예측 근거 제공 <br> **MySQL**: URL, QR 메타데이터, 분석 결과, 위험 점수 저장 <br> **OpenAi API**: 모델 예측 근거 설명을 자연어로 변환, 사용자 맞춤 안내 제공 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | **백엔드** <br>• Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)<br> • OpenAi API: https://openai.com/ko-KR/<br><br> **프론트엔드** <br>• React: [https://ko.react.dev/](https://ko.react.dev/) <br><br> **데이터베이스** <br>• MySQL: [https://www.mysql.com/](https://www.mysql.com/) <br><br> |
+| **팀그라운드룰** | [Ground Rule](https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD) |
+| **최종수정일** | 2025.09.18 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 34 200OK
 | 항목 | 내용 |
 | --- | --- |
