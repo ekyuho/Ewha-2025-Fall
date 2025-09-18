@@ -20,6 +20,7 @@
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
 |[25](#team-25-return-0)|return 0;|AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션|
 |[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Indepdent Space로 통합 처리하는 AI 시스템 개발 연구 |
+|[28](#team-28-planit)|PlanIT|개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼|
 |[29](#team-29-Nitro)|Nitro| Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano |
 |[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
@@ -392,6 +393,22 @@
 | **최종 수정일** | 2025.09.16 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 28 PlanIT
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼 |
+| 프로젝트 키워드 | 탄소배출량, ESG 경영, 절감 시뮬레이션 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 정서윤, 이미소, 조민주 |
+| 팀 지도교수님 | 이민수 교수님 |
+| 무엇을 만들고자 하는가 | 개인, 학교, 그리고 중소기업을 위한 경량화된 클라우드 기반 탄소 관리 SaaS 플랫폼을 만들고자 한다. 사용자가 입력한 데이터를 기반으로 탄소 배출량과 금전적 비용을 자동 환산하고, 직관적인 리포트로 보여준다. AI 기반으로 미래 배출량을 예측하고, 효과적 절감 방안을 시뮬레이션으로 제시해 사용자가 지속 가능한 일상과 비즈니스를 실현하도록 돕는다. |
+| 고객 | 👩🏻‍🎓 박에코 (23세, 대학생) <br>•목표 : 탄소 배출량을 줄이는 것이 생활비 절감으로 이어지는 체감적 효과 경험 <br>•문제점 : 작은 절약의 효과가 가시적이지 않아 행동 변화의 동기를 찾는 것에 어려움 느낌<br>•요구사항 : 탄소 배출량을 돈으로 환산해 보여주고, 내 행동이 누적되어 의미 있는 결과를 가져오는 경험을 원함<br><br> 🏫 김이화 (42세, 고등학교 과학·환경 동아리 교사)<br>• 목표: 직관적인 환경 교육, 교내 에너지·종이 사용 관리, 객관적 데이터 기반 보고서 활용<br>• 문제점: 기존 툴 단순 계산 → 교육 효과 낮음, 학생 체감 부족, 보고서용 데이터 수집·정리 번거로움<br>• 요구사항: 탄소 배출량의 금전 환산, 학교 단위 집계·시각화, 절감 시뮬레이션 기능 <br><br>💼 김그린(43세, 중소기업 CEO)<br>•목표: 대기업(납품처)에서의 요구나 해외 수출을 위한 ESG 보고서 생성<br>•문제점: 전문 인력(ESG 전담팀) 부재로 인해 회계팀에서 매번 Excel로 데이터 수집하면 비효율과 오류 발생, 외부 컨설팅 업체 이용 시 비용 과다<br>•요구사항: 탄소 배출량 계산 자동화와 시각화, 국제 표준 ESG 보고서 제공, 탄소 절감 전략 제안|
+| Pain Point | 개인 <br>• 동기 부족 <br>- 단순히 “몇 kg CO₂”라는 추상적 수치만 제공 → 행동 변화로 이어지지 않음 <br>- 생활비 절감 등 즉각적 보상이 없어 실천 동기 낮음 <br>- 작은 행동이 거대한 기후 위기에 의미가 있는지 회의감 발생 <br>• 정보 불투명 & 피드백 부재 <br>- 탄소 계산 방식이 복잡하고 불투명하게 느껴져 신뢰도 저하 가능성 <br>- “얼마나 줄여야 효과가 있는지”에 대한 구체적 가이드 부족 <br>- 절약 방법이나 실천적 피드백이 없어 습관 변화로 연결되지 않음 <br><br>학교 <br>• 교육적 한계 <br>- 학생들이 추상적인 탄소 배출 개념을 체감하기 어려움 <br>- 기존 툴은 교육 목적에 맞춰져 있지 않아 학습 효과 낮음 <br>• 데이터 관리 및 보고서 작성 어려움 <br>- 전기·종이 사용량 데이터를 수집·정리하는 과정이 대부분 수작업 → 비효율적 <br>- 교내 환경 보고서·대회 제출 자료 작성 시 활용할 수 있는 객관적 데이터 부족 <br>• 참여 유도 부족 <br>- 학생들이 “탄소 절감 활동 = 나와 무관”이라고 느끼기 쉬워 적극적 참여 어려움 <br><br>중소기업 <br>• 대기업 중심 솔루션의 한계 <br>- ESG 관리 툴이 대기업 전용으로 설계 → 비용·기능 모두 중소기업에게는 과도한 부담 <br>- ESG 컨설팅 비용(평균 8,600만 원 수준)이 현실적으로 감당 불가 <br>• 데이터 관리 비효율 <br>- 전력·물류·생산 데이터가 파편화 → Excel로 수작업 관리 → 시간 소모 & 오류 위험 <br>- 실시간 탄소 배출량 모니터링 불가 <br>• 보고서 작성 부담 & 신뢰성 부족 <br>- ESG 전담 인력이 없어 보고서 작성이 큰 부담 <br>- 규제 기관·대기업 제출 시 요구되는 산출 근거 충족 어려움 → 신뢰도 저하 <br>- 자동화된 보고·시각화 툴 부재로 시간과 비용 추가 소요 <br><br>공통 <br>• 데이터 기반 인사이트 부족 <br>- 단순 수치 제공에 그침 → 예측, 이상치 탐지, 절감 방안 추천 같은 데이터 기반 의사결정 지원 미흡 <br>|
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 |**AI / Data** <br>- ARIMA : 시계열 예측 <br>- scikit-learn : 이상치 탐지 <br>- TensorFlow, PyTorch : 강화학습 <br>- D3.js, Chart.js : 시각화<br><br>- **Frontend** <br>- Zustand : 상태 관리 <br>- React Query + Axios : 서버 통신·캐싱 <br>- Tailwind CSS : UI 스타일링·대시보드 <br>- ESLint + Prettier : 코드 품질 관리 <br>- Recharts / Chart.js : 데이터 시각화 <br><br> **Backend**<br>- AWS EC2 : 서버 배포 및 운영 <br>- AWS S3 : 데이터·리포트 파일 저장 <br>- MySQL : 사용자·탄소 데이터 관리 <br>- Python : 데이터 처리·산출 로직 <br>- Firebase Realtime DB : 실시간 데이터 동기화 <br>- Docker : 컨테이너 기반 배포 <br>|
+| 사용할 소프트웨어 패키지의 명칭과 URL | **AI / Data** <br>- ARIMA : https://www.statsmodels.org/stable/tsa.html <br>- scikit-learn : https://scikit-learn.org/stable/ <br>- TensorFlow : https://www.tensorflow.org/ <br>- PyTorch : https://pytorch.org/ <br>- D3.js : https://d3js.org/ <br>- Chart.js : https://www.chartjs.org/ <br><br>**Frontend**  <br>- React : https://react.dev/ <br>- TypeScript : https://www.typescriptlang.org/ <br>- Zustand : https://zustand-demo.pmnd.rs/ <br>- Tailwind CSS : https://tailwindcss.com/ <br>- React Query : https://tanstack.com/query/latest <br>- Axios : https://axios-http.com/docs/intro <br>- ESLint : https://eslint.org/ <br>- Prettier : https://prettier.io/ <br><br> **Backend** <br>- AWS EC2, S3 : https://aws.amazon.com/ <br>- MySQL : https://www.mysql.com/ <br>- Python : https://www.python.org/ <br>- Firebase Realtime Database : https://firebase.google.com/products/realtime-database <br>- Docker : https://www.docker.com/ <br>|
+| 팀그라운드룰 | https://github.com/smileblu/Capstone/blob/main/GroudRule.md |
+| 최종수정일 | 2025.09.16. |
 
 ## Team 29 Nitro
 
