@@ -1,8 +1,10 @@
 # 2025 Fall 전체 프로젝트 리스트
 |팀번호|팀명|프로젝트명|
 |:---|:---|:---|
-|[1](#team-1-팀명1)|팀명1|프로젝트명1|
+|[1](#team-1-팀명1)|Qubit|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
 |[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|[3](#team-3-세얼간이)|세얼간이|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|[4](#team-4-ADHD)|ADHD|자전거 경로 안전 앱|
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
 |[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
@@ -16,33 +18,39 @@
 |[18](#team-18-AIDERS)|AIDERS|외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
 |[19](#team-19-상킷)|상킷|AI를 활용해 금융 상품 정보를 요약, 비교하고 상품에 대한 후기를 남길 수 있는 웹서비스 |
 |[20](#team-20-POKI)|POKI|스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
+|[21](#team-21-봉원아사랑해)|봉원아사랑해|어린이를 위한 119 긴급상황 대비 교육용 시뮬레이션 RAG 챗봇|
 |[22](#team-22-N0VA)|N0VA|독거노인의 건강하고 안전한 일상을 위한, 음성 분석 AI 모델 기반 건강 이상 징후 탐지 및 보호자 연동 자동화 서비스|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
+|[25](#team-25-return-0)|return 0;|AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션|
 |[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Indepdent Space로 통합 처리하는 AI 시스템 개발 연구 |
+|[28](#team-28-planit)|PlanIT|개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼|
+|[29](#team-29-Nitro)|Nitro| Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano |
 |[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[36](#team-36-이게되네)|이게되네|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
+|[39](#team-39-NexStep)|NexStep|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
-|[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
+|[24](#team-24-이루리)|이루리|청년층의 지출/저축 패턴을 AI로 분석해, 맞춤 재정 관리 계획을 제안하고 올바른 금융 습관 형성을 돕는 청년 스마트 금융 케어 서비스|
 
-## Team 1 팀명1
+## Team 1 Qubit
 |항목|내용|
-|---|---|
-|프로젝트명|프로젝트명2|
-|프로젝트 키워드||
-|트랙||
-|프로젝트멤버||
-|팀지도교수||
-|무엇을 만들고자 하는가||
-|고객||
-|Pain Point||
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오||
-|사용할 소프트웨어 패키지의 명칭과 URL||
-|팀그라운드룰||
-|최종수정일||
+|-----------|-----------|
+|프로젝트명|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
+|프로젝트 키워드|- 이온 트랩 양자 컴퓨팅 (Ion Trap Quantum Computing)<br>- 양자컴퓨팅 노이즈 완화(QEM)<br>- 측정 노이즈 완화 (Measurement Noise Mitigation)<br>- 머신러닝 기반 오류 보정 (ML-based Error Correction)<br>- 딥러닝 (DNN, Autoencoder, VAE)<br>- 전이 학습 (Transfer Learning)<br>- 효율적 미세조정 (PEFT, LoRA)<br>- 데이터 효율성 (Data Efficiency)|
+|트랙|연구|
+|프로젝트 멤버| 이솔민, 김은솜, 김정민 |
+|팀지도교수| 이형준 교수님 |
+|무엇을 만들고자 하는가| 양자 컴퓨팅의 상용화를 저해하는 측정 노이즈 문제를 해결하고자, 전이학습과 머신러닝을 활용하여 이온트랩 양자 컴퓨터의 측정 노이즈를 완화하는 솔루션을 제안 및 연구합니다. |
+|고객| - 양자컴퓨팅 연구자<br>- 양자-머신러닝 교차 분야 연구자<br>- NISQ 시대 속에서 양자 알고리즘을 연구하는 학부/대학원 연구실 |
+|Pain Point| 1. **측정 노이즈로 인한 신뢰도 저하** – 이온트랩 양자 컴퓨터는 측정 노이즈로 인해 연산 결과의 신뢰도가 크게 저하되어, NISQ 활용의 가장 큰 병목 현상이 되고 있음.<br>2. **기존 QREM 기법의 비효율성** – 대량의 캘리브레이션 데이터와 복잡한 보정 절차가 필요하며, 큐비트 수 증가 시 보정 행렬 크기가 기하급수적으로 커져 확장성이 떨어짐. |
+|사용할 소프트웨어 패키지/명칭과 용도| - **Qiskit**: Ion trap backend 시뮬레이션, measurement calibration, 회로 실행<br>- **PyTorch**: Autoencoder/MLP 모델 설계 및 학습<br>- **NumPy / Pandas**: 데이터 전처리 및 확률분포 계산<br>- **Matplotlib / Seaborn**: 결과 시각화 |
+|사용할 소프트웨어 패키지의 명칭과 URL| - [Qiskit](https://qiskit.org/)<br>- [PyTorch](https://pytorch.org/)<br>- [NumPy](https://numpy.org/) / [Pandas](https://pandas.pydata.org/)<br>- [Matplotlib](https://matplotlib.org/) / [Seaborn](https://seaborn.pydata.org/) |
+|팀그라운드룰| https://github.com/solmingming/Qubit_research/blob/abae11849a1e5a1d3836233593e7ab646292498f/GroundRule.MD) |
+|최종수정일| 2025.09.16.13:46 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -63,6 +71,44 @@
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 3 세얼간이
+|항목|내용|
+|---|---|
+|프로젝트명|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|프로젝트 키워드|프로젝트 관리, 협업, 팀 효율성|
+|트랙|산학 트랙|
+|프로젝트멤버|강민지, 임이랑, 정서윤|
+|팀지도교수|오세은 교수님|
+|무엇을 만들고자 하는가| 소규모 팀으로 협업 프로젝트를 진행하는 대학생이 작업 과정에서 발생하는 소통의 어려움과 참여 불균형 문제를 해소하기 위한 AI 기반 협업 프로젝트 지원 서비스입니다. AI가 회의록 기록, 발화 비율 분석, 참여도 시각화, 자동 피드백을 수행하여 팀 리더와 팀원 모두에게 효율적이고 공정한 협업 환경을 제공합니다. |
+|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황을 직관적으로 확인하고 싶음|
+|Pain Point|• 여러 대형 협업 툴을 혼용하다 보니 일정과 업무가 흩어져 관리 어려움 </br> • 개인 별 진행 상황이 직관적으로 파악되기 어려워 팀 전체 소통이 저해되고, 업무 분배가 원활하게 진행되지 않음 → 팀 내 참여도 불균형/ 업무 과부하 발생 </br> • 회의록에서 액션아이템(To-Do)이 누락되어 실제 실행력이 떨어짐 </br> • 팀원 간 감정적 갈등 발생 가능성을 우려해 직접적인 피드백 전달을 꺼리게 되어 업무 효율성 저해 발생 가능|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
+|사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
+|팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 4 ADHD
+|항목|내용|
+|---|---|
+|프로젝트명|자전거 경로 안전 앱|
+|프로젝트 키워드|Bicycle · Safety · Alert · Map · AI · Recommendation|
+|트랙|산학|
+|프로젝트 멤버|정아윤, 이다은, 임하령|
+|팀 지도교수|이민수 교수님 (예정)|
+|무엇을 만들고자 하는가|자전거 전용 경로를 안내하면서, 기상청 실시간 데이터를 반영해 **침수·통제 구간을 표시**하고, 위험 시 **우회 경로·사용자별 추천·경로 난이도 등급**을 제공하는 안전한 자전거 경로 앱|
+|고객|**김이화 (22세, 대학생 – 통학형)**<br>이화는 아침마다 자전거로 학교에 통학한다. 그러나 기존 지도 앱은 자전거 전용도로와 차도를 구분하기 어려워 불안감을 느끼며 차도를 이용한 경험이 있다. 또한 비 오는 날에는 냇가 옆 자전거 도로가 침수되었는지 알 수 없어, 자전거를 두고 집으로 돌아간 적도 있다.<br>**니즈**<br>- 자전거 전용도로·겸용도로 여부를 명확히 확인<br>- 비 오는 날 침수·통제 구간 사전 확인<br>- 갑작스러운 통제로 인한 **즉시 우회 경로 안내**<br><br>**이화연 (34세, 직장인 – 출퇴근형)**<br>화연은 회사까지 자전거로 출퇴근한다. 평소에는 빠르고 효율적이지만 장마철에는 도로가 침수되어 지각한 경험이 잦다. 출퇴근 시간은 효율성이 중요하므로, 단순 지도 표시를 넘어 즉시 대체 경로를 안내받길 원한다.<br>**니즈**<br>- 비·홍수로 막힌 구간 실시간 표시<br>- 즉시 **대체 경로 계산 및 제시**<br>- 경사도·혼잡도·안전성을 고려한 **맞춤형 출퇴근 경로 추천**<br><br>**김하늘 (29세, 주말 라이더 – 레저형)**<br>하늘은 대중교통이 부족한 지역에 거주하며 자전거가 주요 교통수단이다. 주말에는 레저를 겸해 장거리 주행을 즐긴다. 그는 공사·행사 등으로 갑자기 막히는 비공식 통제 정보를 미리 알고 싶어 한다. 또한 단순히 빠른 길뿐 아니라 어둡지 않고 안전하며, 내리막이나 평지 위주의 달리기 좋은 길을 선호한다.<br>**니즈**<br>- 공사·행사 등 비공식 통제 정보 반영<br>- 안전성·쾌적성·주행 편의성을 고려한 경로 제공<br>- **AI 기반 맞춤 추천 코스** 제안|
+|Pain Point|자전거 도로/차도 구분 불명확 · 침수/통제 사전 인지 불가 · 대체 경로 부재 · 공사/행사 정보 미반영|
+|핵심 기능|① 우회 경로 선택 ② 사용자별 경로 추천(통학/출퇴근/레저) ③ 경로 난이도 등급(고도·경사·혼잡도 기반)|
+|사용할 소프트웨어|React Native+Expo · Mapbox SDK+Directions API(사이클링) · 기상청 Open API · Firebase|
+|AI 모델|XGBoost/LightGBM(우회 경로 점수화) · Logistic/GBM(개인화) · Decision Tree/RandomForest(난이도)|
+|데이터 흐름|기상청 API/사용자 제보 → 특징 추출/모델 적용 → 위험 구간·대체 경로·난이도 산출 → 지도/알림 반영|
+|팀 그라운드룰|[GroundRule](https://github.com/kelly96110jung/Start/blob/main/GroundRule.md)|
+|최종 수정일|2025.09.18|
+
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
 
 ## Team 6 Brownie
 |항목|내용|
@@ -300,6 +346,24 @@
 | 팀그라운드룰 | [GroundRule](https://github.com/Capstone-POKI/POKI/blob/main/GroudRuld.MD) |
 | 최종수정일 | 2025-09-16 |
 
+[Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 21 봉원아사랑해
+
+| 항목 | 내용 |
+| --- | --- |
+| 프로젝트명 | 어린이를 위한 119 긴급상황 대비 교육용 시뮬레이션 RAG 챗봇 |
+| 프로젝트 키워드 | 긴급상황, 어린이, 챗봇 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 백소영, 양은서, 우윤수 |
+| 팀지도교수 | 황의원 교수님 |
+| 무엇을 만들고자 하는가 | 어린이를 위한 119 신고 교육용 RAG 기반 챗봇 서비스입니다. 이 서비스는 화재, 응급 환자 발생, 교통사고 등 다양한 긴급 상황을 대화형 시뮬레이션으로 제공합니다. 어린이는 가상의 상황 속에서 위치, 상황, 인원, 부상 정도, 위험 요소와 같은 필수 정보를 정확하고 신속하게 파악하고 119에 신고하는 연습을 할 수 있습니다. 이를 통해 실제 위급 상황에 대한 위기 대응 능력을 향상시키고, 올바른 신고 습관을 기르며, 위기 상황에 대한 자신감을 키우는 것을 목표로 합니다. |
+| 고객 | 박민서(초등학교 3학년, 10세)<br>- Pain Point: 긴급 상황에서 당황해서 말이 잘 안 나오고, 어떤 정보를 말해야 하는지 기억하기 어려워 한다.<br>- Needs: 실제 긴급 상황에서 당황하지 않고 침착하게 대처할 수 있는 능력을 키우고, 위기 대응에 대한 자신감을 얻고 싶어 한다. |
+| Pain Point | - 실제 119 신고 시 필요한 핵심 정보(위치·인원·상황·부상 정도 등)를 빠뜨리기 쉬움 <br> - 긴급 상황에서 두려움과 당황으로 인해 신고를 제대로 하지 못하는 경우 발생 <br> - 기존 안전 교육은 주입식·이론 중심이라 실제 상황에 적용하기 어려움 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | - **Spring Boot**: 백엔드 서버 구현, API 관리, 사용자 요청 처리<br>- **MySQL**: 사용자 학습 기록, 시뮬레이션 데이터 저장<br>- **React**: 시뮬레이션 UI, 챗봇 인터페이스, 배지/스티커 시각화<br>- **Speech-to-Text (STT) API**: 어린이 음성 입력을 텍스트로 변환<br>- **Text-to-Speech (TTS) API**: 구급대원 음성 피드백 제공<br>- **OpenAI API (GPT-5)**: RAG 기반 Q&A, 신고 문장 합성, 공식 문서 근거 인용<br>- **LangChain**: RAG 기반 챗봇을 구현하기 위한 핵심 프레임워크 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | **[ Backend ]**<br>- [Spring Boot](https://spring.io/projects/spring-boot)<br>- [MySQL](https://www.mysql.com)<br>- [AWS RDS](https://aws.amazon.com/rds/)<br>- [Docker](https://www.docker.com/)<br><br>**[ Frontend ]**<br>- [React](https://ko.react.dev/)<br><br>**[ AI ]**<br>- 음성 인식 : [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text)<br>- 음성 변환 : [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech?hl=ko)<br>- 자연어 처리 (NLP) : [GPT-5](https://openai.com/research/gpt-4)<br>- RAG 프레임워크 : [LangChain](https://www.langchain.com/) |
+| 팀그라운드룰 | [BWLOVERS GroundRule](https://github.com/BWLOVERS/docs/blob/main/GroundRule.md) |
+| 최종수정일 | 2025-09-16 |
 
 [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -339,6 +403,22 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 25 return 0;
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | **AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션** |
+| 프로젝트 키워드 | 반려동물, 여행, 위치 기반 서비스 (LBS), AI 추천, 맞춤형 서비스 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 유예나 (2076260) <br> 계예진 (2017003) <br> 민성원 (2076133) |
+| 팀 지도교수 | **심재형 교수님** |
+| 무엇을 만들고자 하는가 | 반려인이 반려동물과 함께 여행할 때, AI 추천과 위치 기반 데이터를 활용하여 숙소, 카페, 맛집, 산책로, 동반 가능한 관광지 등을 맞춤형으로 제공하는 차세대 애플리케이션을 개발하고자 한다. 사용자의 선호(예: 반려견 크기, 활동성 등)와 실시간 위치 정보를 결합하여 개인화된 여행 코스를 설계해주고, 리뷰 및 커뮤니티 기능을 통해 반려인들 간 경험 공유를 촉진한다. |
+| 고객 | **페르소나** <br>**김하은 (25세, 대학원생)**<br>김하은은 서울에서 대학원 생활을 하고 있는 25세 여성으로, 연구와 과제 때문에 일상에서 스트레스를 많이 받는다. 스트레스를 해소하기 위해 반려견 ‘보리(2살, 소형견)’와 함께 주말마다 근교로 짧은 여행을 떠나는 것을 즐긴다. 그러나 여행지를 선택할 때마다 가장 먼저 확인해야 하는 것이 ‘반려견 동반 가능 여부’인데, 이 정보가 여러 블로그와 사이트에 흩어져 있어 검색 과정이 번거롭다. 또한 예약 단계에서도 실제로 반려동물 출입이 허용되는지 명확히 표시되지 않아 불안감을 느끼는 경우가 많다. 과거에는 블로그 후기만 믿고 숙소를 예약했다가 실제 방문 시 반려동물 출입이 불가해 난처했던 경험도 있다.<br><br> **• 김하은 고객 요구사항**<br> **1. 저렴한 여행 옵션:** 대학원생 신분이라 예산이 제한적이기 때문에, 반려동물 동반이 가능하면서도 가성비 좋은 숙소와 카페를 찾고 싶다.<br> **2. 쉬운 정보 확인:** 반려견 크기, 동반 가능 구역, 추가 요금 여부 등을 한눈에 확인할 수 있도록 체계적으로 정리된 정보를 원한다.<br> **3. 신뢰성 있는 추천:** 단순 광고가 아닌 실제 사용자 리뷰와 AI 기반 추천을 통해 ‘안심하고’ 예약할 수 있는 서비스를 선호한다.<br><br> **오준석 (48세, 강사)**<br>오준석은 학원에서 강사로 근무하는 48세 남성으로, 평일에는 강의와 학생 관리로 바쁘게 시간을 보낸다. 주말에는 가족과 반려견 ‘코코(5살, 대형견)’와 함께 드라이브 여행을 즐기는 것이 일상의 소소한 행복이다. 하지만 대형견을 데리고 갈 수 있는 숙소나 맛집을 찾기가 특히 어렵다. 소형견은 허용하지만 대형견은 불가능한 경우가 많아, 몇 시간씩 인터넷을 검색해야 겨우 한두 곳을 찾는다. 이전에는 검색한 정보를 믿고 방문했다가 현장에서 “대형견은 불가하다”는 말을 듣고 발길을 돌려야 했던 불편한 경험도 겪은 바 있다.<br><br>  **• 오준석 고객 요구사항**<br> **1. 실용성 있는 추천:** 검색 시간을 최소화하고, 대형견도 편하게 이용할 수 있는 숙소·식당·산책로를 자동으로 추천받고 싶다.<br> **2. 쉬운 사용법:** 복잡한 기능보다는 직관적이고 간단한 UI를 선호하며, 예약 절차도 단순하길 원한다.<br> **3. 가족 친화성:** 모바일 사용에 익숙하지 않은 배우자도 쉽게 사용할 수 있는 인터페이스를 원한다. |
+| Pain Point | **1. 정보 탐색의 비효율성**<br>- 정보의 파편화: 반려동물 동반 가능 장소(숙소, 식당, 관광지) 정보가 여러 블로그, SNS, 예약 사이트에 흩어져 있어 정보 취합에 많은 시간이 소요됨.<br>- 대형견 정보 절대 부족: 소형견에 비해 대형견 동반 가능 장소에 대한 정보가 현저히 부족하여 검색에 수 시간을 허비함.<br><br>**2. 정보의 신뢰도 문제**<br>- 부정확하고 오래된 정보: 블로그 후기나 포털 사이트의 정보가 최신이 아니거나 실제 운영 방침과 달라 현장에서 낭패를 겪는 경험 발생. (예: 블로그만 믿고 방문했으나 동반 불가 통보)<br>- 불명확한 동반 규정: '반려동물 동반 가능'이라고만 명시되어 있고, 견종 크기 제한, 추가 요금, 동반 가능 구역(객실만 가능, 식당 외부만 가능 등)과 같은 세부 조건이 불명확하여 예약 및 방문 시 불확실성이 큼.<br><br>**3. 예약 및 방문 과정의 불편함**<br>- 반복적인 확인 절차: 신뢰도 문제로 인해 온라인 정보 확인 후에도 실제로 동반이 가능한지 일일이 전화로 재확인해야 하는 번거로움.<br>- 방문 실패 경험: 검색 정보를 믿고 현장에 도착했으나, 실제 규정이 달라 출입을 거부당하는 등 계획에 차질이 생기고 불쾌한 경험으로 이어짐. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심 기능 / 용도 | - **생성형 AI 모델 : GPT-5** → 사용자의 선호(반려동물 크기, 활동성, 예산 등)를 기반으로 개인화된 여행지·숙소 추천 알고리즘 구현<br>- **지도 플러그인 : google_maps_flutter** → Flutter 앱 내에서 Google Maps를 표시하고, 위치 기반 탐색·경로 안내 기능 제공<br>- **지도 플러그인 : kakao_map_plugin** → Flutter 앱에서 카카오 지도 API를 활용해 한국 지역 중심의 지도 서비스 구현<br>- **Firebase** → 사용자 인증, 실시간 데이터베이스, 푸시 알림 제공<br>- **MySQL** → 사용자 정보, 반려동물 프로필, 여행지 데이터, 리뷰 데이터 관리 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - **생성형 AI 모델 :** GPT-5 (https://openai.com/)<br> - **지도 플러그인 :** google maps flutter (https://pub.dev/packages/google_maps_flutter)<br> - **지도 플러그인 :** kakao map plugin (https://pub.dev/packages/kakao_map_plugin) |
+| 팀 그라운드 룰 | [GroundRules.md](https://github.com/ReturnZZero/return0/blob/main/GroundRules.md) |
+| 최종 수정일 | 2025-09-16 |
+
 ## Team 26 TriAI
 |항목|내용|
 |---|---|
@@ -372,6 +452,41 @@
 | **사용할 소프트웨어 패키지의 명칭과 URL** | - [Spring Boot](https://spring.io/projects/spring-boot)<br>- [JPA](https://jakarta.ee/specifications/persistence/)<br>- [FastAPI](https://fastapi.tiangolo.com/)<br>- [Notion API](https://developers.notion.com/)<br>- [GitHub API](https://docs.github.com/en/rest)<br>- [Google Calendar API](https://developers.google.com/calendar)<br>- [Slack API](https://api.slack.com/)<br>- [Discord API](https://discord.com/developers/docs/intro)<br>- [Next.js](https://nextjs.org)<br>- [TypeScript](https://www.typescriptlang.org) |
 | **팀 그라운드룰** | [GroundRule.md](https://github.com/cse2348/2025_MatchaTonic/blob/main/GroundRule.md) |
 | **최종 수정일** | 2025.09.16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 28 PlanIT
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼 |
+| 프로젝트 키워드 | 탄소배출량, ESG 경영, 절감 시뮬레이션 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 정서윤, 이미소, 조민주 |
+| 팀 지도교수님 | 이민수 교수님 |
+| 무엇을 만들고자 하는가 | 개인, 학교, 그리고 중소기업을 위한 경량화된 클라우드 기반 탄소 관리 SaaS 플랫폼을 만들고자 한다. 사용자가 입력한 데이터를 기반으로 탄소 배출량과 금전적 비용을 자동 환산하고, 직관적인 리포트로 보여준다. AI 기반으로 미래 배출량을 예측하고, 효과적 절감 방안을 시뮬레이션으로 제시해 사용자가 지속 가능한 일상과 비즈니스를 실현하도록 돕는다. |
+| 고객 | 👩🏻‍🎓 박에코 (23세, 대학생) <br>•목표 : 탄소 배출량을 줄이는 것이 생활비 절감으로 이어지는 체감적 효과 경험 <br>•문제점 : 작은 절약의 효과가 가시적이지 않아 행동 변화의 동기를 찾는 것에 어려움 느낌<br>•요구사항 : 탄소 배출량을 돈으로 환산해 보여주고, 내 행동이 누적되어 의미 있는 결과를 가져오는 경험을 원함<br><br> 🏫 김이화 (42세, 고등학교 과학·환경 동아리 교사)<br>• 목표: 직관적인 환경 교육, 교내 에너지·종이 사용 관리, 객관적 데이터 기반 보고서 활용<br>• 문제점: 기존 툴 단순 계산 → 교육 효과 낮음, 학생 체감 부족, 보고서용 데이터 수집·정리 번거로움<br>• 요구사항: 탄소 배출량의 금전 환산, 학교 단위 집계·시각화, 절감 시뮬레이션 기능 <br><br>💼 김그린(43세, 중소기업 CEO)<br>•목표: 대기업(납품처)에서의 요구나 해외 수출을 위한 ESG 보고서 생성<br>•문제점: 전문 인력(ESG 전담팀) 부재로 인해 회계팀에서 매번 Excel로 데이터 수집하면 비효율과 오류 발생, 외부 컨설팅 업체 이용 시 비용 과다<br>•요구사항: 탄소 배출량 계산 자동화와 시각화, 국제 표준 ESG 보고서 제공, 탄소 절감 전략 제안|
+| Pain Point | 개인 <br>• 동기 부족 <br>- 단순히 “몇 kg CO₂”라는 추상적 수치만 제공 → 행동 변화로 이어지지 않음 <br>- 생활비 절감 등 즉각적 보상이 없어 실천 동기 낮음 <br>- 작은 행동이 거대한 기후 위기에 의미가 있는지 회의감 발생 <br>• 정보 불투명 & 피드백 부재 <br>- 탄소 계산 방식이 복잡하고 불투명하게 느껴져 신뢰도 저하 가능성 <br>- “얼마나 줄여야 효과가 있는지”에 대한 구체적 가이드 부족 <br>- 절약 방법이나 실천적 피드백이 없어 습관 변화로 연결되지 않음 <br><br>학교 <br>• 교육적 한계 <br>- 학생들이 추상적인 탄소 배출 개념을 체감하기 어려움 <br>- 기존 툴은 교육 목적에 맞춰져 있지 않아 학습 효과 낮음 <br>• 데이터 관리 및 보고서 작성 어려움 <br>- 전기·종이 사용량 데이터를 수집·정리하는 과정이 대부분 수작업 → 비효율적 <br>- 교내 환경 보고서·대회 제출 자료 작성 시 활용할 수 있는 객관적 데이터 부족 <br>• 참여 유도 부족 <br>- 학생들이 “탄소 절감 활동 = 나와 무관”이라고 느끼기 쉬워 적극적 참여 어려움 <br><br>중소기업 <br>• 대기업 중심 솔루션의 한계 <br>- ESG 관리 툴이 대기업 전용으로 설계 → 비용·기능 모두 중소기업에게는 과도한 부담 <br>- ESG 컨설팅 비용(평균 8,600만 원 수준)이 현실적으로 감당 불가 <br>• 데이터 관리 비효율 <br>- 전력·물류·생산 데이터가 파편화 → Excel로 수작업 관리 → 시간 소모 & 오류 위험 <br>- 실시간 탄소 배출량 모니터링 불가 <br>• 보고서 작성 부담 & 신뢰성 부족 <br>- ESG 전담 인력이 없어 보고서 작성이 큰 부담 <br>- 규제 기관·대기업 제출 시 요구되는 산출 근거 충족 어려움 → 신뢰도 저하 <br>- 자동화된 보고·시각화 툴 부재로 시간과 비용 추가 소요 <br><br>공통 <br>• 데이터 기반 인사이트 부족 <br>- 단순 수치 제공에 그침 → 예측, 이상치 탐지, 절감 방안 추천 같은 데이터 기반 의사결정 지원 미흡 <br>|
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 |**AI / Data** <br>- ARIMA : 시계열 예측 <br>- scikit-learn : 이상치 탐지 <br>- TensorFlow, PyTorch : 강화학습 <br>- D3.js, Chart.js : 시각화<br><br>- **Frontend** <br>- Zustand : 상태 관리 <br>- React Query + Axios : 서버 통신·캐싱 <br>- Tailwind CSS : UI 스타일링·대시보드 <br>- ESLint + Prettier : 코드 품질 관리 <br>- Recharts / Chart.js : 데이터 시각화 <br><br> **Backend**<br>- AWS EC2 : 서버 배포 및 운영 <br>- AWS S3 : 데이터·리포트 파일 저장 <br>- MySQL : 사용자·탄소 데이터 관리 <br>- Python : 데이터 처리·산출 로직 <br>- Firebase Realtime DB : 실시간 데이터 동기화 <br>- Docker : 컨테이너 기반 배포 <br>|
+| 사용할 소프트웨어 패키지의 명칭과 URL | **AI / Data** <br>- ARIMA : https://www.statsmodels.org/stable/tsa.html <br>- scikit-learn : https://scikit-learn.org/stable/ <br>- TensorFlow : https://www.tensorflow.org/ <br>- PyTorch : https://pytorch.org/ <br>- D3.js : https://d3js.org/ <br>- Chart.js : https://www.chartjs.org/ <br><br>**Frontend**  <br>- React : https://react.dev/ <br>- TypeScript : https://www.typescriptlang.org/ <br>- Zustand : https://zustand-demo.pmnd.rs/ <br>- Tailwind CSS : https://tailwindcss.com/ <br>- React Query : https://tanstack.com/query/latest <br>- Axios : https://axios-http.com/docs/intro <br>- ESLint : https://eslint.org/ <br>- Prettier : https://prettier.io/ <br><br> **Backend** <br>- AWS EC2, S3 : https://aws.amazon.com/ <br>- MySQL : https://www.mysql.com/ <br>- Python : https://www.python.org/ <br>- Firebase Realtime Database : https://firebase.google.com/products/realtime-database <br>- Docker : https://www.docker.com/ <br>|
+| 팀그라운드룰 | https://github.com/smileblu/Capstone/blob/main/GroudRule.md |
+| 최종수정일 | 2025.09.16. |
+
+## Team 29 Nitro
+
+| 항목 | 내용 |
+| --- | --- |
+| 프로젝트명 | **Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano** |
+| 프로젝트 키워드 | Edge-Optimized Multimodal model, Inference Acceleration, Edge Device, Embedded AI, Profiling |
+| 트랙 | 연구 |
+| 프로젝트 멤버 | 박세진, 박윤형, 강선화 |
+| 팀 지도교수 | 윤명국 |
+| 무엇을 만들고자 하는가 | **엣지 디바이스(Jetson Nano)**에서 실행 가능한 **경량화 멀티모달 모델**을 대상으로, **하드웨어 병목을 분석하고 아키텍처 수준에서 최적화**함으로써 **추론(inference) 속도를 향상**시키는 시스템을 구축하는 것이다. |
+| 고객 | Jetson Nano와 같이 컴퓨팅 자원이 제한된 소형 임베디드 시스템에서, 계산 복잡도가 높은 멀티모달(Multimodal) task를 수행하고자 하는 연구원 및 개발자 |
+| Pain Point | 최근 Vision-Language(VL) 모델의 급격한 발전에도 불구하고, 엣지 디바이스 환경에서 멀티모달 입력(RGB, depth, IR 등)을 효율적으로 처리하고, 제한된 연산 자원과 메모리 제약을 극복하는 것은 여전히 큰 도전이다.<br />기존 연구들은 Knowledge Distillation, Model Pruning, Quantization 등 소프트웨어 기반 경량화 기법을 통해 모델 크기와 연산량을 줄였으나, 경량화된 모델을 실제 엣지 디바이스에 배치했을 때, 레이어별 HW 병목(layer-level latency bottleneck)을 분석하고 아키텍처 수준에서 최적화하여 inference 속도를 극대화하는 연구는 미흡하다. <br />엣지 친화적 멀티모달 모델 구현에서는 단순한 소프트웨어 경량화뿐 아니라, **디바이스 하드웨어 특성을 고려한 병목 분석 및 아키텍처-레벨 최적화가 핵심적인 연구 과제**로 남아 있다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | **1. 멀티모달 모델 프레임워크**<br />- PyTorch: 멀티모달 모델 로딩 및 추론<br />- CUDA/cuDNN: 가속 연산 지원<br />- EdgeVL: Jetson Nano용 경량화 VLM, 멀티 모달 입력 지원, baseline inference<br /><br />**2. 엣지 디바이스 최적화**<br />- NVIDIA TensorRT: GPU/Jetson용 inference 최적화, 연산 병렬화, FP16/INT8 양자화 지원<br />- ONNX / ONNX Runtime: 모델 변환 및 다양한 하드웨어에서 추론, 연산 최적화<br /><br />**3. 프로파일러**<br />- Nsight Systems: Jetson Nano GPU/CPU layer별 latency 분석, 병목 지점 시각화<br />- PyTorch Profiler: 연산별 latency, memory 사용량 분석, layer별 bottleneck 확인<br />- TorchMetrics: 모델 성능 평가, accuracy/CLIP-score 등 task-specific metric 계산 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - PyTorch: https://pytorch.org/<br />- CUDA Toolkit: https://developer.nvidia.com/cuda-toolkit<br />- EdgeVL: https://github.com/ramdrop/edgevl<br />- NVIDIA TensorRT: https://developer.nvidia.com/tensorrt<br />- ONNX / ONNX Runtime: [https://onnxruntime.ai](https://onnxruntime.ai/)<br />- NVIDIA NSight: https://developer.nvidia.com/nsight-systems<br />- PyTorch Profiler: https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html<br />- TorchMetrics: https://lightning.ai/docs/torchmetrics/stable/ |
+| 팀그라운드룰 URL | https://github.com/Nitro-Ewha/Multimodal_on_Jetson/blob/main/GroudRule.MD |
+| 최종수정일 | 2025.09.16. |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -448,6 +563,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 36 이게되네
+|항목|내용|
+|---|---|
+|프로젝트명|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
+|프로젝트 키워드|온디바이스 AI, 멀티모달 보안, 피싱/스미싱, 경량 NLP, URL/웹 탐지, Explainable Security|
+|트랙|산학|
+|프로젝트멤버|안례진, 양승혜, 최혜원|
+|팀지도교수|심재형 교수님|
+|무엇을 만들고자 하는가|문자/메신저, 링크(URL), 웹페이지 단계에서 각각 독립적으로 작동하고 필요 시 연동되는 온디바이스 피싱 탐지 앱을 개발한다. 모든 분석은 기기 내에서 수행되어 개인정보가 외부로 전송되지 않으며, 경고 시 근거(단어·도메인·폼/인증서)를 시각적으로 하이라이트해 사용자가 ‘왜 위험한지’를 이해하도록 돕는다. 한국어 스미싱/국내 피싱 패턴에 특화된 모델로 실사용 맥락에서의 정확도와 지연(배터리) 간 균형을 검증한다.|
+|고객|김영자 (72세, 여, 서울 거주)<br>• **특징**<br>- 스마트폰은 주로 문자·카톡·은행 앱 위주로 사용<br>- 디지털 기기 활용에 익숙하지 않고, 보안 인식이 낮음<br>- 공공기관·은행·가족 이름으로 온 문자에 신뢰를 쉽게 가짐<br>• **고민**<br>- 택배 배송, 연금 수령, 금융 안내 등 사칭 문자에 자주 노출됨<br>- 링크를 눌렀다가 악성 앱 설치 경험이 있음 → 불안감 존재<br>- 앱의 글씨가 작고, 기술 용어가 많아 이해하기 어려움<br>• **상황**<br>- 가족이 “모르는 링크 절대 누르지 말라”고 늘 말하지만, 실제 상황에서 구분이 잘 안 됨<br>- “왜 위험한지”를 바로 알려주고, 큰 글씨·쉬운 표현으로 경고해주는 앱 필요|
+|Pain Point|1. **실시간 대응 부족** : 네트워크 연결이 원활하지 않으면 탐지가 지연되고, 사용자는 피싱 메시지를 즉시 구분하지 못함.<br>2. **프라이버시 침해 우려** : 많은 보안 앱이 문자·메시지 원문을 서버로 전송해 분석하기 때문에, 민감한 개인정보가 외부에 노출될 위험이 있음.<br>3. **고령층의 취약성** : 보안 인식이 낮고 긴급·공공기관 사칭 메시지에 쉽게 속으며, 복잡한 UI나 기술 용어로 인해 사용이 어렵다.<br>4. **단계별 방어 공백** : 문자, 메신저, 브라우저 등 채널이 분리되어 있어, 피싱 공격이 여러 경로로 이어질 때 일관된 대응이 어렵다.<br>5. **현지화 탐지 부족** : 기존 글로벌 서비스는 한국어 스미싱이나 국내 특유의 피싱 패턴에 최적화되어 있지 않아 탐지 성능이 떨어진다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|**온디바이스 AI 프레임워크 (TensorFlow Lite / ONNX Runtime Mobile)**<br>- 핵심 기능/용도: 경량화된 NLP/ML 모델을 스마트폰 내에서 실행, 네트워크 의존성 최소화<br>- 사용 시나리오: 문자·메신저 알림 분석, 로컬 환경에서 피싱 패턴 탐지<br>**멀티모달 보안 모듈 (TextGuard / LinkGuard / PageGuard)**<br>- 핵심 기능/용도: 문자·URL·웹페이지 단계별 독립적 탐지 및 연동<br>- 사용 시나리오: 문자 수신 → URL 클릭 → 웹 접속 과정 전체를 다단계 보호<br>**경량 NLP 모델 (TinyBERT / DistilKoBERT)**<br>- 핵심 기능/용도: 한국어 피싱/스미싱 문장 탐지에 특화, 배터리·메모리 최적화<br>- 사용 시나리오: 스미싱 패턴이 포함된 단어·구문을 실시간 탐지<br>**URL/웹 분석 라이브러리 (scikit-learn, BeautifulSoup, OpenCV)**<br>- 핵심 기능/용도: URL 패턴 분류, HTML 구조 파싱, 시각적 유사도 기반 웹페이지 탐지<br>- 사용 시나리오: 의심 링크 검사 및 피싱 웹사이트 차단<br>**보안/UX 패키지 (SQLCipher, Android Keystore, Material Design UI)**<br>- 핵심 기능/용도: 데이터 암호화 및 직관적 경고 UX 제공<br>- 사용 시나리오: 사용자 개인정보 보호 + 고령층 친화 경고 화면 구현|
+|사용할 소프트웨어 패키지의 명칭과 URL|- [TensorFlow Lite](https://www.tensorflow.org/lite)<br>- [ONNX Runtime Mobile](https://onnxruntime.ai)<br>- [PyTorch Mobile](https://pytorch.org/mobile/home/)<br>- [scikit-learn](https://scikit-learn.org)<br>- [BeautifulSoup (bs4)](https://www.crummy.com/software/BeautifulSoup/)<br>- [OpenCV](https://opencv.org)<br>- [SQLCipher](https://www.zetetic.net/sqlcipher/)<br>- [Android Keystore](https://developer.android.com/training/articles/keystore)<br>- [Material Design](https://m3.material.io)|
+|팀그라운드룰|[팀 그라운드룰](https://github.com/hyewonchoi-cs/it_is_possible/blob/main/GROUNDRULE.md)|
+|최종수정일|2025-09-18|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 37 OptimusPrime
 |항목|내용|
 |---|---|
@@ -485,6 +618,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 39 NexStep
+|항목|내용|
+|---|---|
+|프로젝트명|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
+|프로젝트 키워드|언어재활치료, 음성 인식, 개인 맞춤형 프로그램, 발음·대화 훈련, 개인 기록|
+|트랙|산학 트랙|
+|프로젝트 멤버|김다은 / Mukhtorova, Madina Marat Kizi|
+|팀지도교수|오유란 교수님|
+|무엇을 만들고자 하는가| 언어장애 치료와 재활 과정은 개인별 상황과 증상에 따라 절차를 달리하지만, 주변 환경에서의 효율적인 의사소통 노출이 중요하다는 공통점이 있다. 음성 인식 AI를 활용해 이러한 과정에서 발생할 수 있는 현실적 어려움과 보호자의 부담을 줄이는 어플리케이션을 제작하고자 한다.<br> 이용자가 기입한 자신의 상태와 증상을 토대로 필요한 맞춤형 재활 프로그램을 생성하고 제시한다. 제시한 프로그램에 따라 음성 인식 AI를 사용하여 발음 훈련이나 대화 실습을 진행한다. 필요한 경우, 이용자의 발음에 대한 상세한 평가를 해 피드백을 남긴다. 진행된 훈련 내용과 성과는 요약되어 사용자의 개인 기록 공간에 자동 보관된다.|
+|고객|[Persona]<br>이름: 김보호 (40세, 직장인)<br>특징: 7세 아들이 발음 지연 진단을 받아 언어치료가 필요하지만, 직장과 가사 때문에 아들과 함께 주 1~2회 센터를 방문하기 어렵다. 집에서 디지털 기기를 활용해 아이가 스스로 발음을 교정하고 연습하기를 원한다.|
+|Pain Point|**- 언어장애 전문 재활 접근성**<br>언어치료 센터나 전문가 상담을 꾸준히 받기 어렵다. 시간과 거리 문제뿐만 아니라 장기적으로 재활을 지속해야 하는 만큼 비용 문제도 크다.<br>**- 비대면 치료 방법 부족**<br>집에서 활용할 수 있는 디지털 언어치료 솔루션이 현저히 부족하다.<br>**- 진행 상황 관리 비효율**<br>현재 치료와 발음 교정 과정의 결과가 체계적으로 기록되지 않아, 보호자가 직접 치료 과정에 참여하지 않으면 경과나 개선 정도를 파악하기 어렵다.<br>**- 일상 속 지속적 연습의 어려움**<br>집에서 혼자 연습을 할 때 정확한 피드백을 받기 어렵다. 보호자가 매번 발음 교정을 도와줘야 하므로 보호자의 부담이 크다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|**OpenAI Whisper** : 사용자가 입력한 음성을 텍스트로 변환한다.<br>**ETRI 발음평가 API** : 한국어 발음 평가를 수행하며, 음성을 분석하여 발음 점수와 피드백을 제공한다.<br>**OpenAI GPT-5** : 정해진 진단·평가 기준을 토대로 개인별 재활 프로그램과 단계를 설계하고 제시한다. 또한, 발음 연습이 완료된 후에는 결과와 진행 상황을 요약하여 개인 기록으로 저장한다.|
+|사용할 소프트웨어 패키지의 명칭과 URL|**OpenAI Whisper** : https://openai.com/ko-KR/index/whisper/<br<br>**ETRI 발음평가 API** : https://epretx.etri.re.kr/apiDetail?id=98<br>**OpenAI GPT-5** : https://platform.openai.com/docs/overview|
+|팀그라운드룰|[팀그라운드룰 URL](https://github.com/kde031126/capstone-project/blob/main/GroundRule.MD)|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 40 MIND
 
 | 항목 | 내용 |
@@ -509,7 +660,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스. |
+| 프로젝트명 | 청년층의 지출/저축 패턴을 AI로 분석해, 맞춤 재정 관리 계획을 제안하고 올바른 금융 습관 형성을 돕는 청년 스마트 금융 케어 서비스 |
 | 프로젝트 키워드 | 청년층, AI 소비 습관 분석, 금융 스트레스 진단, 개인 맞춤 장학/복지 혜택 추천 |
 | 트랙 | 산학 트랙 |
 | 프로젝트 멤버 | 송유진 / 정서진 / 임슬민 |
@@ -520,7 +671,7 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - Android Studio (Kotlin/Java): 모바일 앱 개발, 안정적 UX 제공 및 배포<br>- Firebase / Firestore: 사용자 인증, 챌린지 피드 및 알림 관리<br>- LightGBM / XGBoost: 지출·저축 데이터를 분석해 금융 스트레스 지수(FSI) 산출 및 이상 소비 패턴 탐지<br>- Room DB (온디바이스 DB): 모든 금융 데이터를 로컬에서만 저장·분석해 프라이버시 보호<br>- 공공데이터 API (정부24, 복지로, 청년정책 플랫폼 등) 장학금·복지 혜택 정보 수집 및 자동 매칭 |
 | 사용할 소프트웨어 패키지의 명칭과 URL | - Android Studio (Kotlin/Java):[https://developer.android.com/studio](https://developer.android.com/studio)<br>- Firebase / Firestore: [https://firebase.google.com](https://firebase.google.com)<br>- LightGBM: [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)<br>- XGBoost: [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost)<br>- RoomDB: [https://developer.android.com/training/data-storage/room](https://developer.android.com/training/data-storage/room)<br>-공공데이터 API: [https://www.data.go.kr](https://www.data.go.kr) |
 | 팀그라운드룰 URL |[2025-fall-iruri-start/docs/GroundRule.md](https://github.com/youjean-s/2025-fall-iruri-start/blob/main/docs/GroundRule.md)|
-| 최종수정일 | 2025-09-16 |
+| 최종수정일 | 2025-09-18 |
 
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
