@@ -29,6 +29,7 @@
 |[27](#team-27-Matcha-Tonic)|Matcha Tonic|ProMate: 프로젝트를 자주 하지만 초기 세팅과 기준이 부족한 대학생 팀을 위해, 사용자의 목표·팀 구성·기간·도구 선호를 학습하고 수업·마감 등의 맥락을 반영하여, Notion 워크스페이스와 README·협업 규칙을 일관된 구조로 자동 생성하고 원클릭 Export로 배포해 주는 AI 기반 프로젝트 협업 스캐폴딩 서비스|
 |[28](#team-28-planit)|PlanIT|개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼|
 |[29](#team-29-Nitro)|Nitro| Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano |
+|[30](#team-30-lgtm)|LGTM|대학생을 위한 팀매칭 플랫폼|
 |[31](#team-31-플랜B)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[33](#team-33-할수있다-능)|할수있다 능|해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스|
@@ -549,6 +550,24 @@
 | 사용할 소프트웨어 패키지의 명칭과 URL | - PyTorch: https://pytorch.org/<br />- CUDA Toolkit: https://developer.nvidia.com/cuda-toolkit<br />- EdgeVL: https://github.com/ramdrop/edgevl<br />- NVIDIA TensorRT: https://developer.nvidia.com/tensorrt<br />- ONNX / ONNX Runtime: [https://onnxruntime.ai](https://onnxruntime.ai/)<br />- NVIDIA NSight: https://developer.nvidia.com/nsight-systems<br />- PyTorch Profiler: https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html<br />- TorchMetrics: https://lightning.ai/docs/torchmetrics/stable/ |
 | 팀그라운드룰 URL | https://github.com/Nitro-Ewha/Multimodal_on_Jetson/blob/main/GroudRule.MD |
 | 최종수정일 | 2025.09.16. |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 30 LGTM
+|항목|내용|
+|---|---|
+|프로젝트명|대학생들을 위한 팀매칭 플랫폼|
+|프로젝트 키워드|팀매칭, 포트폴리오|
+|트랙|산학|
+|프로젝트멤버|임나은, 김재이, 서영|
+|팀지도교수|오세은 교수님|
+|무엇을 만들고자 하는가|공모전, 경진대회 등에 참여할 팀원을 구하는 플랫폼을 만든다. LLM 기반 챗봇을 통해 원하는 팀공고를 쉽고 정확하게 찾을 수 있으며 AI를 이용하여 유해성 높은 공고를 필터링 해준다. |
+|고객|공모전에 나가기 위해 팀원을 구하고 있는 대학생|
+|Pain Point|대부분의 공모전, 경진대회는 팀 단위로 참여해야 한다. 그러나 현재 나와 있는 대부분의 팀매칭 플랫폼은 사이드프로젝트 팀원 구인을 주 목적으로 하며, 유저의 대부분은 현직자이므로 대학생이 사용하기엔 한계가 있다. 대학생들이 팀에 필요한 역량을 갖춘 팀원을 구하는데 많은 어려움이 있다. |
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI, Google Cloud AI: AI 기반 부적절 공고 필터링, AI 챗봇을 구현한다.|
+|사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> 3. AI <br> Google Cloud Moderate Text AI <https://cloud.google.com/natural-language/docs/moderating-text?hl=ko><br> Chat GPT <https://openai.com/ko-KR/index/openai-api/>|
+|팀그라운드룰|<https://github.com/2025-TEAM-LGTM/LGTM-docs/blob/main/GroundRule.md>|
+| 최종 수정일 | 2025.09.16 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
