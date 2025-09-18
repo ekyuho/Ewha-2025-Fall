@@ -1,8 +1,9 @@
 # 2025 Fall 전체 프로젝트 리스트
 |팀번호|팀명|프로젝트명|
 |:---|:---|:---|
-|[1](#team-1-팀명1)|팀명1|프로젝트명1|
+|[1](#team-1-팀명1)|Qubit|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
 |[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|[3](#team-3-세얼간이)|세얼간이|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
 |[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
@@ -17,8 +18,10 @@
 |[19](#team-19-상킷)|상킷|AI를 활용해 금융 상품 정보를 요약, 비교하고 상품에 대한 후기를 남길 수 있는 웹서비스 |
 |[20](#team-20-POKI)|POKI|스타트업을 위한 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
+|[25](#team-25-return-0)|return 0;|AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션|
 |[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Indepdent Space로 통합 처리하는 AI 시스템 개발 연구 |
 |[28](#team-28-planit)|PlanIT|개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼|
+|[29](#team-29-Nitro)|Nitro| Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano |
 |[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
@@ -28,21 +31,21 @@
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 |[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
 
-## Team 1 팀명1
+## Team 1 Qubit
 |항목|내용|
-|---|---|
-|프로젝트명|프로젝트명2|
-|프로젝트 키워드||
-|트랙||
-|프로젝트멤버||
-|팀지도교수||
-|무엇을 만들고자 하는가||
-|고객||
-|Pain Point||
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오||
-|사용할 소프트웨어 패키지의 명칭과 URL||
-|팀그라운드룰||
-|최종수정일||
+|-----------|-----------|
+|프로젝트명|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
+|프로젝트 키워드|- 이온 트랩 양자 컴퓨팅 (Ion Trap Quantum Computing)<br>- 양자컴퓨팅 노이즈 완화(QEM)<br>- 측정 노이즈 완화 (Measurement Noise Mitigation)<br>- 머신러닝 기반 오류 보정 (ML-based Error Correction)<br>- 딥러닝 (DNN, Autoencoder, VAE)<br>- 전이 학습 (Transfer Learning)<br>- 효율적 미세조정 (PEFT, LoRA)<br>- 데이터 효율성 (Data Efficiency)|
+|트랙|연구|
+|프로젝트 멤버| 이솔민, 김은솜, 김정민 |
+|팀지도교수| 이형준 교수님 |
+|무엇을 만들고자 하는가| 양자 컴퓨팅의 상용화를 저해하는 측정 노이즈 문제를 해결하고자, 전이학습과 머신러닝을 활용하여 이온트랩 양자 컴퓨터의 측정 노이즈를 완화하는 솔루션을 제안 및 연구합니다. |
+|고객| - 양자컴퓨팅 연구자<br>- 양자-머신러닝 교차 분야 연구자<br>- NISQ 시대 속에서 양자 알고리즘을 연구하는 학부/대학원 연구실 |
+|Pain Point| 1. **측정 노이즈로 인한 신뢰도 저하** – 이온트랩 양자 컴퓨터는 측정 노이즈로 인해 연산 결과의 신뢰도가 크게 저하되어, NISQ 활용의 가장 큰 병목 현상이 되고 있음.<br>2. **기존 QREM 기법의 비효율성** – 대량의 캘리브레이션 데이터와 복잡한 보정 절차가 필요하며, 큐비트 수 증가 시 보정 행렬 크기가 기하급수적으로 커져 확장성이 떨어짐. |
+|사용할 소프트웨어 패키지/명칭과 용도| - **Qiskit**: Ion trap backend 시뮬레이션, measurement calibration, 회로 실행<br>- **PyTorch**: Autoencoder/MLP 모델 설계 및 학습<br>- **NumPy / Pandas**: 데이터 전처리 및 확률분포 계산<br>- **Matplotlib / Seaborn**: 결과 시각화 |
+|사용할 소프트웨어 패키지의 명칭과 URL| - [Qiskit](https://qiskit.org/)<br>- [PyTorch](https://pytorch.org/)<br>- [NumPy](https://numpy.org/) / [Pandas](https://pandas.pydata.org/)<br>- [Matplotlib](https://matplotlib.org/) / [Seaborn](https://seaborn.pydata.org/) |
+|팀그라운드룰| https://github.com/solmingming/Qubit_research/blob/abae11849a1e5a1d3836233593e7ab646292498f/GroundRule.MD) |
+|최종수정일| 2025.09.16.13:46 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -61,6 +64,24 @@
 |사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
 |최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 3 세얼간이
+|항목|내용|
+|---|---|
+|프로젝트명|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|프로젝트 키워드|프로젝트 관리, 협업, 팀 효율성|
+|트랙|산학 트랙|
+|프로젝트멤버|강민지, 임이랑, 정서윤|
+|팀지도교수|오세은 교수님|
+|무엇을 만들고자 하는가| 소규모 팀으로 협업 프로젝트를 진행하는 대학생이 작업 과정에서 발생하는 소통의 어려움과 참여 불균형 문제를 해소하기 위한 AI 기반 협업 프로젝트 지원 서비스입니다. AI가 회의록 기록, 발화 비율 분석, 참여도 시각화, 자동 피드백을 수행하여 팀 리더와 팀원 모두에게 효율적이고 공정한 협업 환경을 제공합니다. |
+|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황을 직관적으로 확인하고 싶음|
+|Pain Point|• 여러 대형 협업 툴을 혼용하다 보니 일정과 업무가 흩어져 관리 어려움 </br> • 개인 별 진행 상황이 직관적으로 파악되기 어려워 팀 전체 소통이 저해되고, 업무 분배가 원활하게 진행되지 않음 → 팀 내 참여도 불균형/ 업무 과부하 발생 </br> • 회의록에서 액션아이템(To-Do)이 누락되어 실제 실행력이 떨어짐 </br> • 팀원 간 감정적 갈등 발생 가능성을 우려해 직접적인 피드백 전달을 꺼리게 되어 업무 효율성 저해 발생 가능|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
+|사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
+|팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -321,6 +342,22 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 25 return 0;
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | **AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션** |
+| 프로젝트 키워드 | 반려동물, 여행, 위치 기반 서비스 (LBS), AI 추천, 맞춤형 서비스 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 유예나 (2076260) <br> 계예진 (2017003) <br> 민성원 (2076133) |
+| 팀 지도교수 | **심재형 교수님** |
+| 무엇을 만들고자 하는가 | 반려인이 반려동물과 함께 여행할 때, AI 추천과 위치 기반 데이터를 활용하여 숙소, 카페, 맛집, 산책로, 동반 가능한 관광지 등을 맞춤형으로 제공하는 차세대 애플리케이션을 개발하고자 한다. 사용자의 선호(예: 반려견 크기, 활동성 등)와 실시간 위치 정보를 결합하여 개인화된 여행 코스를 설계해주고, 리뷰 및 커뮤니티 기능을 통해 반려인들 간 경험 공유를 촉진한다. |
+| 고객 | **페르소나** <br>**김하은 (25세, 대학원생)**<br>김하은은 서울에서 대학원 생활을 하고 있는 25세 여성으로, 연구와 과제 때문에 일상에서 스트레스를 많이 받는다. 스트레스를 해소하기 위해 반려견 ‘보리(2살, 소형견)’와 함께 주말마다 근교로 짧은 여행을 떠나는 것을 즐긴다. 그러나 여행지를 선택할 때마다 가장 먼저 확인해야 하는 것이 ‘반려견 동반 가능 여부’인데, 이 정보가 여러 블로그와 사이트에 흩어져 있어 검색 과정이 번거롭다. 또한 예약 단계에서도 실제로 반려동물 출입이 허용되는지 명확히 표시되지 않아 불안감을 느끼는 경우가 많다. 과거에는 블로그 후기만 믿고 숙소를 예약했다가 실제 방문 시 반려동물 출입이 불가해 난처했던 경험도 있다.<br><br> **• 김하은 고객 요구사항**<br> **1. 저렴한 여행 옵션:** 대학원생 신분이라 예산이 제한적이기 때문에, 반려동물 동반이 가능하면서도 가성비 좋은 숙소와 카페를 찾고 싶다.<br> **2. 쉬운 정보 확인:** 반려견 크기, 동반 가능 구역, 추가 요금 여부 등을 한눈에 확인할 수 있도록 체계적으로 정리된 정보를 원한다.<br> **3. 신뢰성 있는 추천:** 단순 광고가 아닌 실제 사용자 리뷰와 AI 기반 추천을 통해 ‘안심하고’ 예약할 수 있는 서비스를 선호한다.<br><br> **오준석 (48세, 강사)**<br>오준석은 학원에서 강사로 근무하는 48세 남성으로, 평일에는 강의와 학생 관리로 바쁘게 시간을 보낸다. 주말에는 가족과 반려견 ‘코코(5살, 대형견)’와 함께 드라이브 여행을 즐기는 것이 일상의 소소한 행복이다. 하지만 대형견을 데리고 갈 수 있는 숙소나 맛집을 찾기가 특히 어렵다. 소형견은 허용하지만 대형견은 불가능한 경우가 많아, 몇 시간씩 인터넷을 검색해야 겨우 한두 곳을 찾는다. 이전에는 검색한 정보를 믿고 방문했다가 현장에서 “대형견은 불가하다”는 말을 듣고 발길을 돌려야 했던 불편한 경험도 겪은 바 있다.<br><br>  **• 오준석 고객 요구사항**<br> **1. 실용성 있는 추천:** 검색 시간을 최소화하고, 대형견도 편하게 이용할 수 있는 숙소·식당·산책로를 자동으로 추천받고 싶다.<br> **2. 쉬운 사용법:** 복잡한 기능보다는 직관적이고 간단한 UI를 선호하며, 예약 절차도 단순하길 원한다.<br> **3. 가족 친화성:** 모바일 사용에 익숙하지 않은 배우자도 쉽게 사용할 수 있는 인터페이스를 원한다. |
+| Pain Point | **1. 정보 탐색의 비효율성**<br>- 정보의 파편화: 반려동물 동반 가능 장소(숙소, 식당, 관광지) 정보가 여러 블로그, SNS, 예약 사이트에 흩어져 있어 정보 취합에 많은 시간이 소요됨.<br>- 대형견 정보 절대 부족: 소형견에 비해 대형견 동반 가능 장소에 대한 정보가 현저히 부족하여 검색에 수 시간을 허비함.<br><br>**2. 정보의 신뢰도 문제**<br>- 부정확하고 오래된 정보: 블로그 후기나 포털 사이트의 정보가 최신이 아니거나 실제 운영 방침과 달라 현장에서 낭패를 겪는 경험 발생. (예: 블로그만 믿고 방문했으나 동반 불가 통보)<br>- 불명확한 동반 규정: '반려동물 동반 가능'이라고만 명시되어 있고, 견종 크기 제한, 추가 요금, 동반 가능 구역(객실만 가능, 식당 외부만 가능 등)과 같은 세부 조건이 불명확하여 예약 및 방문 시 불확실성이 큼.<br><br>**3. 예약 및 방문 과정의 불편함**<br>- 반복적인 확인 절차: 신뢰도 문제로 인해 온라인 정보 확인 후에도 실제로 동반이 가능한지 일일이 전화로 재확인해야 하는 번거로움.<br>- 방문 실패 경험: 검색 정보를 믿고 현장에 도착했으나, 실제 규정이 달라 출입을 거부당하는 등 계획에 차질이 생기고 불쾌한 경험으로 이어짐. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심 기능 / 용도 | - **생성형 AI 모델 : GPT-5** → 사용자의 선호(반려동물 크기, 활동성, 예산 등)를 기반으로 개인화된 여행지·숙소 추천 알고리즘 구현<br>- **지도 플러그인 : google_maps_flutter** → Flutter 앱 내에서 Google Maps를 표시하고, 위치 기반 탐색·경로 안내 기능 제공<br>- **지도 플러그인 : kakao_map_plugin** → Flutter 앱에서 카카오 지도 API를 활용해 한국 지역 중심의 지도 서비스 구현<br>- **Firebase** → 사용자 인증, 실시간 데이터베이스, 푸시 알림 제공<br>- **MySQL** → 사용자 정보, 반려동물 프로필, 여행지 데이터, 리뷰 데이터 관리 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - **생성형 AI 모델 :** GPT-5 (https://openai.com/)<br> - **지도 플러그인 :** google maps flutter (https://pub.dev/packages/google_maps_flutter)<br> - **지도 플러그인 :** kakao map plugin (https://pub.dev/packages/kakao_map_plugin) |
+| 팀 그라운드 룰 | [GroundRules.md](https://github.com/ReturnZZero/return0/blob/main/GroundRules.md) |
+| 최종 수정일 | 2025-09-16 |
+
 ## Team 26 TriAI
 |항목|내용|
 |---|---|
@@ -371,6 +408,23 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 |**AI / Data** <br>- ARIMA : 시계열 예측 <br>- scikit-learn : 이상치 탐지 <br>- TensorFlow, PyTorch : 강화학습 <br>- D3.js, Chart.js : 시각화<br><br>- **Frontend** <br>- Zustand : 상태 관리 <br>- React Query + Axios : 서버 통신·캐싱 <br>- Tailwind CSS : UI 스타일링·대시보드 <br>- ESLint + Prettier : 코드 품질 관리 <br>- Recharts / Chart.js : 데이터 시각화 <br><br> **Backend**<br>- AWS EC2 : 서버 배포 및 운영 <br>- AWS S3 : 데이터·리포트 파일 저장 <br>- MySQL : 사용자·탄소 데이터 관리 <br>- Python : 데이터 처리·산출 로직 <br>- Firebase Realtime DB : 실시간 데이터 동기화 <br>- Docker : 컨테이너 기반 배포 <br>|
 | 사용할 소프트웨어 패키지의 명칭과 URL | **AI / Data** <br>- ARIMA : https://www.statsmodels.org/stable/tsa.html <br>- scikit-learn : https://scikit-learn.org/stable/ <br>- TensorFlow : https://www.tensorflow.org/ <br>- PyTorch : https://pytorch.org/ <br>- D3.js : https://d3js.org/ <br>- Chart.js : https://www.chartjs.org/ <br><br>**Frontend**  <br>- React : https://react.dev/ <br>- TypeScript : https://www.typescriptlang.org/ <br>- Zustand : https://zustand-demo.pmnd.rs/ <br>- Tailwind CSS : https://tailwindcss.com/ <br>- React Query : https://tanstack.com/query/latest <br>- Axios : https://axios-http.com/docs/intro <br>- ESLint : https://eslint.org/ <br>- Prettier : https://prettier.io/ <br><br> **Backend** <br>- AWS EC2, S3 : https://aws.amazon.com/ <br>- MySQL : https://www.mysql.com/ <br>- Python : https://www.python.org/ <br>- Firebase Realtime Database : https://firebase.google.com/products/realtime-database <br>- Docker : https://www.docker.com/ <br>|
 | 팀그라운드룰 | https://github.com/smileblu/Capstone/blob/main/GroudRule.md |
+| 최종수정일 | 2025.09.16. |
+
+## Team 29 Nitro
+
+| 항목 | 내용 |
+| --- | --- |
+| 프로젝트명 | **Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano** |
+| 프로젝트 키워드 | Edge-Optimized Multimodal model, Inference Acceleration, Edge Device, Embedded AI, Profiling |
+| 트랙 | 연구 |
+| 프로젝트 멤버 | 박세진, 박윤형, 강선화 |
+| 팀 지도교수 | 윤명국 |
+| 무엇을 만들고자 하는가 | **엣지 디바이스(Jetson Nano)**에서 실행 가능한 **경량화 멀티모달 모델**을 대상으로, **하드웨어 병목을 분석하고 아키텍처 수준에서 최적화**함으로써 **추론(inference) 속도를 향상**시키는 시스템을 구축하는 것이다. |
+| 고객 | Jetson Nano와 같이 컴퓨팅 자원이 제한된 소형 임베디드 시스템에서, 계산 복잡도가 높은 멀티모달(Multimodal) task를 수행하고자 하는 연구원 및 개발자 |
+| Pain Point | 최근 Vision-Language(VL) 모델의 급격한 발전에도 불구하고, 엣지 디바이스 환경에서 멀티모달 입력(RGB, depth, IR 등)을 효율적으로 처리하고, 제한된 연산 자원과 메모리 제약을 극복하는 것은 여전히 큰 도전이다.<br />기존 연구들은 Knowledge Distillation, Model Pruning, Quantization 등 소프트웨어 기반 경량화 기법을 통해 모델 크기와 연산량을 줄였으나, 경량화된 모델을 실제 엣지 디바이스에 배치했을 때, 레이어별 HW 병목(layer-level latency bottleneck)을 분석하고 아키텍처 수준에서 최적화하여 inference 속도를 극대화하는 연구는 미흡하다. <br />엣지 친화적 멀티모달 모델 구현에서는 단순한 소프트웨어 경량화뿐 아니라, **디바이스 하드웨어 특성을 고려한 병목 분석 및 아키텍처-레벨 최적화가 핵심적인 연구 과제**로 남아 있다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | **1. 멀티모달 모델 프레임워크**<br />- PyTorch: 멀티모달 모델 로딩 및 추론<br />- CUDA/cuDNN: 가속 연산 지원<br />- EdgeVL: Jetson Nano용 경량화 VLM, 멀티 모달 입력 지원, baseline inference<br /><br />**2. 엣지 디바이스 최적화**<br />- NVIDIA TensorRT: GPU/Jetson용 inference 최적화, 연산 병렬화, FP16/INT8 양자화 지원<br />- ONNX / ONNX Runtime: 모델 변환 및 다양한 하드웨어에서 추론, 연산 최적화<br /><br />**3. 프로파일러**<br />- Nsight Systems: Jetson Nano GPU/CPU layer별 latency 분석, 병목 지점 시각화<br />- PyTorch Profiler: 연산별 latency, memory 사용량 분석, layer별 bottleneck 확인<br />- TorchMetrics: 모델 성능 평가, accuracy/CLIP-score 등 task-specific metric 계산 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - PyTorch: https://pytorch.org/<br />- CUDA Toolkit: https://developer.nvidia.com/cuda-toolkit<br />- EdgeVL: https://github.com/ramdrop/edgevl<br />- NVIDIA TensorRT: https://developer.nvidia.com/tensorrt<br />- ONNX / ONNX Runtime: [https://onnxruntime.ai](https://onnxruntime.ai/)<br />- NVIDIA NSight: https://developer.nvidia.com/nsight-systems<br />- PyTorch Profiler: https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html<br />- TorchMetrics: https://lightning.ai/docs/torchmetrics/stable/ |
+| 팀그라운드룰 URL | https://github.com/Nitro-Ewha/Multimodal_on_Jetson/blob/main/GroudRule.MD |
 | 최종수정일 | 2025.09.16. |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
