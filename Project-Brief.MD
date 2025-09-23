@@ -37,7 +37,7 @@
 |[34](#team-34-200OK)|200OK|학생을 위한 AI 기반 교육 게임 플랫폼|
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[36](#team-36-이게되네)|이게되네|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
-|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
 |[39](#team-39-NexStep)|NexStep|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
@@ -703,7 +703,7 @@
 ## Team 37 OptimusPrime
 |항목|내용|
 |---|---|
-|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안|
 |프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
 |트랙|연구|
 |프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
