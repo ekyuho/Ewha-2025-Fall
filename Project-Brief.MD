@@ -35,7 +35,7 @@
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[33](#team-33-할수있다-능)|할수있다 능|해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스|
 |[34](#team-34-200OK)|200OK|학생을 위한 AI 기반 교육 게임 플랫폼|
-|[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[35](#team-35-EWIN)|EWIN|자기주도 학습을 하는 대학생을 위한, 강의자료를 분석하고 개인 맞춤형 질문을 생성하여 깊이 있는 학습을 유도하는 AI 튜터링 서비스|
 |[36](#team-36-이게되네)|이게되네|고령층의 안전한 모바일 사용을 위한 문자·URL·웹페이지 단계별 피싱 탐지 시스템|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
@@ -667,18 +667,18 @@
 ## Team 35 EWIN
 |항목|내용|
 |---|---|
-|프로젝트명|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
-|프로젝트 키워드|음성 검색 및 인식(STT), 음성 안내(TTS), 길도우미, GPS, NLP|
+|프로젝트명|자기주도 학습을 하는 대학생을 위한, 강의자료를 분석하고 개인 맞춤형 질문을 생성하여 깊이 있는 학습을 유도하는 AI 튜터링 서비스|
+|프로젝트 키워드|생성형 AI, 능동적 학습, 프롬프트 엔지니어링, 개인 맞춤형 학습, STT, OCR|
 |트랙|산학|
 |프로젝트 멤버|이지원 이예은 김우빈|
 |팀지도교수| 심재형 |
-|무엇을 만들고자 하는가|시각장애인을 위해, 화면을 보고 목록을 선택해야 하는 기존 내비게이션의 불편함을 해소하고, 음성 인식을 통한 목적지 검색(STT)부터 음성 대화를 통한 최종 목적지 확정, 그리고 도보 안내(TTS)까지 모든 과정을 음성만으로 제공하는 길도우미 서비스입니다.|
-|고객| **&lt;페르소나&gt;** <BR>김땡땡(25세, 여)<br><br>**• 배경**<br>김땡땡 씨는 시각장애인으로, 일상생활에서 대부분 음성 지원 기술과 점자 표시에 의존한다. 어느 무더운 여름날, 그녀는 길을 걷다가 시원한 음료를 사기 위해 가까운 편의점을 찾고 싶었다. 스마트폰으로 목적지를 검색하려 했지만, 화면이 잘 보이지 않아 사용이 매우 번거롭고 불편했다. 기존 시각장애인용 내비게이션 앱은 화면 터치와 안내 선택이 필수여서, 그녀가 원하는 ‘음성만으로 길 안내’는 제공되지 않았다.<br><br>**• 사용자의 요구**<br>&nbsp;&nbsp;- 화면을 보거나 터치하지 않고도 음성 만으로 목적지를 검색하고 안내받고 싶다.<br>&nbsp;&nbsp;-‘가장 가까운 편의점’ 처럼 주변 시설을 거리순으로 쉽게 찾고 안내받고 싶다.<br><br>**• 기대 사항**<br>내 상황과 의도를 파악하여 "가장 가까운 편의점은 OO점입니다. 길안내를 시작할까요?" 와 같이 지능적으로 되묻고, 음성만으로 모든 과정을 완료해주는 서비스를 원한다. |
-|Pain Point|현재의 음성 검색 시스템은 사용자가 'GS25 이대역점'처럼 정확한 전체 명칭을 말해야 도착지로 설정합니다. 음성만으로 서비스를 이용하려면 사전에 모든 정확한 정보를 파악하고 있어야 합니다. <BR>예를 들어, '가까운 편의점 찾아줘'라고 검색하면, 시스템은 주변 편의점 전체 목록을 화면에 띄웁니다. 결국 사용자는 안내를 시작하기 위해 다시 화면을 보고 목록을 확인하고 손으로 직접 터치해야만 합니다.|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|**[STT, TTS]** Google Cloud API<BR> **[NLP]** Open AI GPT API<BR> **[LBS]** Naver Maps API<BR> **[백엔드]** Flask<BR> **[앱 개발]** React Native<BR> **[DB]** Firebase Realtime|
-|사용할 소프트웨어 패키지의 명칭과 URL|Google Cloud Speech-to-Text API: [https://speech.googleapis.com](https://speech.googleapis.com/)<BR>Google Cloud Text-to-Speech API: [https://texttospeech.googleapis.com](https://texttospeech.googleapis.com/)<BR>Open AI GPT API: https://chatgpt.com/<BR>Naver Maps API: https://navermaps.github.io/maps.js.ncp/<BR>Flask: [https://flask.palletsprojects.com](https://flask.palletsprojects.com/)<BR>React Native: https://ko.legacy.reactjs.org/<BR>Firebase Realtime DB: https://firebase.google.com/products/realtime-database|
+|무엇을 만들고자 하는가|PDF 강의록, 학생의 손필기, 강의 녹음 파일에 대한 종합적인 분석을 기반으로 비판적 사고 질문과 소크라테스식 대화를 생성하여, 학생의 깊이 있는 학습을 돕는 능동적 학습 파트너로서 기능하는 AI 조교 웹 서비스를 개발합니다.|
+|고객| **&lt;페르소나&gt;** <BR>김땡땡(25세, 여)<br><br>**• 배경**<br>김땡땡 씨는 컴퓨터공학 전공 대학생입니다. 수업 내용을 필기해둔 pdf 강의록, 그리고 이해가 어려웠던 부분만 다시 들으려고 녹음해 둔 음성 파일이 모두 제각각 흩어져 있습니다. pdf 필기를 확인하고, 다시 녹음 파일을 찾아 들으며 내용을 연결하려니 시간도 오래 걸리고 집중력도 흐트러집니다. 또한 공부 후 'circuit switch와 packet switch의 핵심적인 차이점이 뭐지?'라고 스스로 질문을 던지니, 명확하게 설명하기 어렵다는 사실을 깨닫고 답답함을 느낍니다.  스터디 그룹도 생각해봤지만, 바쁜 시험 기간에 다른 사람들과 시간을 맞추는 것도, 새로운 사람들과의 만남에 에너지를 쓰는 것도 부담스럽습니다.<br><br>**• 사용자의 요구**<br>&nbsp;&nbsp;- PDF 강의록, 내 손필기, 강의 녹음 파일을 한곳에서 유기적으로 연결하여 보고 싶다.<br>&nbsp;&nbsp;-단순히 내용을 확인하는 것을 넘어, 내 이해도를 점검할 수 있는 핵심적인 질문을 받아보고 싶다.<br>&nbsp;&nbsp;-함께 공부할 스터디 파트너가 없어도, 비판적 질문을 통해 혼자서 깊이 있는 공부를 하고 싶다.<br><br>**• 기대 사항**<br>내가 가진 모든 강의 자료를 종합적으로 이해하고, 나의 학습 상태를 파악하여 "강의록 3페이지의 스케줄링 알고리즘 내용과 교수님의 음성 부가 설명을 종합해볼 때, FCFS 방식의 가장 큰 문제점은 무엇일까요?"와 같이 핵심 질문을 던져주는 나만의 AI 학습 조교가 있었으면 좋겠다. |
+|Pain Point|1. 지식의 파편화: 강의록 내용, 내가 한 필기, 교수님의 부연 설명이 모두 따로따로 존재하여 유기적으로 연결하기 어렵다.<br>2. 수동적 학습의 한계: 밑줄과 형광펜만으로는 지식을 '내 것'으로 만들기 어려우며, 무엇을 알고 무엇을 모르는지조차 모르는 상태에 빠진다.<br>3. 질문의 부재: 함께 공부할 스터디 파트너가 없으면, 비판적인 질문을 통해 사고를 확장할 기회가 없다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|**[React.js]** 사용자 인터페이스(UI) 개발을 위한 프론트엔드 라이브러리<BR> **[Python Flask]** AI 모델 연동 및 API 서버 구축을 위한 백엔드 프레임워크<BR> **[OpenAI Whisper]** 강의 음성 파일을 텍스트로 변환 (STT)<BR> **[EasyOCR]** 강의록 위 손필기를 텍스트로 인식 (OCR)<BR> **[PyMuPDF]** PDF 강의 파일에서 텍스트 및 메타데이터 추출<BR> **[Google Gemini API]** 추출된 모든 데이터를 기반으로 핵심 질문을 생성하는 LLM|
+|사용할 소프트웨어 패키지의 명칭과 URL|React.js:  https://react.dev<BR>Flask:  https://flask.palletsprojects.com<BR>OpenAI Whisper: https://github.com/openai/whisper<BR>EasyOCR:  https://github.com/JaidedAI/EasyOCR<BR>PyMuPDF:  https://pypi.org/project/PyMuPDF/<BR>Google Gemini API:  https://ai.google.dev/|
 |팀그라운드룰|https://github.com/25-2-team35/Capstone/blob/main/GroundRule.md|
-|최종수정일|2025.09.16|
+|최종수정일|2025.09.22|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
