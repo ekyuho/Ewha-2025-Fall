@@ -3,7 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
-|[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
+|[40](#team-40-MIND)|MIND|경도인지장애(MCI) 환자의 rs-fMRI 뇌혈류 동영상 데이터를 활용한 Radiomics 및 그래프 신경망 기반 알츠하이머 조기 진단 연구|
 
 ## Team 1 팀명1
 |항목|내용|
@@ -43,8 +43,8 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 뇌혈류 영상 분석을 통한 알츠하이머 조기 진단 |
-| 프로젝트 키워드 | Alzheimer’s disease, Mild Cognitive Impairment, rs-fMRI, ASL, CBF, ALFF, fALFF, ReHo, Functional Connectivity, Dynamic FC, Graph Neural Networks, Transformer, ComBat, Domain Generalization, Explainable AI, Radiomics |
+| 프로젝트명 | 경도인지장애(MCI) 환자의 rs-fMRI 뇌혈류 동영상 데이터를 활용한 Radiomics 및 그래프 신경망 기반 알츠하이머 조기 진단 연구 |
+| 프로젝트 키워드 | 알츠하이머, rs-fMRI 영상, 뇌 기능적 연결성 측정, GNN, Radiomics |
 | 트랙 | 연구트랙 |
 | 프로젝트 멤버 | 김가영 / 한승연 |
 | 팀지도교수 | 황의원 교수님 |
