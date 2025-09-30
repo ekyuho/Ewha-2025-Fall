@@ -669,7 +669,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도| ① **Python(FastAPI)** – AI 모듈 서버 구현, 문제 생성 및 학습 데이터 분석 API 제공 <br> ② **ChatGPT API** – GPT 기반 자동 문제 생성 및 학생 맞춤형 학습 피드백 제공 <br> ③ **React** – 퀘스트 제작 툴 및 교사용 대시보드 UI, 학생용 학습 UI 구현 <br> ④ **Phaser.js** – RPG 전투 시스템 및 게임 화면 구현 <br> ⑤ **Spring Boot + MySQL** – 사용자, 세션, 퀘스트 데이터 관리 및 백엔드 로직 처리 <br> ⑥ **Redis + WebSocket** – 학습 세션 실시간 동기화 및 진행 현황 공유 |
 |사용할 소프트웨어 패키지의 명칭과 URL| ① [FastAPI](https://fastapi.tiangolo.com/ko/) <br> ② [ChatGPT API](https://platform.openai.com/docs/) <br> ③ [React](https://ko.react.dev/) <br> ④ [Phaser.js](https://phaser.io/) <br> ⑤ [MySQL](https://www.mysql.com) <br> ⑥ [Spring Boot](https://spring.io/projects/spring-boot) <br> ⑦ [Redis](https://redis.io/) |
 |팀그라운드룰 URL| [팀그라운드룰](https://github.com/capston-organization/2025-start-200OK/blob/main/GroundRule.MD) |
-|최종수정일| 2025-09-18 |
+|최종수정일| 2025-09-30 |
 
  [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
