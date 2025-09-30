@@ -1,7 +1,7 @@
 |팀번호|팀명|Repository|
 |:---|:---|:---|
 | 1 | Qubit(큐비트) | https://github.com/solmingming/Qubit_research.git  |
-| 2 | BBP | https://github.com/capstone25-2-MBP/MBP |
+| 2 | MBP | https://github.com/capstone25-2-MBP/MBP |
 | 3 | 세얼간이(All_Is_Well) | https://github.com/yoozafree/ALL_IS_WELL  |
 | 4 | ADHD | https://github.com/kelly96110jung/Start |
 | 5 | Hibee | https://github.com/firstprojectof3/Hibee  |
@@ -23,7 +23,7 @@
 | 21 | 봉원아사랑해 | https://github.com/BWLOVERS/docs  |
 | 22 | NOVA | https://github.com/TEAM-N0VA/N0VA  |
 | 23 | Synapse | https://github.com/wonjungm/Synapse.git  |
-| 24 | 이루리 | https://github.com/youjean-s/2025-fall-iruri-start/blob/main/README.md  |
+| 24 | 이루리 | https://github.com/youjean-s/2025-fall-iruri-start  |
 | 25 | return 0; | https://github.com/ReturnZZero/return0.git |
 | 26 | TriAI | https://github.com/graduation-TriAI/TriAI  |
 | 27 | Matcha Tonic | https://github.com/cse2348/2025_MatchaTonic  |
@@ -31,7 +31,7 @@
 | 29 | Nitro | https://github.com/Nitro-Ewha/ai-accelerator.git  |
 | 30 | LGTM | https://github.com/eunkr82/Team-LGTM  |
 | 31 | 플랜B | https://github.com/PLAN-B-EWHA/Capstone-31  |
-| 32 | 올인원 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
+| 32 | 올데이 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
 | 33 | 할수있다 능 | https://github.com/Capstone-CanDo/CanDo  |
 | 34 | 200OK | https://github.com/capston-organization/2025-start-200OK  |
 | 35 | EWIN | https://github.com/25-2-team35/Capstone  |
