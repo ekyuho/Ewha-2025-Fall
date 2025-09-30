@@ -9,7 +9,7 @@
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
 |[7](#team-7-我)|我|온라인 정체성 구축에 어려움을 겪는 MZ세대 개인을 위한, 멀티모달 AI 기반 페르소나 시각화 웹서비스|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
-|[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
+|[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 데이터를 이용한 메모리 경량화된 tumor 예측 XAI 모델|
 |[10](#team-10-JL)|JL|Image Classification을 이용한 딥러닝을 기반으로 탐조 입문자에게 새의 종을 알려주고, 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공하는 앱서비스|
 [11](#team-11-CrossAlpha)      |CrossAlpha|시간과 전문성이 부족한 개인 주식 투자자를 위한, 최신 경제 동향이 내 포트폴리오에 미치는 리스크와 인사이트를 제공하는 투자 의사결정 보조 도구|
 |[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
@@ -199,12 +199,12 @@
 ## Team 9 SiYa
 |항목|내용|
 |---|---|
-|프로젝트명|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
+|프로젝트명|멀티모달 의료&바이오 데이터를 이용한 메모리 경량화된 tumor 예측 XAI 모델|
 |프로젝트 키워드|Computer Vision, Multimodal, Medical AI|
 |트랙|연구|
 |프로젝트 멤버|류다현, 박은서, 유지혜|
 |팀지도교수|황의원 교수님|
-|무엇을 만들고자 하는가|주어진 데이터를 기반으로 tumor 여부를 정확히 진단할 뿐만 아니라 임상적 이점(설명 가능성, 범용성 등)을 갖는 설명 가능한 의료 AI|
+|무엇을 만들고자 하는가|주어진 데이터를 기반으로 tumor 여부를 정확히 진단할 뿐만 아니라 임상적 이점(설명 가능성, 범용성 등)을 갖는 medical XAI|
 |고객|multimodal data를 활용해 환자의 병명을 정확히 진단하고, 진단 과정을 설명할 수 있어야 하는 병원과 보건소 등의 의료기관|
 |Pain Point|의료 AI는 높은 정확성과 더불어 설명가능성 확보가 중요하나, 기존 의료 AI 연구는 단순히 예측 성능 향상에만 주목하고 있다. 더불어 기존의 모델들은 image data에 관한 예측 성능이 떨어지며 범용성 또한 떨어진다는 문제점을 안고 있으며 모델이 무거워 성능을 끌어올리는 데에 하드웨어적 한계도 존재한다. 이러한 점들은 의료 AI의 성능을 끌어올리는 데에 있어 핵심적인 과제로 주목받고 있다.|
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|- MuSeGNN(scRNAseq+transcriptomics 통합 활용, gene-gene relationship 학습) <br> - scBERT(scRNAseq 기반 LLM을 활용해 gene-gene interaction 학습 및 cell type annotation 수행) <br> - Gene2vec(co-expression 패턴 기반 gene embedding 제공) <br> - CS-CORE(scRNAseq 데이터 기반 co-expression 예측하는 R 패키지) <br> - scTransform(scRNAseq data normalization, variance stabilization하는 R 패키지) <br> - Celcomen(인과적 식별성을 보장하는 공간전사체(ST) 데이터 기반 모델) <br> - Scanpy(single-cell data 분석하는 python 패키지)|
