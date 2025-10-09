@@ -145,12 +145,10 @@
 |무엇을 만들고자 하는가|멀티모달 모델인 CLIP을 중심으로, 자원이 제한되는 환경에서도 성능은 유지할 수 있도록, knowledge distillation 또는 Pruning 기법을 적용하여 모델을 경량화하고자 합니다.|
 |고객|AI/ML 기술을 사용하는 스타트업 또는 기업: 데이터 용량이 제한적이거나, 실시간 응답 속도가 중요한 서비스를 개발하는 기업들은 가벼우면서도 성능이 우수한 모델이 필요로 합니다. 기존의 거대 Transformer 기반 멀티모달 모델은 높은 연산 비용과 느린 추론 속도 때문에 사용하기 어려워, 연구를 통해 빠르고 가벼운 CLIP 모델 제공하고자 합니다.|
 |Pain Point|최근 텍스트, 이미지, 음성 등 여러 종류의 데이터를 동시에 이해하고 처리하는 멀티모달(Multi-modal) 모델이 AI 기술의 새로운 핵심으로 부상하고 있습니다. 하지만 멀티모달 모델의 특성상 여러 인코더와 이를 통합하는 복잡한 아키텍처를 가지고, 이는 단일 모델보다 훨씬 더 큰 모델 크기와 많은 연산량을 요구합니다. 이는 곧 배포의 한계, 비용 부담, 환경 문제 등으로 이어지며 기술의 대중화와 실용화를 막는 걸림돌이 되고 있습니다.|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - CLIP: 이미지와 텍스트를 함께 이해하도록 학습된 멀티모달 모델입니다. 핵심 기능은 이미지-텍스트의 동일한 임베딩 공간에 매핑, 대조 학습, 제로샷 분류로 정의됩니다.
-- Knowledge Distillation : 큰 모델(teacher)의 “지식(로짓/특징/관계)”을 작은 모델(student)에 옮겨서 정확도는 최대한 유지하면서 파라미터와 지연시간을 줄이는 기법.|
-|사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP
-- Knowledge Distillation : https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html?utm_source=chatgpt.com|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - CLIP: 이미지와 텍스트를 함께 이해하도록 학습된 멀티모달 모델입니다. 핵심 기능은 이미지-텍스트의 동일한 임베딩 공간에 매핑, 대조 학습, 제로샷 분류로 정의됩니다.<br>- Knowledge Distillation : 큰 모델(teacher)의 “지식(로짓/특징/관계)”을 작은 모델(student)에 옮겨서 정확도는 최대한 유지하면서 파라미터와 지연시간을 줄이는 기법.|
+|사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP <br>- Knowledge Distillation : https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html?utm_source=chatgpt.com|
 |팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
-|최종수정일|2025.09.30|
+|최종수정일|2025.10.10|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
