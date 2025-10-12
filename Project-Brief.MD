@@ -3,7 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-Qubit)|Qubit|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
 |[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
-|[3](#team-3-세얼간이)|세얼간이|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|[3](#team-3-세얼간이)|세얼간이|대학생 개발자 팀의 효율적인 협업을 위한 회의록 기반의 지능형 진척 관리 및 피드백 시스템|
 |[4](#team-4-RenYER)|RenYER|만성 신장 질환 환자를 위한 맞춤형 영양 관리 앱|
 |[5](#team-5-HiBee)|HiBee|과도한 디지털 자극에 노출된 현대인들을 위해, 스마트폰 사용 데이터를 분석해 자기 통제를 돕는 게임형 행동 개선 어플리케이션|
 |[6](#team-6-Brownie)|Brownie|대형 CLIP 모델의 제로샷 일반화 능력 유지를 위해 이미지-텍스트 쌍의 대조적 임베딩 관계 구조를 그대로 전이하는 경량 멀티모달 모델 지식 증류 기법 연구|
@@ -81,7 +81,7 @@
 ## Team 3 세얼간이
 |항목|내용|
 |---|---|
-|프로젝트명|소통의 어려움과 참여 불균형에 직면한 대학생 팀을 위해, AI가 회의 기록·업무 분배·자동 피드백을 제공하는 효율적 협업 지원 플랫폼|
+|프로젝트명|대학생 개발자 팀의 효율적인 협업을 위한 회의록 기반의 지능형 진척 관리 및 피드백 시스템|
 |프로젝트 키워드|프로젝트 관리, 협업, 팀 효율성|
 |트랙|산학 트랙|
 |프로젝트멤버|강민지, 임이랑, 정서윤|
@@ -92,7 +92,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
 |사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
 |팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
-|최종수정일|2025-09-16|
+|최종수정일|2025-10-11|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
