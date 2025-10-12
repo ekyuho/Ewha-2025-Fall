@@ -46,7 +46,7 @@
 |항목|내용|
 |---|---|
 |프로젝트명|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
-|프로젝트 키워드|- 이온 트랩 양자 컴퓨팅 (Ion Trap Quantum Computing)<br>- 양자컴퓨팅 노이즈 완화(QEM)<br>- 측정 노이즈 완화 (Measurement Noise Mitigation)<br>- 머신러닝 기반 오류 보정 (ML-based Error Correction)<br>- 딥러닝 (DNN, Autoencoder, VAE)<br>- 전이 학습 (Transfer Learning)<br>- 효율적 미세조정 (PEFT, LoRA)<br>- 데이터 효율성 (Data Efficiency)|
+|프로젝트 키워드|- 양자 컴퓨팅 (Quantum Computing)<br>- 측정 노이즈 (Measurement Noise)<br>- 전이 학습 (Transfer Learning) |
 |트랙|연구|
 |프로젝트 멤버| 이솔민, 김은솜, 김정민 |
 |팀지도교수| 이형준 교수님 |
