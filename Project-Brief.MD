@@ -16,7 +16,7 @@
 |[13](#team-13-최우수)|최우수|양육자의 뇌 MRI 멀티모달 이미지를 활용하여 양육 스트레스 심각도를 예측하는 설명 가능한 모델 개발|
 |[14](#team-14-BestFriend)|BestFriend|AI 기반 심리 공포게임: PPO 기반 강화학습 NPC와의 상호작용을 통한 개인 맞춤형 공포 체험|
 |[15](#team-15-잠가보카)|잠가보카|강제 잠금 기반 퍼스널 AI 튜터링 언어학습 모바일 애플리케이션 설계 및 구현|
-|[16](#team-16-트리오링고)|트리오링고|플레이어가 채팅, 대화, 몸짓을 활용해 특정 NPC를 훈련시키고, 그 NPC를 마을의 수호자로 성장시키는 스토리형 어드벤처 게임|
+|[16](#team-16-트리오링고)|트리오링고|플레이어가 대화, 몸짓을 활용해 특정 NPC를 훈련시키고, 그 NPC를 마을의 수호자로 성장시키는 스토리형 어드벤처 게임|
 |[17](#team-17-CtrlS)|CtrlS|난독 아동을 위한 음성 인식 기반 읽기 오류 패턴 분석 및 텍스트 적응형 생성을 통한 맞춤형 동화책 학습 시스템|
 |[18](#team-18-AIDERS)|AIDERS|K-pop 레이블 홍보팀을 위한 실시간 팬덤 이슈 감지·분석 및 대응 지원 AI Agent 서비스|
 |[19](#team-19-상킷)|상킷|Multimodal AI를 활용한 맞춤형 유튜브 썸네일·제목 컨설팅 시스템 |
@@ -581,13 +581,13 @@
 |트랙|산학|
 |프로젝트멤버|임나은, 김재이, 서영|
 |팀지도교수|오세은 교수님|
-|무엇을 만들고자 하는가|공모전, 경진대회 등에 참여할 팀원을 구하는 플랫폼을 만든다. LLM 기반 챗봇을 통해 원하는 팀공고를 쉽고 정확하게 찾을 수 있으며 AI를 이용하여 유해성 높은 공고를 필터링 해준다. |
+|무엇을 만들고자 하는가|공모전, 경진대회 등에 참여할 팀원을 구하는 팀매칭 플랫폼을 만든다. 포트폴리오를 통해 해당 사람의 주요 기술, 역할, 경험 등의 키워드를 추출한다. 그리고 사람들이 올린 공고를 DB에 저장하고 핵심 키워드를 추출한다. 이를 기반으로 챗봇을 통해 원하는 팀원과 공고을 쉽게 추천받을 수 있다. |
 |고객|공모전에 나가기 위해 팀원을 구하고 있는 대학생|
 |Pain Point|대부분의 공모전, 경진대회는 팀 단위로 참여해야 한다. 그러나 현재 나와 있는 대부분의 팀매칭 플랫폼은 사이드프로젝트 팀원 구인을 주 목적으로 하며, 유저의 대부분은 현직자이므로 대학생이 사용하기엔 한계가 있다. 대학생들이 팀에 필요한 역량을 갖춘 팀원을 구하는데 많은 어려움이 있다. |
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI, Google Cloud AI: AI 기반 부적절 공고 필터링, AI 챗봇을 구현한다.|
-|사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> 3. AI <br> Google Cloud Moderate Text AI <https://cloud.google.com/natural-language/docs/moderating-text?hl=ko><br> Chat GPT <https://openai.com/ko-KR/index/openai-api/>|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot, FASTAPI :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI: 팀원 추천기능, 공고추천기능을 수행하며 AI 챗봇을 통해 추천정보를 제공한다. <br> 4. 인프라/DB<br> PostgreSQL, pgvector, AWS S3: 사용자, 포트폴리오 정보들을 저장한다. AI와 연결하여 팀원 추천, 공고추천 기능을 제공한다.<br> AWS EC2, Redis, Docker: 서버를 연결하고 배포한다.|
+|사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> FastAPI: <https://fastapi.tiangolo.com/> <br>3. AI <br> Chat GPT <https://openai.com/ko-KR/index/openai-api/><br> 4. 인프라/DB<br> PostgreSQL:<https://www.postgresql.org/> <br> pgvector : <https://github.com/pgvector/pgvector> <br> AWS EC2: <https://aws.amazon.com/ko/ec2/><br> AWS S3: <https://aws.amazon.com/ko/s3/> <br> Redis: <https://redis.io/> <br> Docker: <https://www.docker.com/>|
 |팀그라운드룰|<https://github.com/2025-TEAM-LGTM/LGTM-docs/blob/main/GroundRule.md>|
-| 최종 수정일 | 2025.09.16 |
+| 최종 수정일 | 2025.10.13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -632,18 +632,18 @@
 
 | **항목** | **내용** |
 | --- | --- |
-|프로젝트명| 해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스 |
-|프로젝트 키워드| 큐싱 범죄 예방, 머신러닝, URL 데이터 분석 |
-|트랙| 산학 |
-|프로젝트 멤버| 황규리, 신예진, 김태연 |
-|팀지도교수| 오세은 교수님 |
-|무엇을 만들고자 하는가| 본 프로젝트는 해외여행자가 QR코드를 스캔했을 때 발생할 수 있는 큐싱 위험을 최소화하기 위한 AI 기반 보안 서비스를 개발하는 것을 목표로 합니다. <br> 사용자가 QR코드를 스캔하면 URL을 자동으로 추출하고, 랜덤 포레스트(Random Forest) 알고리즘을 활용한 URL 분석 모델을 적용하여 새로운 피싱 사이트까지 판별할 수 있도록 합니다. |
-|고객| 해외여행 중 QR 코드를 스캔해야 하는 사용자 (교통, 관광, 결제, 와이파이 접속 등) |
-|Pain Point| 해외여행자를 대상으로 한 큐싱(QR 피싱) 피해는 꾸준히 증가하고 있습니다.<br><br>낯선 환경에서 관광, 교통, 와이파이 접속, 결제 등 다양한 상황에서 QR코드를 사용하는 경우가 많지만, 사용자는 해당 URL이 안전한지 직접 확인하기 어렵습니다. 특히 언어 장벽과 낮은 보안 인식으로 인해 가짜 결제 페이지나 위장된 로그인 화면에 쉽게 속아 개인정보와 금융정보를 입력하게 되는 사례가 빈번합니다.<br><br>그럼에도 불구하고 현재까지 해외여행 상황에 특화된 큐싱 방지 서비스는 거의 존재하지 않아, 여행자들은 보안 공백 속에 노출되어 있는 실정입니다. |
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|React + react-qr-reader**: 모바일 웹에서 QR 이미지 스캔 → URL 추출 및 서버 전송, “안전 / 의심 / 위험” 상태 표시, 피처별 근거 안내, 실시간 분석 결과 확인 <br> **Spring Boot 라이브러리 (Apache Commons Validator, java.net.URL, PublicSuffix)**: URL 구조 검증, 도메인 분석, typosquatting 탐지 <br> **FastAPI + Python (scikit-learn / XGBoost, SHAP)**: URL 정상/악성 분류, 위험도 점수 계산, 신규 악성 URL 탐지, 예측 근거 제공 <br> **MySQL**: URL, QR 메타데이터, 분석 결과, 위험 점수 저장 <br> **OpenAi API**: 모델 예측 근거 설명을 자연어로 변환, 사용자 맞춤 안내 제공 |
-|사용할 소프트웨어 패키지의 명칭과 URL|백엔드** <br>• Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)<br> • OpenAi API: https://openai.com/ko-KR/<br><br> **프론트엔드** <br>• React: [https://ko.react.dev/](https://ko.react.dev/) <br><br> **데이터베이스** <br>• MySQL: [https://www.mysql.com/](https://www.mysql.com/) <br><br> |
-|팀그라운드룰| [Ground Rule](https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD) |
-|최종수정일| 2025.09.18 |
+| 프로젝트명 | 해외여행 중 악성 URL로 연결되는 QR 스캔 위험으로부터 사용자의 안전한 접속을 돕는 스마트 어시스턴트 |
+| 프로젝트 키워드 | 피싱 범죄 예방, 웹 뷰, URL 데이터 분석, 머신러닝  |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 황규리, 신예진, 김태연 |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | 본 프로젝트는 해외여행자가 QR코드를 스캔했을 때 발생할 수 있는 피싱(큐싱) 위험을 최소화하기 위한 **AI 기반 보안 서비스**를 개발하는 것을 목표로 합니다.<br>이 서비스는 사용자가 QR코드를 스캔하면 URL을 자동으로 추출하고, 머신러닝 기반 URL 분석 모델을 적용하여 피싱 사이트를 판별할 수 있도록 합니다. URL이 악성으로 판단되는 경우 판단근거를 제공하여 사용자의 이해를 돕습니다. 정상으로 판단되는 경우에는 샌드박스 모드 웹 뷰를 제공합니다. 추가적으로, 보안 어시스턴트 챗봇를 제공하여 사용자가 URL에 더 안전하게 접근하도록 합니다.<br>궁극적으로 본 프로젝트는 해외여행자가 QR코드를 보다 안심하고 활용할 수 있는 모바일 보안 애플리케이션을 만드는 것을 지향합니다. |
+| 고객(범위를 최대한 좁혀서 지정) | 해외여행 중 QR 코드를 스캔해야 하는 사용자(교통, 관광, 결제, 와이파이 접속 등) <br><br>이화인(35)<br>배경<br>• 해외 출장을 자주 다니며 공항·호텔·현지 업체 결제 등 업무용 QR 코드를 자주 이용<br>• 최근 QR 피싱 관련 뉴스를 접하고 회사 자산이나 계정 정보 유출에 대한 불안감이 커짐<br>• 회사 보안 교육은 받았지만, QR 관련 위험은 생소함<br>needs:<br>• 출장지에서의 낯선 QR 코드 → 안전한지 빠르게 판별<br>• 공식 사이트나 인증된 링크만 열람할 수 있는 도구<br>• 업무용 기기라 개인보다 더 보안에 민감 → 피해 시 대응 방법<br><br>김이화(24)<br>배경<br>• 해외여행을 즐기며, 교통·음식점·관광지에서 편의 위주로 QR을 자주 스캔함<br>• 현지 언어가 낯설고, QR 안내문을 자주 접함<br>• 서비스 이용 시 편리함과 즉각적인 접근성을 중요하게 여김<br>needs<br>• 언어에 구애받지 않고 QR 링크의 내용을 쉽게 이해할 수 있는 안내<br>• QR을 스캔하기 전에 신뢰할 수 있는 링크인지 직관적으로 확인<br>• 복잡한 절차 없이 빠르게 사용할 수 있는 간단한 서비스 |
+| Pain Point | 해외여행자를 대상으로 한 큐싱(QR 피싱) 피해는 꾸준히 증가하고 있습니다. 낯선 환경에서 관광, 교통, 와이파이 접속, 결제 등 다양한 상황에서 QR코드를 사용하는 경우가 많지만, 사용자는 해당 URL이 안전한지 직접 확인하기 어렵습니다. 특히 언어 장벽과 낮은 보안 인식으로 인해 가짜 결제 페이지나 위장된 로그인 화면에 쉽게 속아 개인정보와 금융정보를 입력하게 되는 사례가 빈번합니다. 그럼에도 불구하고 현재까지 해외여행 상황에 특화된 큐싱 방지 서비스는 거의 존재하지 않아, 여행자들은 보안 공백 속에 노출되어 있는 실정입니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 프론트엔드<br>• React + react-qr-reader(라이브러리)+ react-native-webview(라이브러리): 모바일/웹에서 QR 이미지 스캔 → URL 추출 및 서버 전송, “안전 / 의심 / 위험” 상태 표시, 피처별 근거 안내, 실시간 분석 결과 확인, 샌드박스 모드 웹뷰 제공, 자바 스크립트 ON 상태 제공, Dynamic Contents에 대비한 mutationObserver<br><br>백엔드<br>• Spring Boot 라이브러리: Apache Commons Validator, java.net.URL, PublicSuffix: URL 구조 검증, 도메인 분석, typosquatting 탐지<br>데이터베이스<br>• MySQL: URL, QR 메타데이터, 분석 결과, 위험 점수 저장<br>AI<br>• FastAPI + Python, scikit-learn: URL 정상/악성 분류, 위험도 점수 계산, 신규 악성 URL 탐지, 예측 근거 제공<br><br>API<br>• papago: 웹페이지 번역<br>• Chat GPT: 보안 어시스턴트 안내 생성<br><br>플랫폼<br>• Docker: 모든 서비스(React, Spring Boot, FastAPI, MySQL)를 컨테이너 단위로 분리하여 배포 및 관리, 환경 일관성 유지 및 신속한 배포 지원<br>• AWS: 서비스 배포 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | 프론트엔드<br>• React: [ https://reactnative.dev/](https://reactnative.dev/)<br>• react-qr-reader [https://github.com/react-native-webview/react-native-webview#readme](https://github.com/react-native-webview/react-native-webview#readme)<br>• react-native-webview [https://github.com/react-native-webview/react-native-webview#readme](https://github.com/react-native-webview/react-native-webview#readme)<br><br>백엔드<br>• Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)<br>• Apache Commons Validator [https://commons.apache.org/proper/commons-validator/download_validator.cgi](https://commons.apache.org/proper/commons-validator/download_validator.cgi)<br>• Java [https://www.java.com/ko/](https://www.java.com/ko/)<br>• PublicSuffix [https://github.com/publicsuffix/list](https://github.com/publicsuffix/list)<br><br>데이터베이스<br>• MySQL: [https://www.mysql.com/](https://www.mysql.com/)<br><br>AI<br>• FastAPI [https://github.com/fastapi/fastapi](https://github.com/fastapi/fastapi)<br>• scikit-learn: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)<br>• PyTorch [https://pytorch.org/](https://pytorch.org/)<br><br>API<br>• papago [https://www.ncloud.com/product/aiService/papagoTranslation#overview](https://www.ncloud.com/product/aiService/papagoTranslation#overview)<br>• Chat GPT [https://openai.com/ko-KR/index/openai-api/](https://openai.com/ko-KR/index/openai-api/)<br><br>플랫폼<br>• Docker [https://www.docker.com/](https://www.docker.com/)<br>• AWS [https://aws.amazon.com/ko/](https://aws.amazon.com/ko/) |
+| 팀그라운드룰 | [https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD](https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD) |
+| 최종수정일 | 2025.10.13 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
