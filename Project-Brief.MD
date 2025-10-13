@@ -17,7 +17,7 @@
 |[14](#team-14-BestFriend)|BestFriend|AI 기반 심리 공포게임: PPO 기반 강화학습 NPC와의 상호작용을 통한 개인 맞춤형 공포 체험|
 |[15](#team-15-잠가보카)|잠가보카|강제 잠금 기반 퍼스널 AI 튜터링 언어학습 모바일 애플리케이션 설계 및 구현|
 |[16](#team-16-트리오링고)|트리오링고|플레이어가 대화, 몸짓을 활용해 특정 NPC를 훈련시키고, 그 NPC를 마을의 수호자로 성장시키는 스토리형 어드벤처 게임|
-|[17](#team-17-CtrlS)|CtrlS|난독 아동의 소리 내어 읽기 개선을 위한 음성 인식 기반 읽기 오류 패턴 분석 및 맞춤형 동화책 생성 및 학습 시스템|
+|[17](#team-17-CtrlS)|CtrlS|난독 아동의 소리 내어 읽기 개선을 위한, 음성 인식 기반 읽기 오류 패턴 분석과 맞춤형 동화책 생성을 활용한 학습 시스템|
 |[18](#team-18-AIDERS)|AIDERS|K-pop 레이블 홍보팀을 위한 실시간 팬덤 이슈 감지·분석 및 대응 지원 AI Agent 서비스|
 |[19](#team-19-상킷)|상킷|Multimodal AI를 활용한 맞춤형 유튜브 썸네일·제목 컨설팅 시스템 |
 |[20](#team-20-POKI)|POKI|예비, 초기 장업자를 위한 멀티모달 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
@@ -338,7 +338,7 @@
 ## Team 17 CtrlS
 |항목|내용|
 |---|---|
-|프로젝트명|난독 아동의 소리 내어 읽기 개선을 위한 음성 인식 기반 읽기 오류 패턴 분석 및 맞춤형 동화책 생성 및 학습 시스템|
+|프로젝트명|난독 아동의 소리 내어 읽기 개선을 위한, 음성 인식 기반 읽기 오류 패턴 분석과 맞춤형 동화책 생성을 활용한 학습 시스템|
 |프로젝트 키워드|음성 인식 기반 읽기 오류 분석, 텍스트 적응형 생성, 맞춤형 동화책 & 피드백 학습 시스템|
 |트랙|산학|
 |프로젝트 멤버|정유진, 정윤아, 복지희|
@@ -349,7 +349,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용 시나리오|**[Frontend]** <br>React Native : 모바일 앱 UI/UX 개발, 동화책 뷰어 및 읽기 훈련 인터페이스 제공<br><br> **[Backend]** <br>Spring Boot : REST API 서버 구축, 사용자 관리·학습 데이터 저장<br>FastAPI : STT/LLM 모듈 연동, 적응형 알고리즘 처리<br><br> **[협업 툴]** <br>Git/GitHub : 소스 코드 버전 관리<br>Figma : UI 프로토타입 제작<br>Notion : 문서 및 일정 관리<br>Discord : 팀 커뮤니케이션<br><br> **[AI / API]** <br>Whisper : 아이의 낭독 음성 인식 및 전사<br>KoNLPy/형태소 분석기 : 한국어 문장 난이도 제어, 어휘 분석<br>Stable Diffusion API : 삽화 이미지 생성<br>TTS (Coqui TTS/Piper) : 동화 오디오북 기능 제공<br>LLM(OpenAI GPT 계열) : 아이 수준에 맞는 동화 문장 생성 및 질문 대화 제공<br>Adaptive Learning Engine(직접 구현) : 학습 데이터 기반 난이도 조절 및 피드백|
 |사용할 소프트웨어 패키지의 명칭과 URL|Whisper: https://openai.com/index/whisper <br>KoNLPy: https://konlpy.org <br>Stable Diffusion: https://stability.ai <br>Coqui TTS: https://coqui.ai <br>OpenAI GPT: https://openai.com/ko-KR/index/openai-api/|
 |팀 그라운드룰|[GitHub Ground Rule](https://github.com/Team-CtrlS/document/blob/main/GroudRule.md)|
-|최종 수정일|2025-10-03|
+|최종 수정일|2025-10-14|
 
 [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
