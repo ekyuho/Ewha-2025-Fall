@@ -6,7 +6,7 @@
 | 4 | RenYER | https://github.com/kelly96110jung/Start |
 | 5 | Hibee | https://github.com/firstprojectof3/Hibee  |
 | 6 | 브라우니 | https://github.com/TeamBrowniewha/TeamBrownie?tab=readme-ov-file  |
-| 7 | 삼각형에대한광기는더욱커져만갔다 | https://github.com/2025-capstone-Triangle/2025CapstoneProject  |
+| 7 | 我 | https://github.com/2025-capstone-Triangle/2025CapstoneProject  |
 | 8 | SEAquence | https://github.com/HajarFazillah/SEAquence  |
 | 9 | SiYa | https://github.com/EWHA-CAPSTONE-VISION/team_project_repo  |
 | 10 | JL | https://github.com/jun-glitch/JL.git  |
