@@ -717,7 +717,6 @@
 |팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
 |최종수정일|2025-10-13|
 
-
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
   
 ## Team 38 ModalArc 
