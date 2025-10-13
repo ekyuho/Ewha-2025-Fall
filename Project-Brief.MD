@@ -86,13 +86,13 @@
 |트랙|산학 트랙|
 |프로젝트멤버|강민지, 임이랑, 정서윤|
 |팀지도교수|오세은 교수님|
-|무엇을 만들고자 하는가| 소규모 팀으로 협업 프로젝트를 진행하는 대학생이 작업 과정에서 발생하는 소통의 어려움과 참여 불균형 문제를 해소하기 위한 AI 기반 협업 프로젝트 지원 서비스입니다. AI가 회의록 기록, 발화 비율 분석, 참여도 시각화, 자동 피드백을 수행하여 팀 리더와 팀원 모두에게 효율적이고 공정한 협업 환경을 제공합니다. |
-|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황을 직관적으로 확인하고 싶음|
-|Pain Point|• 여러 대형 협업 툴을 혼용하다 보니 일정과 업무가 흩어져 관리 어려움 </br> • 개인 별 진행 상황이 직관적으로 파악되기 어려워 팀 전체 소통이 저해되고, 업무 분배가 원활하게 진행되지 않음 → 팀 내 참여도 불균형/ 업무 과부하 발생 </br> • 회의록에서 액션아이템(To-Do)이 누락되어 실제 실행력이 떨어짐 </br> • 팀원 간 감정적 갈등 발생 가능성을 우려해 직접적인 피드백 전달을 꺼리게 되어 업무 효율성 저해 발생 가능|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
-|사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
+|무엇을 만들고자 하는가| 대학생 팀 프로젝트 과정에서 발생하는 회의 기록 누락, 참여 불균형, 피드백의 실행력 저하 등 비효율적인 협업 문제를 해소하기 위한 AI 기반 협업 지원 서비스입니다.  AI가 회의 내용을 자동으로 기록·요약하고, 발화 분석 및 피드백 데이터를 기반으로 To-Do를 자동 생성하여 공정하고 효율적인 팀워크를 지원합니다. |
+|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황과 팀원 참여도 직관적으로 확인하고 싶음|
+|Pain Point|• 회의록 작성과 정리가 수동으로 이루어져 시간 소모가 크고, 회의 내용이 흩어져 누락되기 쉬움<br> • 일정·업무·피드백이 여러 툴에 분산되어 관리되면서 정보가 단절되고, 전반적인 진행 상황을 한눈에 파악하기 어려움 <br> • 회의에서 도출된 피드백이 문서에 머무르고 실제 행동으로 이어지지 않아 실행력이 떨어짐<br> • 리더가 모든 회의록과 업무를 수동으로 정리·분배해야 하므로 관리 부담이 큼|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• React.js (JavaScript): 사용자 친화적 대시보드 UI 개발 <br> • Spring Boot (Java): 백엔드 API, 일정·업무 관리, 피드백 로직 처리 <br> • Google Calendar API: 팀/개인 일정 동기화 및 일정 알림 <br> • ChatGPT + STT(Speech-to-Text): 회의 내용 자동 기록·요약, 발화 분석 및 액션아이템 추출 <br> • Docker: 서비스 컨테이너화 및 배포 효율화 <br> • MySQL: 사용자, 회의록, 피드백, 투두 데이터 저장 및 관리|
+|사용할 소프트웨어 패키지의 명칭과 URL|[Node.js](https://nodejs.org),[pnpm](https://pnpm.io), [OpenJDK 21](https://openjdk.org), [Gradle](https://gradle.org), [MySQL](https://www.mysql.com), [MySQL Connector/J (JDBC)](https://dev.mysql.com/downloads/connector/j/), [OpenAI Java SDK](https://github.com/TheoKanning/openai-java), [IntelliJ IDEA](https://www.jetbrains.com/idea), [VSCode](https://code.visualstudio.com), [DBeaver](https://dbeaver.io), [Postman](https://www.postman.com)|
 |팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
-|최종수정일|2025-10-11|
+|최종수정일|2025-10-13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
