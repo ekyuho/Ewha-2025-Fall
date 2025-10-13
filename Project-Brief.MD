@@ -40,7 +40,7 @@
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안|
 |[38](#team-38-ModalArc)|ModalArc|온디바이스 환경에서 이미지-텍스트 기반 멀티모달 AI 실행 최적화를 위한 NPU 아키텍처 설계|
 |[39](#team-39-NexStep)|NexStep|언어장애인을 위한 맞춤형 언어 재활을 목표로 발음과 대화 능력 향상 및 훈련 기록을 관리하는 앱|
-|[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
+|[40](#team-40-MIND)|MIND|경도인지장애(MCI) 환자의 rs-fMRI 뇌혈류 동영상 데이터를 활용한 Radiomics 및 그래프 신경망 기반 알츠하이머 조기 진단 연구|
 
 ## Team 1 Qubit
 |항목|내용|
