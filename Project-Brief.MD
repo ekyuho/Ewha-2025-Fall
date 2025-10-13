@@ -8,7 +8,7 @@
 |[5](#team-5-HiBee)|HiBee|과도한 디지털 자극에 노출된 현대인들을 위해, 스마트폰 사용 데이터를 분석해 자기 통제를 돕는 게임형 행동 개선 어플리케이션|
 |[6](#team-6-Brownie)|Brownie|대형 CLIP 모델의 제로샷 일반화 능력 유지를 위해 이미지-텍스트 쌍의 대조적 임베딩 관계 구조를 그대로 전이하는 경량 멀티모달 모델 지식 증류 기법 연구|
 |[7](#team-7-我)|我|트렌드를 주도할 자신만의 디지털 아이덴티티를 구축하고 싶은 20대 크리에이터를 위한 음성, 이미지, 성향 분석 기반 온라인 페르소나 및 맞춤형 컨텐츠 생성 도우미|
-|[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생을 위한 한국어 공지사항 과부하 해결 적응형 AI 기반 정보 요약·해야 할 일 추 웹 서비스|
+|[8](#team-8-SEAquence)|SEAquence|Talkativ; 한국어 표현에 어려움을 겪는 사람을 위한 AI 기반 상대 맥락 맞춤형 대화 스크립트 및 주제 생성 모바일 앱|
 |[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 데이터를 이용한 경량 tumor 예측 XAI 모델|
 |[10](#team-10-JL)|JL|Image Classification을 이용한 딥러닝을 기반으로 탐조 입문자에게 새의 종을 알려주고, 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공하는 앱서비스|
 [11](#team-11-CrossAlpha)      |CrossAlpha|시간과 전문성이 부족한 개인 주식 투자자를 위한, 최신 경제 동향이 내 포트폴리오에 미치는 리스크와 인사이트를 제공하는 투자 의사결정 보조 도구|
@@ -16,7 +16,7 @@
 |[13](#team-13-최우수)|최우수|양육자의 뇌 MRI 멀티모달 이미지를 활용하여 양육 스트레스 심각도를 예측하는 설명 가능한 모델 개발|
 |[14](#team-14-BestFriend)|BestFriend|AI 기반 심리 공포게임: PPO 기반 강화학습 NPC와의 상호작용을 통한 개인 맞춤형 공포 체험|
 |[15](#team-15-잠가보카)|잠가보카|강제 잠금 기반 퍼스널 AI 튜터링 언어학습 모바일 애플리케이션 설계 및 구현|
-|[16](#team-16-트리오링고)|트리오링고|플레이어가 채팅, 대화, 몸짓을 활용해 특정 NPC를 훈련시키고, 그 NPC를 마을의 수호자로 성장시키는 스토리형 어드벤처 게임|
+|[16](#team-16-트리오링고)|트리오링고|플레이어가 대화, 몸짓을 활용해 특정 NPC를 훈련시키고, 그 NPC를 마을의 수호자로 성장시키는 스토리형 어드벤처 게임|
 |[17](#team-17-CtrlS)|CtrlS|난독 아동을 위한 음성 인식 기반 읽기 오류 패턴 분석 및 텍스트 적응형 생성을 통한 맞춤형 동화책 학습 시스템|
 |[18](#team-18-AIDERS)|AIDERS|K-pop 레이블 홍보팀을 위한 실시간 팬덤 이슈 감지·분석 및 대응 지원 AI Agent 서비스|
 |[19](#team-19-상킷)|상킷|Multimodal AI를 활용한 맞춤형 유튜브 썸네일·제목 컨설팅 시스템 |
@@ -26,7 +26,7 @@
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
 |[24](#team-24-이루리)|이루리|청년층의 지출/저축 패턴을 AI로 분석해, 맞춤 재정 관리 계획을 제안하고 올바른 금융 습관 형성을 돕는 청년 스마트 금융 케어 서비스|
 |[25](#team-25-return-0)|return 0;|AI 추천과 위치 기반 데이터를 활용해 반려인에게 개인화된 여행 경험을 제공하는 차세대 반려동물 여행 애플리케이션|
-|[26](#team-26-TriAI)|TriAI|지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Independent Space로 통합 처리하는 AI 시스템 개발 연구 |
+|[26](#team-26-TriAI)|TriAI|특정 지역의 지진 발생 가능성 예측을 위해 각 관측소에서 서로 다른 모달리티의 데이터를 수집하고, 이를 Universal Modality-Independent Space로 투영한 후 연합학습을 수행하는 AI 시스템 개발 연구 |
 |[27](#team-27-Matcha-Tonic)|Matcha Tonic|ProMate: 프로젝트를 자주 하지만 초기 세팅과 기준이 부족한 대학생 팀을 위해, 사용자의 목표·팀 구성·기간·도구 선호를 학습하고 수업·마감 등의 맥락을 반영하여, Notion 워크스페이스와 README·협업 규칙을 일관된 구조로 자동 생성하고 원클릭 Export로 배포해 주는 AI 기반 프로젝트 협업 스캐폴딩 서비스|
 |[28](#team-28-planit)|PlanIT|개인, 학교, 중소기업 등 소규모 사용자들이 탄소 배출량을 금전적 비용과 미래 영향으로 환산해 직관적으로 체감하고, 절감 방안 시뮬레이션을 제시해 개선되도록 돕는 탄소 관리 시뮬레이션 SaaS 플랫폼|
 |[29](#team-29-Nitro)|Nitro| Profiling Edge-Optimized Multimodal Model Architecture for Accelerated Inference on Jetson Nano |
@@ -86,13 +86,13 @@
 |트랙|산학 트랙|
 |프로젝트멤버|강민지, 임이랑, 정서윤|
 |팀지도교수|오세은 교수님|
-|무엇을 만들고자 하는가| 소규모 팀으로 협업 프로젝트를 진행하는 대학생이 작업 과정에서 발생하는 소통의 어려움과 참여 불균형 문제를 해소하기 위한 AI 기반 협업 프로젝트 지원 서비스입니다. AI가 회의록 기록, 발화 비율 분석, 참여도 시각화, 자동 피드백을 수행하여 팀 리더와 팀원 모두에게 효율적이고 공정한 협업 환경을 제공합니다. |
-|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황을 직관적으로 확인하고 싶음|
-|Pain Point|• 여러 대형 협업 툴을 혼용하다 보니 일정과 업무가 흩어져 관리 어려움 </br> • 개인 별 진행 상황이 직관적으로 파악되기 어려워 팀 전체 소통이 저해되고, 업무 분배가 원활하게 진행되지 않음 → 팀 내 참여도 불균형/ 업무 과부하 발생 </br> • 회의록에서 액션아이템(To-Do)이 누락되어 실제 실행력이 떨어짐 </br> • 팀원 간 감정적 갈등 발생 가능성을 우려해 직접적인 피드백 전달을 꺼리게 되어 업무 효율성 저해 발생 가능|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• Google Calendar API: 팀/개인 일정 동기화 </br> • WebRTC / WebSocket: 실시간 알림 및 회의록 공유 </br> • OpenAI API: 회의록 → 액션아이템 추출, 진행 상황 분석 및 피드백 코멘트 제공 </br> • React.js: 사용자 친화적인 대시보드 UI 구성 </br> • Spring Boot (Java/Kotlin): 백엔드 서비스, 일정/업무 관리 API 제공|
-|사용할 소프트웨어 패키지의 명칭과 URL|[Google Calendar API](https://developers.google.com/workspace/calendar/api/guides/overview?hl=ko), [WebRTC](https://webrtc.org/?hl=ko), [OpenAI GPT-4o](https://openai.com/ko-KR/index/hello-gpt-4o/), [React](https://ko.react.dev/), [Spring Boot](https://spring.io/projects/spring-boot)|
+|무엇을 만들고자 하는가| 대학생 팀 프로젝트 과정에서 발생하는 회의 기록 누락, 참여 불균형, 피드백의 실행력 저하 등 비효율적인 협업 문제를 해소하기 위한 AI 기반 협업 지원 서비스입니다.  AI가 회의 내용을 자동으로 기록·요약하고, 발화 분석 및 피드백 데이터를 기반으로 To-Do를 자동 생성하여 공정하고 효율적인 팀워크를 지원합니다. |
+|고객|<페르소나> </br> • 이름: 김현지 </br> • 나이: 23세 </br> • 소속: 컴퓨터공학과 대학생, 캡스톤디자인 팀 프로젝트의 팀장을 맡아 진행 중 </br> • 문제: 팀원들이 제각각 따로 기록하거나, 카톡/노션/구글드라이브 등 여러 툴을 혼용하면서 팀장으로서 프로젝트 일정 누락/업무 중복 발생으로 관리의 어려움을 느낌 </br> • 요구: 하나의 서비스에서 일정·업무·회의록을 통합 관리하고, 진행 상황과 팀원 참여도 직관적으로 확인하고 싶음|
+|Pain Point|• 회의록 작성과 정리가 수동으로 이루어져 시간 소모가 크고, 회의 내용이 흩어져 누락되기 쉬움<br> • 일정·업무·피드백이 여러 툴에 분산되어 관리되면서 정보가 단절되고, 전반적인 진행 상황을 한눈에 파악하기 어려움 <br> • 회의에서 도출된 피드백이 문서에 머무르고 실제 행동으로 이어지지 않아 실행력이 떨어짐<br> • 리더가 모든 회의록과 업무를 수동으로 정리·분배해야 하므로 관리 부담이 큼|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• React.js (JavaScript): 사용자 친화적 대시보드 UI 개발 <br> • Spring Boot (Java): 백엔드 API, 일정·업무 관리, 피드백 로직 처리 <br> • Google Calendar API: 팀/개인 일정 동기화 및 일정 알림 <br> • ChatGPT + STT(Speech-to-Text): 회의 내용 자동 기록·요약, 발화 분석 및 액션아이템 추출 <br> • Docker: 서비스 컨테이너화 및 배포 효율화 <br> • MySQL: 사용자, 회의록, 피드백, 투두 데이터 저장 및 관리|
+|사용할 소프트웨어 패키지의 명칭과 URL|[Node.js](https://nodejs.org),[pnpm](https://pnpm.io), [OpenJDK 21](https://openjdk.org), [Gradle](https://gradle.org), [MySQL](https://www.mysql.com), [MySQL Connector/J (JDBC)](https://dev.mysql.com/downloads/connector/j/), [OpenAI Java SDK](https://github.com/TheoKanning/openai-java), [IntelliJ IDEA](https://www.jetbrains.com/idea), [VSCode](https://code.visualstudio.com), [DBeaver](https://dbeaver.io), [Postman](https://www.postman.com)|
 |팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
-|최종수정일|2025-10-11|
+|최종수정일|2025-10-13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -107,7 +107,7 @@
 |무엇을 만들고자 하는가|가족을 돌보면서 느낀 건, 신장 질환 환자의 식단 관리가 환자 본인뿐 아니라 보호자에게도 큰 부담이라는 점이다. 특히 동생이 신장 관련 질환으로 식단을 조심해야 했을 때, 일반적인 재료가 오히려 위험할 수 있다는 걸 깨달았다. 그래서 보호자나 환자가 가진 재료를 입력하면 CKD 환자에게 안전한 조리법(예: 데치기, 대체재 활용 등)을 제시하고, “이 재료로 무엇을 해먹을 수 있는지”를 추천하는 앱을 만들고자 한다. 또한 대부분 외식이 어렵기 때문에 도시락 메뉴 제안 같은 간단한 옵션도 제공한다.|
 |고객 (페르소나)|- **김현수 (58세, CKD 3기 환자)**: 나트륨·단백질 섭취 조절이 필요하지만 매번 성분표 확인과 계산이 번거롭다. 앱에서 가진 재료만으로 무엇을 요리할지 추천받는다.<br><br>- **박영희 (65세, CKD 4기 환자)**: 집에서 오래 생활하며 요리에 익숙하지 않다. 간단 조리법과 대체재 활용 안내를 통해 부담을 줄인다.<br><br>- **이민지 (29세, CKD 2기 환자 / 직장인)**: 외식보다는 도시락을 싸서 다니고 싶은데 시간이 부족하다. 앱의 “가진 재료 기반 레시피 추천 + 도시락 메뉴” 기능을 활용한다.<br><br>- **보호자 (가족 구성원)**: 가족의 식단 관리를 돕는 입장으로, 조리법이 위험한 재료인지 자동으로 알림 받고, 대체 조리법과 쇼핑리스트로 부담을 줄인다.|
 |Pain Point|- 일반 재료라도 신장 환자에게 해로울 수 있다는 것 인지 부족<br>- 재료 있는지 없는지에 따라 요리 선택지가 제한됨<br>- 외식은 대체로 피하고 집에서 준비해야 하지만 간단한 메뉴가 없음<br>- 기존 앱은 영양소 계산 중심이고 조리법/재료 활용 안내가 약함|
-|핵심 기능 (AI 적용)|1) **재료 기반 요리법 추천**: 사용자가 가진 재료 입력 → CKD 환자에게 안전한 조리법과 메뉴 제시한다.<br>2) **부적절 재료 알림 및 대체재 제안**: 입력된 재료 중 위험 가능성이 있는 재료가 있으면 표시하고 대체재를 추천한다.<br>3) **도시락 메뉴 제안**: 외식 대신 준비 가능하고 휴대 가능한 메뉴 조합을 추천한다.<br>4) **조리법 안내**: 예를 들어 데치기, 물 갈아담기, 조리 시간 줄이기 등 신장 환자에게 안전한 조리 방법 안내한다.<br>5) **병원 검사 사용자가 업데이트**: 정기 혈액검사에서 나오는 크레아티닌 등의 임상 지표를 반영하여 추천 영양소 수준을 자동 조정한다. |
+|핵심 기능 (AI 적용)|1) **재료 기반 요리법 추천**: 사용자가 가진 재료 입력 → CKD 환자에게 안전한 조리법과 메뉴 제시한다.<br>2) **조리법 안내**: 예를 들어 데치기, 물 갈아담기, 조리 시간 줄이기 등 신장 환자에게 안전한 조리 방법 안내한다.<br>3) **병원 검사를 사용자가 업데이트**: 정기 혈액검사에서 나오는 크레아티닌 등의 임상 지표를 반영하여 추천 영양소 수준을 자동 조정한다. |
 |사용할 소프트웨어|- **앱 제작:** FlutterFlow 또는 React Native<br>- **데이터 저장/백엔드:** Firebase (사용자 프로필/레시피 이력), Airtable (재료 DB, 조리법 DB)<br>- **데이터 소스:** 식품 영양 데이터베이스 (USDA FoodData Central, 한국 식품안전나라 DB)|
 |사용할 소프트웨어 패키지의 명칭과 URL| - FlutterFlow: https://flutterflow.io/<br>- React Native: https://reactnative.dev/<br>- Firebase: https://firebase.google.com/<br>- Airtable: https://airtable.com/<br>- USDA FoodData Central: https://fdc.nal.usda.gov/<br>- 한국 식품영양 DB: https://www.foodsafetykorea.go.kr/|
 |데이터| - **식품별 영양 성분 데이터**: 단백질, 나트륨, 칼륨, 인, 칼로리 등<br>- **환자 프로필 데이터**: 연령, 성별, 체중, 질환 단계, 검사 수치<br>- **사용자 선호 데이터**: 선호 재료, 알레르기, 비선호 재료<br>- **병원 검사 데이터**: 크레아티닌, eGFR 등 임상 지표<br>- **추천 결과 및 조리법 선택 기록**|
@@ -173,18 +173,18 @@
 ## Team 8 SEAquence
 |항목|내용|
 |---|---|
-|프로젝트명| UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브 |
-|프로젝트 키워드| 웹앱, 유학생 지원, AI 정보요약, 스마트 추천 |
+|프로젝트명| Talkativ; 한국어 표현에 어려움을 겪는 사람을 위한 AI 기반 상대 맥락 맞춤형 대화 스크립트 및 주제 생성 모바일 앱 |
+|프로젝트 키워드| 머신러닝, 데이터 시각화, 사회적 불안, 스크립트 생성기, 텍스트-음성 변환, 자막/스크립트 동기화, 한국어 높임말 정확성, 개인화 |
 |트랙| 산학 |
 |프로젝트멤버| Siti Hajar Asyiqin Binti Fazillah / Heimvichit, Nunnalin / Yuzana Win |
-|팀지도교수| TBD |
-|무엇을 만들고자 하는가| 유학생들이 한국 대학 생활에서 가장 큰 어려움 중 하나인 한국어 공지사항 과부하 문제를 해결하기 위해, 적응형 AI 기반의 웹 허브 서비스를 개발하고자 합니다. <br><br> 이 서비스는 학교 홈페이지, PDF, 공지사항 등 다양한 출처의 정보를 수집하여 AI가 자동으로 요약·정리하고, 공지의 맥락에 맞춰 사용자가 실제로 해야 할 일(예: 서류 준비, 마감 기한 확인, 행정 방문 여부)을 명확히 안내합니다. 이를 통해 유학생들은 불필요한 혼란을 줄이고, 필요한 조치를 놓치지 않도록 지원받을 수 있습니다. <br><br> 또한 학사 일정, 캠퍼스 생활 팁, 문화 관련 안내를 통합 대시보드에서 확인할 수 있으며, 개인화된 기록 관리와 통계 제공을 통해 자신의 대학 생활 적응 현황을 체계적으로 관리할 수 있습니다. |
-|고객| 이화여대 유학생 (학부, 편입, 대학원) <br><br> [1] 푸릿차야 (19세, 태국인 유학생, 학부생 ) <br> 특징: <br> - 유학 처음 와서 한국 대학 생활과 문화에 적응하기 어려움 <br> - 외로움으로 인해 우울한 느낌 종종 있음 <br> - 한국어 아직 익숙하지 않음 <br> 고민: <br> - 한국어로 쓴 공지나 일정을 체계적으로 정리되어 있지 않아서 FOMO (Fear Of Missing Out; ‘포모 증후군' 또는 '고립 공포) 심리 상태를 가짐 <br> - 신입생은 아직 MT나 OT같은 대학 활동 몰라서 친구를 구하기 어려움 <br> - 가이드 없이 학교 보험 납부, 등록금 납부 같은  대학 관련된 정보 알기 어려워서 막히는 경우 많음 <br><br> [2] 다니엘라 (27세, 미국인 유학생, 대학원) <br> 특징: <br> - 다양한 여행지나 워크샵 프로그램 같은 즐거운 유학 생활을 경험해 보고 싶어함 <br> - 교육에 관련된 컨퍼런스나 진로 탐색에 대한 소식을 받고 싶어함 <br> - 네트워킹에 관심 있음 <br> 고민: <br> - 대학원 다니면서 관심사에 맞게 스펙을 쌓고 싶으면 정보를 어떻게 구해야 되는지 모름 <br> - 대학원 정보와 학부생 정보 매우 달라서 혼란스러움 <br> - 학부생과 달리 참여 가능한 교내 행사나 동아리 한계가 있다. |
-|Pain Point|  - 유학생들이 대학 생활과 관련된 정보를 찾을 때, 자료가 여러 사이트와 커뮤니티에 흩어져 있어 혼란과 스트레스가 심함. <br> -  한국 대학 생활과 문화에 대한 적응 어려움: 수업 방식, 과제 관리, 학사 제도, 교내 활동 등에서 생기는 혼란. <br> - 학생 유형별 필요 차이: 학부, 편입, 대학원 학생마다 관심사와 요구사항이 달라, 일률적인 정보 제공으로는 충분하지 않음. <br> - 기존 정보는 텍스트 중심이 많아, 즉각적인 이해와 활용이 어려움. <br> - 학교 생활과 개인 경험을 체계적으로 정리할 방법이 부족하여, 정보 활용과 기록 관리에 부담을 느낌. <br> - 새로운 유학생에게는 커뮤니티 기반 정보나 추천이 부족하여, 스스로 경험을 찾아야 하는 어려움 존재. |
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - React / Next.js: 프론트엔드, 반응형 UI <br> - FastAPI / Node.js / Express / Django: 백엔드 API, 데이터 처리, 사용자 요청 처리 <br> - PostgreSQL / MongoDB: 데이터 관리, 사용자 기록 저장 <br> - BeautifulSoup: 웹사이트 공지사항 및 자료 스크래핑 <br> - OpenAI API: 문서 요약, 자연어 처리 <br> - CLOVA NLP: 한국어 텍스트 분석, 요약, 번역 <br> - KoNLPy, Transformers: 한국어 자연어 처리, 토큰화, 의미 분석, 문서 요약 |
-|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - Next.js – https://nextjs.org <br> - FastAPI – https://fastapi.tiangolo.com/ko/ <br> - PostgreSQL – https://www.postgresql.org/ <br> - BeautifulSoup – https://www.crummy.com/software/BeautifulSoup/ <br> - OpenAI – https://platform.openai.com/ <br> - CLOVA NLP – https://www.naver.com/clova <br> - KoNLPy – https://konlpy.org/ |
+|팀지도교수| 반효경 TBD |
+|무엇을 만들고자 하는가| 이 프로젝트는 사회적으로 잘 드러나지 않는, 한국어 표현에 어려움을 겪는 사람들의 실제 문제를 해결하고자 합니다. 특히, 대화 주제 선택과 적절한 높임말 사용에 대한 불안이나 실수로 인해 대화가 원활하지 않은 상황을 ML 기반 분석 및 추천 시스템을 통해 개선합니다. 머신러닝 모델은 사용자의 상황과 상대방의 맥락을 분석하여 안전하고 적합한 대화 주제를 추천하고, 자연스러운 한국어 대화 스크립트를 생성합니다. 이를 통해 언어적 정확성뿐만 아니라 문화적 적합성까지 향상시켜, 긍정적인 인상을 남길 수 있도록 지원합니다. |
+|고객| **페르소나 1: 사회적 불안이 있는 사용자**<br>이름/나이/직업: 민지 / 25 / 대학생<br>상황: 대화 주제 선택 시 긴장하고, 실수로 인해 상대에게 무례하게 보일까 걱정함. 존댓말과 반말 구분이 어려워 대화가 어색해질 때가 많음.<br>필요: 상대와의 상호 적합도가 높은 주제 추천, 엄격한 높임말 제어 및 길이 설정이 가능한 스크립트 생성, 빠른 연습을 위한 TTS, 간결한 문장 교정 및 이유 제공<br><br>**페르소나 2: 유학생**<br>이름/나이/전공: 마이 / 21 / 컴퓨터공학<br>상황: 대화 중 주제 선택에 어려움을 느끼고, 한국어 존댓말/반말 사용에 대한 문화적 차이로 불안함. 대화 중 세부 내용을 잊거나 실시간 한국어 구사에 자신감이 부족함.<br>필요: 상대와의 상호 적합도가 높은 주제 추천, 엄격한 높임말 제어 및 길이 설정이 가능한 스크립트 생성, TTS로 빠른 연습, 문장 교정 및 간단한 수정 이유 제공<br><br>**페르소나 3: 내성적인 직장인**<br>이름/나이/직업: 준호 / 29 / 사무직<br>상황: 회식이나 모임에서 대화 주제 선택이 어렵고, 실수로 인해 어색한 분위기가 생김. 상대방의 직급이나 나이에 따라 높임말/반말 사용이 헷갈려서 대화가 부담스러움.<br>필요: 직장 내 안전한 대화 주제 추천(업무, 취미, 점심 메뉴 등), 엄격한 높임말 제어 및 짧은 스크립트 생성, TTS로 빠른 연습, 문장 교정 및 상황별 대안 제시 |
+|Pain Point| - 사회적 거리두기와 스트레스, 감염 경험 등으로 인해 인간 관계 단절이 심화되고 대화 자체가 두려워짐. <br> - 자신의 의도를 명확하게 전달하지 못할까 봐 부담을 느끼고, 중간에 말이 막히거나 내가 원하는 내용을 정확하게 표현하는 것이 어렵게 느껴짐. <br> - 대화 중 긴장으로 인해 상대와 어색해지고, 이로 인해 자존감이 심각하게 저하되기도 함. <br> - 대화를 피하다가 점차 자신감을 상실하고 사회적으로 고립되는 악순환에 빠짐. <br> - 불안이 심할 경우 공황 발작 같은 증상까지 경험하며, 일상적 대화 상황 자체가 큰 부담과 두려움으로 다가옴. |
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - React / TypeScript: 프론트엔드, 반응형 UI 및 타입 안전한 개발 <br> - Spring Boot: 개인/상대방 프로필 관리, 생성된 대화 이력 저장, 관계 기반 데이터 관리 <br> - FastAPI: ML 기반 추천 대화 주제, 대화 재생/음성화 API 엔드포인트 <br> - scikit-learn: 프로필·관계·트렌드 데이터 기반 추천 시스템 ML 구현 <br> - HyperCLOVA X: 한국어 맥락 이해/문장 생성, 자연스러운 맞춤 대화 스크립트 생산 <br> - CLOVA Voice: 텍스트-음성 변환(TTS), 대화 내용 실감 음성 재생 <br> - Amazon RDS / MySQL: 대화 이력 및 사용 정보 안전 저장, 신속 조회 |
+|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - TypeScript – https://www.typescriptlang.org/ <br> - Spring Boot – https://spring.io/projects/spring-boot <br> - FastAPI – https://fastapi.tiangolo.com/ko/ <br> - scikit-learn – https://scikit-learn.org/stable/index.html <br> - HyperCLOVA – https://clova.ai/ko/ <br> - CLOVA Voice – https://clova.ai/voice/ <br> - Amazon RDS – https://aws.amazon.com/rds/ <br> - MySQL – https://www.mysql.com/ |
 |팀그라운드룰| [SEAquence's Team Ground Rules](https://github.com/HajarFazillah/SEAquence/blob/main/GroundRule.md) |
-|최종수정일| 2025-09-30 |
+|최종수정일| 2025-10-13 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -504,18 +504,18 @@
 ## Team 26 TriAI
 |항목|내용|
 |---|---|
-|프로젝트명|  지진 동향 분석을 위해 엣지 환경에서 연합 학습을 활용하고, 멀티모달 데이터를 Universal Modality-Independent Space로 통합 처리하는 AI 시스템 개발 연구  |
-|프로젝트 키워드|  UMIS, 연합 학습, 지진 동향 분석, 멀티모달, 엣지AI  |
+|프로젝트명|  특정 지역의 지진 발생 가능성 예측을 위해 각 관측소에서 서로 다른 모달리티의 데이터를 수집하고, 이를 Universal Modality-Independent Space로 투영한 후 연합학습을 수행하는 AI 시스템 개발 연구  |
+|프로젝트 키워드|  UMIS, 연합 학습, 지진 발생 가능성 예측, 멀티모달, 엣지AI  |
 |트랙|  연구  |
 |프로젝트 멤버|  조혜림, 김민, 박소영  |
 |팀지도교수|  이형준 교수님  |
-|무엇을 만들고자 하는가|  지진파, 위성 영상 등 서로 다른 모달리티를 가지는 각 국가, 관측소의 민감한 데이터들을 연합 학습(Federated Learning)을 적용하고, 보편적 모달리티 독립 공간(UMIS)에 매핑하여 데이터를 안전하게 통합하는 지진 동향 분석 시스템을 개발하고자 합니다. 이를 이용하여 지진 발생 예측 및 피해 추정 시스템을 고도화시키는 것이 최종 목표입니다.  |
+|무엇을 만들고자 하는가|  지진파, 위성 영상 등 서로 다른 모달리티를 가지는 각 국가, 관측소의 민감한 데이터들을 연합 학습(Federated Learning)을 적용하고, 보편적 모달리티 독립 공간(UMIS)에 매핑하여 데이터를 안전하게 통합하는 지진 발생 가능성 예측 AI 시스템을 개발하고자 합니다. 이를 이용하여 지진 발생 가능성을 높은 정확도로 예측하여 지진 피해를 최소화 하는 것이 최종 목표입니다.  |
 |고객| - **이름**: 제임스 <br> - **나이**: 32세 <br> - **직업**: 한국지질자원연구원(KIGAM) 지진연구센터 연구원 <br> - **문제 상황** <br> º 지진 데이터가 모달리티별로 분산되어 있어, 전처리에 많은 시간을 소요합니다. <br> º 연구용으로 원본 데이터를 받기 어렵고, 보안 문제로 인해 접근이 제한적입니다. <br> º 한국의 지진 데이터만으로는 정확한 지진 동향 분석이 어렵습니다. <br> - **요구 사항** <br> º 각국의 데이터 주권 정책을 존중하면서도, 지진 분석 모델의 정확도를 높일 수 있는 글로벌 데이터 협력 방안을 원합니다. <br> º 연합학습 기반으로 원본 데이터를 가져오지 않고도 연구가 가능한 환경을 원합니다. <br> º 여러 모달리티를 가진 데이터들을 하나의 통합 공간에서 분석할 수 있는 기능을 원합니다. <br> º 모델의 성능을 비교하고, 결과를 시각화할 수 있는 방법을 원합니다. <br> º 지진 발생 시 빠른 동향 파악과 신속한 대응 지침 제공을 원합니다. |
 |Pain Point|  - **데이터 통합 문제**: 지진 데이터는 지진파, 위성 영상, GPS 등 다양한 모달리티와 각각 다른 관리 주체를 가지고 있어 통합적인 분석이 어렵습니다. <br> - **보안 데이터 공유**: 지진 관측 데이터는 국가 안보 및 중요 기반 시설과 관련된 민감한 데이터이므로 국가나 기관 간의 공유가 어렵습니다. <br> - **실시간 대응 한계**: 지진 대응은 실시간성이 필수이지만, 중앙 서버 집중 방식의 통신 병목 현상과 엣지 디바이스의 제한된 연산 능력으로 신속한 현장 분석 및 즉각적인 대응이 어렵습니다. <br> - **과도한 통신 비용 및 네트워크 부하**: 여러 관측소에서 생성되는 고해상도 원본 데이터를 중앙 서버로 전송하는 과정에서 유발되는 막대한 네트워크 대역폭은 상당한 통신 비용을 발생시키고, 네트워크 병목 현상을 일으킵니다. <br> - **결손 데이터로 인한 분석의 취약성**: 지진 발생 시 특정 관측소의 센서가 파괴되거나 통신이 두절될 수 있고, 이로 인해 일부 데이터가 유실되어 분석 성능 저하를 겪을 수 있습니다.  |
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - **연합 학습 프레임워크**: Flower 등 <br> º 핵심 기능/용도: 분산된 엣지 디바이스 간의 모델 학습을 효율적으로 조율합니다. <br> - **딥러닝 프레임워크**: PyTorch, Hugging Face Transformer 등 <br> º 핵심 기능/용도: 딥러닝 프레임워크; 멀티모달 AI 모델의 신경망을 설계하고 학습시키는 데 사용합니다. <br> - **데이터 전처리**: Pandas, NumPy, Scipy 등 <br> º 핵심 기능/용도: 다차원 배열 연산 및 신호 처리, 푸리에 변환 등 과학 기술 계산과 데이터 전처리를 위한 라이브러리로 사용합니다. <br> - **시각화**: Matplotlib, Grafana, Seaborn, Plotly 등 <br> º 핵심 기능/용도: 분석 결과 및 지도를 시각화하고, 모델의 성능 변화 등을 대시보드로 확인하는 데 사용합니다.  |
 |사용할 소프트웨어 패키지의 명칭과 URL|  - **연합 학습 프레임워크** <br> º Flower: https://flower.ai/ <br> - **딥러닝 프레임워크** <br> º PyTorch: https://pytorch.org/ <br> º Hugging Face Transformer: https://huggingface.co/docs/transformers/index <br> - **데이터 전처리** <br> º Pandas: https://pandas.pydata.org/ <br> º NumPy: https://numpy.org/ <br> º Scipy: https://scipy.org/ <br> - **시각화** <br> º Matplotlib: https://matplotlib.org/ <br> º Grafana: https://grafana.com/ <br> º Seaborn: https://seaborn.pydata.org/ <br> º Plotly:  https://plotly.com/python/  |
 |팀그라운드룰|  https://github.com/graduation-TriAI/TriAI/blob/main/GroundRule.md  |
-|최종수정일|  2025/09/23  |
+|최종수정일|  2025/10/13  |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -581,13 +581,13 @@
 |트랙|산학|
 |프로젝트멤버|임나은, 김재이, 서영|
 |팀지도교수|오세은 교수님|
-|무엇을 만들고자 하는가|공모전, 경진대회 등에 참여할 팀원을 구하는 플랫폼을 만든다. LLM 기반 챗봇을 통해 원하는 팀공고를 쉽고 정확하게 찾을 수 있으며 AI를 이용하여 유해성 높은 공고를 필터링 해준다. |
+|무엇을 만들고자 하는가|공모전, 경진대회 등에 참여할 팀원을 구하는 팀매칭 플랫폼을 만든다. 포트폴리오를 통해 해당 사람의 주요 기술, 역할, 경험 등의 키워드를 추출한다. 그리고 사람들이 올린 공고를 DB에 저장하고 핵심 키워드를 추출한다. 이를 기반으로 챗봇을 통해 원하는 팀원과 공고을 쉽게 추천받을 수 있다. |
 |고객|공모전에 나가기 위해 팀원을 구하고 있는 대학생|
 |Pain Point|대부분의 공모전, 경진대회는 팀 단위로 참여해야 한다. 그러나 현재 나와 있는 대부분의 팀매칭 플랫폼은 사이드프로젝트 팀원 구인을 주 목적으로 하며, 유저의 대부분은 현직자이므로 대학생이 사용하기엔 한계가 있다. 대학생들이 팀에 필요한 역량을 갖춘 팀원을 구하는데 많은 어려움이 있다. |
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI, Google Cloud AI: AI 기반 부적절 공고 필터링, AI 챗봇을 구현한다.|
-|사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> 3. AI <br> Google Cloud Moderate Text AI <https://cloud.google.com/natural-language/docs/moderating-text?hl=ko><br> Chat GPT <https://openai.com/ko-KR/index/openai-api/>|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot, FASTAPI :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI: 팀원 추천기능, 공고추천기능을 수행하며 AI 챗봇을 통해 추천정보를 제공한다. <br> 4. 인프라/DB<br> PostgreSQL, pgvector, AWS S3: 사용자, 포트폴리오 정보들을 저장한다. AI와 연결하여 팀원 추천, 공고추천 기능을 제공한다.<br> AWS EC2, Redis, Docker: 서버를 연결하고 배포한다.|
+|사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> FastAPI: <https://fastapi.tiangolo.com/> <br>3. AI <br> Chat GPT <https://openai.com/ko-KR/index/openai-api/><br> 4. 인프라/DB<br> PostgreSQL:<https://www.postgresql.org/> <br> pgvector : <https://github.com/pgvector/pgvector> <br> AWS EC2: <https://aws.amazon.com/ko/ec2/><br> AWS S3: <https://aws.amazon.com/ko/s3/> <br> Redis: <https://redis.io/> <br> Docker: <https://www.docker.com/>|
 |팀그라운드룰|<https://github.com/2025-TEAM-LGTM/LGTM-docs/blob/main/GroundRule.md>|
-| 최종 수정일 | 2025.09.16 |
+| 최종 수정일 | 2025.10.13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -632,18 +632,18 @@
 
 | **항목** | **내용** |
 | --- | --- |
-|프로젝트명| 해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스 |
-|프로젝트 키워드| 큐싱 범죄 예방, 머신러닝, URL 데이터 분석 |
-|트랙| 산학 |
-|프로젝트 멤버| 황규리, 신예진, 김태연 |
-|팀지도교수| 오세은 교수님 |
-|무엇을 만들고자 하는가| 본 프로젝트는 해외여행자가 QR코드를 스캔했을 때 발생할 수 있는 큐싱 위험을 최소화하기 위한 AI 기반 보안 서비스를 개발하는 것을 목표로 합니다. <br> 사용자가 QR코드를 스캔하면 URL을 자동으로 추출하고, 랜덤 포레스트(Random Forest) 알고리즘을 활용한 URL 분석 모델을 적용하여 새로운 피싱 사이트까지 판별할 수 있도록 합니다. |
-|고객| 해외여행 중 QR 코드를 스캔해야 하는 사용자 (교통, 관광, 결제, 와이파이 접속 등) |
-|Pain Point| 해외여행자를 대상으로 한 큐싱(QR 피싱) 피해는 꾸준히 증가하고 있습니다.<br><br>낯선 환경에서 관광, 교통, 와이파이 접속, 결제 등 다양한 상황에서 QR코드를 사용하는 경우가 많지만, 사용자는 해당 URL이 안전한지 직접 확인하기 어렵습니다. 특히 언어 장벽과 낮은 보안 인식으로 인해 가짜 결제 페이지나 위장된 로그인 화면에 쉽게 속아 개인정보와 금융정보를 입력하게 되는 사례가 빈번합니다.<br><br>그럼에도 불구하고 현재까지 해외여행 상황에 특화된 큐싱 방지 서비스는 거의 존재하지 않아, 여행자들은 보안 공백 속에 노출되어 있는 실정입니다. |
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|React + react-qr-reader**: 모바일 웹에서 QR 이미지 스캔 → URL 추출 및 서버 전송, “안전 / 의심 / 위험” 상태 표시, 피처별 근거 안내, 실시간 분석 결과 확인 <br> **Spring Boot 라이브러리 (Apache Commons Validator, java.net.URL, PublicSuffix)**: URL 구조 검증, 도메인 분석, typosquatting 탐지 <br> **FastAPI + Python (scikit-learn / XGBoost, SHAP)**: URL 정상/악성 분류, 위험도 점수 계산, 신규 악성 URL 탐지, 예측 근거 제공 <br> **MySQL**: URL, QR 메타데이터, 분석 결과, 위험 점수 저장 <br> **OpenAi API**: 모델 예측 근거 설명을 자연어로 변환, 사용자 맞춤 안내 제공 |
-|사용할 소프트웨어 패키지의 명칭과 URL|백엔드** <br>• Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)<br> • OpenAi API: https://openai.com/ko-KR/<br><br> **프론트엔드** <br>• React: [https://ko.react.dev/](https://ko.react.dev/) <br><br> **데이터베이스** <br>• MySQL: [https://www.mysql.com/](https://www.mysql.com/) <br><br> |
-|팀그라운드룰| [Ground Rule](https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD) |
-|최종수정일| 2025.09.18 |
+| 프로젝트명 | 해외여행 중 악성 URL로 연결되는 QR 스캔 위험으로부터 사용자의 안전한 접속을 돕는 스마트 어시스턴트 |
+| 프로젝트 키워드 | 피싱 범죄 예방, 웹 뷰, URL 데이터 분석, 머신러닝  |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 황규리, 신예진, 김태연 |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | 본 프로젝트는 해외여행자가 QR코드를 스캔했을 때 발생할 수 있는 피싱(큐싱) 위험을 최소화하기 위한 **AI 기반 보안 서비스**를 개발하는 것을 목표로 합니다.<br>이 서비스는 사용자가 QR코드를 스캔하면 URL을 자동으로 추출하고, 머신러닝 기반 URL 분석 모델을 적용하여 피싱 사이트를 판별할 수 있도록 합니다. URL이 악성으로 판단되는 경우 판단근거를 제공하여 사용자의 이해를 돕습니다. 정상으로 판단되는 경우에는 샌드박스 모드 웹 뷰를 제공합니다. 추가적으로, 보안 어시스턴트 챗봇를 제공하여 사용자가 URL에 더 안전하게 접근하도록 합니다.<br>궁극적으로 본 프로젝트는 해외여행자가 QR코드를 보다 안심하고 활용할 수 있는 모바일 보안 애플리케이션을 만드는 것을 지향합니다. |
+| 고객(범위를 최대한 좁혀서 지정) | 해외여행 중 QR 코드를 스캔해야 하는 사용자(교통, 관광, 결제, 와이파이 접속 등) <br><br>이화인(35)<br>배경<br>• 해외 출장을 자주 다니며 공항·호텔·현지 업체 결제 등 업무용 QR 코드를 자주 이용<br>• 최근 QR 피싱 관련 뉴스를 접하고 회사 자산이나 계정 정보 유출에 대한 불안감이 커짐<br>• 회사 보안 교육은 받았지만, QR 관련 위험은 생소함<br>needs:<br>• 출장지에서의 낯선 QR 코드 → 안전한지 빠르게 판별<br>• 공식 사이트나 인증된 링크만 열람할 수 있는 도구<br>• 업무용 기기라 개인보다 더 보안에 민감 → 피해 시 대응 방법<br><br>김이화(24)<br>배경<br>• 해외여행을 즐기며, 교통·음식점·관광지에서 편의 위주로 QR을 자주 스캔함<br>• 현지 언어가 낯설고, QR 안내문을 자주 접함<br>• 서비스 이용 시 편리함과 즉각적인 접근성을 중요하게 여김<br>needs<br>• 언어에 구애받지 않고 QR 링크의 내용을 쉽게 이해할 수 있는 안내<br>• QR을 스캔하기 전에 신뢰할 수 있는 링크인지 직관적으로 확인<br>• 복잡한 절차 없이 빠르게 사용할 수 있는 간단한 서비스 |
+| Pain Point | 해외여행자를 대상으로 한 큐싱(QR 피싱) 피해는 꾸준히 증가하고 있습니다. 낯선 환경에서 관광, 교통, 와이파이 접속, 결제 등 다양한 상황에서 QR코드를 사용하는 경우가 많지만, 사용자는 해당 URL이 안전한지 직접 확인하기 어렵습니다. 특히 언어 장벽과 낮은 보안 인식으로 인해 가짜 결제 페이지나 위장된 로그인 화면에 쉽게 속아 개인정보와 금융정보를 입력하게 되는 사례가 빈번합니다. 그럼에도 불구하고 현재까지 해외여행 상황에 특화된 큐싱 방지 서비스는 거의 존재하지 않아, 여행자들은 보안 공백 속에 노출되어 있는 실정입니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 프론트엔드<br>• React + react-qr-reader(라이브러리)+ react-native-webview(라이브러리): 모바일/웹에서 QR 이미지 스캔 → URL 추출 및 서버 전송, “안전 / 의심 / 위험” 상태 표시, 피처별 근거 안내, 실시간 분석 결과 확인, 샌드박스 모드 웹뷰 제공, 자바 스크립트 ON 상태 제공, Dynamic Contents에 대비한 mutationObserver<br><br>백엔드<br>• Spring Boot 라이브러리: Apache Commons Validator, java.net.URL, PublicSuffix: URL 구조 검증, 도메인 분석, typosquatting 탐지<br>데이터베이스<br>• MySQL: URL, QR 메타데이터, 분석 결과, 위험 점수 저장<br>AI<br>• FastAPI + Python, scikit-learn: URL 정상/악성 분류, 위험도 점수 계산, 신규 악성 URL 탐지, 예측 근거 제공<br><br>API<br>• papago: 웹페이지 번역<br>• Chat GPT: 보안 어시스턴트 안내 생성<br><br>플랫폼<br>• Docker: 모든 서비스(React, Spring Boot, FastAPI, MySQL)를 컨테이너 단위로 분리하여 배포 및 관리, 환경 일관성 유지 및 신속한 배포 지원<br>• AWS: 서비스 배포 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | 프론트엔드<br>• React: [ https://reactnative.dev/](https://reactnative.dev/)<br>• react-qr-reader [https://github.com/react-native-webview/react-native-webview#readme](https://github.com/react-native-webview/react-native-webview#readme)<br>• react-native-webview [https://github.com/react-native-webview/react-native-webview#readme](https://github.com/react-native-webview/react-native-webview#readme)<br><br>백엔드<br>• Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)<br>• Apache Commons Validator [https://commons.apache.org/proper/commons-validator/download_validator.cgi](https://commons.apache.org/proper/commons-validator/download_validator.cgi)<br>• Java [https://www.java.com/ko/](https://www.java.com/ko/)<br>• PublicSuffix [https://github.com/publicsuffix/list](https://github.com/publicsuffix/list)<br><br>데이터베이스<br>• MySQL: [https://www.mysql.com/](https://www.mysql.com/)<br><br>AI<br>• FastAPI [https://github.com/fastapi/fastapi](https://github.com/fastapi/fastapi)<br>• scikit-learn: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)<br>• PyTorch [https://pytorch.org/](https://pytorch.org/)<br><br>API<br>• papago [https://www.ncloud.com/product/aiService/papagoTranslation#overview](https://www.ncloud.com/product/aiService/papagoTranslation#overview)<br>• Chat GPT [https://openai.com/ko-KR/index/openai-api/](https://openai.com/ko-KR/index/openai-api/)<br><br>플랫폼<br>• Docker [https://www.docker.com/](https://www.docker.com/)<br>• AWS [https://aws.amazon.com/ko/](https://aws.amazon.com/ko/) |
+| 팀그라운드룰 | [https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD](https://github.com/Capstone-CanDo/CanDo/blob/main/GroundRule.MD) |
+| 최종수정일 | 2025.10.13 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -705,17 +705,18 @@
 |항목|내용|
 |---|---|
 |프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안|
-|프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
+|프로젝트 키워드|AI workload, Power Attribution, Energy Prediction|
 |트랙|연구|
 |프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
 |팀지도교수|반효경 교수님|
-|무엇을 만들고자 하는가|AI 기반 에너지 사용량 예측모델|
+|무엇을 만들고자 하는가|Energy Attribution Algorithm, Energy Profiling Engine, Lightweight Monitoring System, Validation Framework|
 |고객|클라우드/서버에 별도의 비용을 지불하고 사용중인 기업들 |
-|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Python 3.8+ : 메인 개발 언어 <br> - PyTorch : AI 모델 훈련/추론 <br> - scikit-learn : 머신러닝 모델 구현 <br> - pandas/numpy : 데이터 처리 및 분석 <br> - pynvml : NVIDIA GPU 전력 모니터링|
-|사용할 소프트웨어 패키지의 명칭과 URL|- PyTorch: https://pytorch.org/<br> - scikit-learn: https://scikit-learn.org/<br>- pynvml: https://pypi.org/project/pynvml/|
+|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생,불공정한 과금체계|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Ubuntu 22.04 LTS : 시스템 기본 운영체제 <br> - qemu-kvm :가상머신 에뮬레이션 및 하드웨어 가상화 수행 <br> - libvirt-daemon-system & libvirt-python : VM 관리 및 Python 환경에서 libvirt API 호출 <br> - RAPL : CPU 전력 및 에너지 계측 <br> - nvidia-ml-py3 : GPU 전력 및 상태 모니터링 <br> - msr-tool : Model-Specification Register 접근 도구 <br> - virsh : VM 명령 제어 & 상태조회 <br> - perf : 커널 이벤트/CPU 성능 계측 <br> - psutil :  프로세스 및 시스템 리소스 모니터링 <br> - pandas : 시계열/테이블 데이터 처리 <br> - numpy : 배열 기반 수치 연산 <br> - scikit-learn : 머신러닝 알고리즘 라이브러리 <br> - grafana : 시계열 데이터 시각화 및 대시보드 <br> - seaborn : 통계적 시각화 <br> - matplotlib :2D 플롯 시각화 <br> - influx DB : 시계열 데이터 저장,쿼리 <br> - Pytorch : 딥러닝 모델 학습&추론 <br> - Tensorflow : 딥러닝 프레임워크|
+|사용할 소프트웨어 패키지의 명칭과 URL|- Ubuntu 22.04 LTS : [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/) <br> - qemu-kvm : [https://www.qemu.org/download/](https://www.qemu.org/download/) <br> - libvirt-daemon-system & libvirt-python : [https://libvirt.org/](https://libvirt.org/) <br> - RAPL : [https://www.kernel.org/doc/html/latest/power/rapl.html](https://www.kernel.org/doc/html/latest/power/rapl.html) <br> - nvidia-ml-py3 : [https://pypi.org/project/nvidia-ml-py3/](https://pypi.org/project/nvidia-ml-py3/) <br> - msr-tools : [https://github.com/intel/msr-tools](https://github.com/intel/msr-tools) <br> - virsh : [https://libvirt.org/manpages/virsh.html](https://libvirt.org/manpages/virsh.html) <br> - perf : [https://perf.wiki.kernel.org/index.php/Main_Page](https://perf.wiki.kernel.org/index.php/Main_Page) <br> - psutil : [https://pypi.org/project/psutil/](https://pypi.org/project/psutil/) <br> - pandas : [https://pandas.pydata.org/](https://pandas.pydata.org/) <br> - numpy : [https://numpy.org/](https://numpy.org/) <br> - scikit-learn : [https://scikit-learn.org/](https://scikit-learn.org/) <br> - grafana : [https://grafana.com/](https://grafana.com/) <br> - seaborn : [https://seaborn.pydata.org/](https://seaborn.pydata.org/) <br> - matplotlib : [https://matplotlib.org/](https://matplotlib.org/) <br> - influx DB : [https://www.influxdata.com/](https://www.influxdata.com/) <br> - Pytorch : [https://pytorch.org/](https://pytorch.org/) <br> - Tensorflow : [https://www.tensorflow.org/](https://www.tensorflow.org/) <br>
+|
 |팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
-|최종수정일|2025-09-16|
+|최종수정일|2025-10-13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
   
