@@ -349,7 +349,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용 시나리오|**[Frontend]** <br>React Native : 모바일 앱 UI/UX 개발, 동화책 뷰어 및 읽기 훈련 인터페이스 제공<br><br> **[Backend]** <br>Spring Boot : REST API 서버 구축, 사용자 관리·학습 데이터 저장<br>FastAPI : STT/LLM 모듈 연동, 적응형 알고리즘 처리<br><br> **[협업 툴]** <br>Git/GitHub : 소스 코드 버전 관리<br>Figma : UI 프로토타입 제작<br>Notion : 문서 및 일정 관리<br>Discord : 팀 커뮤니케이션<br><br> **[AI / API]** <br>Whisper : 아이의 낭독 음성 인식 및 전사<br>KoNLPy/형태소 분석기 : 한국어 문장 난이도 제어, 어휘 분석<br>Stable Diffusion API : 삽화 이미지 생성<br>TTS (Coqui TTS/Piper) : 동화 오디오북 기능 제공<br>LLM(OpenAI GPT 계열) : 아이 수준에 맞는 동화 문장 생성 및 질문 대화 제공<br>Adaptive Learning Engine(직접 구현) : 학습 데이터 기반 난이도 조절 및 피드백|
 |사용할 소프트웨어 패키지의 명칭과 URL|Whisper: https://openai.com/index/whisper <br>KoNLPy: https://konlpy.org <br>Stable Diffusion: https://stability.ai <br>Coqui TTS: https://coqui.ai <br>OpenAI GPT: https://openai.com/ko-KR/index/openai-api/|
 |팀 그라운드룰|[GitHub Ground Rule](https://github.com/Team-CtrlS/document/blob/main/GroudRule.md)|
-|최종 수정일|2025-10-03|
+|최종 수정일|2025-10-14|
 
 [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
