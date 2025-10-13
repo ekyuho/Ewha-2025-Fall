@@ -587,6 +587,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|1. 프론트 <br>React: 화면 UI를 구현한다.<br> 2. 백엔드 <br>Spring Boot, FASTAPI :  공고 글/포트폴리오 작성·수정·삭제·이미지 업로드 (CRUD) , 포트폴리오 선택 노출 및 블러 처리, 로그인/로그아웃 및 권한 관리 등을 구현한다.<br>3. AI<br> OpenAI: 팀원 추천기능, 공고추천기능을 수행하며 AI 챗봇을 통해 추천정보를 제공한다. <br> 4. 인프라/DB<br> PostgreSQL, pgvector, AWS S3: 사용자, 포트폴리오 정보들을 저장한다. AI와 연결하여 팀원 추천, 공고추천 기능을 제공한다.<br> AWS EC2, Redis, Docker: 서버를 연결하고 배포한다.|
 |사용할 소프트웨어 패키지의 명칭과 URL|1. 프론트 <br>React  <https://ko.legacy.reactjs.org/> <br>2. 백엔드<br>Spring Boot <https://spring.io/projects/spring-boot><br> FastAPI: <https://fastapi.tiangolo.com/> <br>3. AI <br> Chat GPT <https://openai.com/ko-KR/index/openai-api/><br> 4. 인프라/DB<br> PostgreSQL:<https://www.postgresql.org/> <br> pgvector : <https://github.com/pgvector/pgvector> <br> AWS EC2: <https://aws.amazon.com/ko/ec2/><br> AWS S3: <https://aws.amazon.com/ko/s3/> <br> Redis: <https://redis.io/> <br> Docker: <https://www.docker.com/>|
 |팀그라운드룰|<https://github.com/2025-TEAM-LGTM/LGTM-docs/blob/main/GroundRule.md>|
+|Project Repo URL|<https://github.com/2025-TEAM-LGTM>|
 | 최종 수정일 | 2025.10.13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)

@@ -29,7 +29,7 @@
 | 27 | Matcha Tonic | https://github.com/cse2348/2025_MatchaTonic  |
 | 28 | PlanIT | https://github.com/smileblu/Capstone  |
 | 29 | Nitro | https://github.com/Nitro-Ewha/ai-accelerator.git  |
-| 30 | LGTM | https://github.com/eunkr82/Team-LGTM  |
+| 30 | LGTM | https://github.com/2025-TEAM-LGTM|
 | 31 | 플랜B | https://github.com/PLAN-B-EWHA/Capstone-31  |
 | 32 | 올데이 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
 | 33 | 할수있다 능 | https://github.com/Capstone-CanDo/CanDo  |
