@@ -92,7 +92,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• React.js (JavaScript): 사용자 친화적 대시보드 UI 개발 <br> • Spring Boot (Java): 백엔드 API, 일정·업무 관리, 피드백 로직 처리 <br> • Google Calendar API: 팀/개인 일정 동기화 및 일정 알림 <br> • ChatGPT + STT(Speech-to-Text): 회의 내용 자동 기록·요약, 발화 분석 및 액션아이템 추출 <br> • Docker: 서비스 컨테이너화 및 배포 효율화 <br> • MySQL: 사용자, 회의록, 피드백, 투두 데이터 저장 및 관리|
 |사용할 소프트웨어 패키지의 명칭과 URL|[Node.js](https://nodejs.org),[pnpm](https://pnpm.io), [OpenJDK 21](https://openjdk.org), [Gradle](https://gradle.org), [MySQL](https://www.mysql.com), [MySQL Connector/J (JDBC)](https://dev.mysql.com/downloads/connector/j/), [OpenAI Java SDK](https://github.com/TheoKanning/openai-java), [IntelliJ IDEA](https://www.jetbrains.com/idea), [VSCode](https://code.visualstudio.com), [DBeaver](https://dbeaver.io), [Postman](https://www.postman.com)|
 |팀그라운드룰|[팀그라운드룰](https://github.com/yoozafree/ALL_IS_WELL/blob/main/GroundRule.md)|
-|최종수정일|2025-10-11|
+|최종수정일|2025-10-13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
