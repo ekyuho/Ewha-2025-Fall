@@ -551,7 +551,8 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 |**AI / Data** <br>- ARIMA : 시계열 예측 <br>- scikit-learn : 이상치 탐지 <br>- TensorFlow, PyTorch : 강화학습 <br>- D3.js, Chart.js : 시각화<br><br>- **Frontend** <br>- Zustand : 상태 관리 <br>- React Query + Axios : 서버 통신·캐싱 <br>- Tailwind CSS : UI 스타일링·대시보드 <br>- ESLint + Prettier : 코드 품질 관리 <br>- Recharts / Chart.js : 데이터 시각화 <br><br> **Backend**<br>- AWS EC2 : 서버 배포 및 운영 <br>- AWS S3 : 데이터·리포트 파일 저장 <br>- MySQL : 사용자·탄소 데이터 관리 <br>- Python : 데이터 처리·산출 로직 <br>- Firebase Realtime DB : 실시간 데이터 동기화 <br>- Docker : 컨테이너 기반 배포 <br>|
 | 사용할 소프트웨어 패키지의 명칭과 URL | **AI / Data** <br>- ARIMA : https://www.statsmodels.org/stable/tsa.html <br>- scikit-learn : https://scikit-learn.org/stable/ <br>- TensorFlow : https://www.tensorflow.org/ <br>- PyTorch : https://pytorch.org/ <br>- D3.js : https://d3js.org/ <br>- Chart.js : https://www.chartjs.org/ <br>- pycarbon : https://github.com/jackylk/pycarbon <br><br>**Frontend**  <br>- React : https://react.dev/ <br>- TypeScript : https://www.typescriptlang.org/ <br>- Zustand : https://zustand-demo.pmnd.rs/ <br>- Tailwind CSS : https://tailwindcss.com/ <br>- React Query : https://tanstack.com/query/latest <br>- Axios : https://axios-http.com/docs/intro <br>- ESLint : https://eslint.org/ <br>- Prettier : https://prettier.io/ <br><br> **Backend** <br>- AWS EC2, S3 : https://aws.amazon.com/ <br>- MySQL : https://www.mysql.com/ <br>- Python : https://www.python.org/ <br>- Firebase Realtime Database : https://firebase.google.com/products/realtime-database <br>- Docker : https://www.docker.com/ <br>|
 | 팀그라운드룰 | https://github.com/smileblu/Capstone/blob/main/GroudRule.md |
-| 최종수정일 | 2025.10.13. |
+| 팀 repository | https://github.com/smileblu/Capstone |
+| 최종수정일 | 2025.10.14. |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
