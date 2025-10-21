@@ -3,10 +3,10 @@
 | 1 | Qubit(큐비트) | https://github.com/solmingming/Qubit_research.git  |
 | 2 | MBP | https://github.com/capstone25-2-MBP/MBP |
 | 3 | 세얼간이(All_Is_Well) | https://github.com/yoozafree/ALL_IS_WELL  |
-| 4 | ADHD | https://github.com/kelly96110jung/Start |
+| 4 | RenYER | https://github.com/kelly96110jung/Start |
 | 5 | Hibee | https://github.com/firstprojectof3/Hibee  |
 | 6 | 브라우니 | https://github.com/TeamBrowniewha/TeamBrownie?tab=readme-ov-file  |
-| 7 | 삼각형에대한광기는더욱커져만갔다 | https://github.com/2025-capstone-Triangle/2025CapstoneProject  |
+| 7 | 我 | https://github.com/2025-capstone-Triangle/2025CapstoneProject  |
 | 8 | SEAquence | https://github.com/HajarFazillah/SEAquence  |
 | 9 | SiYa | https://github.com/EWHA-CAPSTONE-VISION/team_project_repo  |
 | 10 | JL | https://github.com/jun-glitch/JL.git  |
@@ -29,7 +29,7 @@
 | 27 | Matcha Tonic | https://github.com/cse2348/2025_MatchaTonic  |
 | 28 | PlanIT | https://github.com/smileblu/Capstone  |
 | 29 | Nitro | https://github.com/Nitro-Ewha/ai-accelerator.git  |
-| 30 | LGTM | https://github.com/eunkr82/Team-LGTM  |
+| 30 | LGTM | https://github.com/2025-TEAM-LGTM|
 | 31 | 플랜B | https://github.com/PLAN-B-EWHA/Capstone-31  |
 | 32 | 올데이 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
 | 33 | 할수있다 능 | https://github.com/Capstone-CanDo/CanDo  |
