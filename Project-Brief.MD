@@ -400,13 +400,13 @@
 | 트랙 | 산학 |
 | 프로젝트멤버 | 강민경, 김예린, 장현서 |
 | 팀지도교수 | 윤명국 |
-| 무엇을 만들고자 하는가 | 이 프로젝트는 **예비, 초기 스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, **1분 엘리베이터 피칭**, **투자 유치 피칭**, **IR 피칭** 등 다양한 피칭 상황에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다. |
-| 고객 | **투자 유치나 지원 사업 선발을 앞두고 있는 예비, 초기 창업자** |
+| 무엇을 만들고자 하는가 | 이 프로젝트는 **예비, 초기 스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, 1분 엘리베이터 피칭, 투자 유치 피칭, IR 피칭 등 **다양한 피칭 상황**에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다. |
+| 고객 | 투자 유치나 지원 사업 선발을 앞두고 있는 예비, 초기 창업자 |
 | Pain Point | 1. **평가 기준의 불확실성**: 사업 공고마다 시장성·팀 역량·기술성 등 평가  비중이 달라, 발표 준비가 전략적으로 이뤄지기 어려움<br>2. **훈련 환경의 제약**: 실제 연습 과정에서 시간 관리·자료 균형·발화 습관을  객관적으로 측정할 도구 부족<br>3. **실전 경험 부족**: 예비·초기 창업자는 실제 투자자나 심사위원 앞에서  발표할 기회가 많지 않아, 예상치 못한 질문이나 압박 상황에 대한  대응력 부족 |
-| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 1. **OpenAI Whisper**: 리허설 발표 음성 업로드 → 텍스트 전사 생성 + 다국어 음성 인식(ASR), 발표 전사<br>2. **librosa, praat-parselmouth**: 전사된 발표 음성 분석 → 말 빠르기·억양·발음 명료도 진단 + Prosody 분석<br>3. **LLM (GPT-4/5)**: 공고문 요약·Deck 매칭 → 부족 섹션 강조 + IR 질문 자동 생성<br>4. **LayoutLM**: 문서 레이아웃 파싱, IR 표준 항목 자동 라벨링 |
-| 사용할 소프트웨어 패키지의 명칭과 URL | 1. **OpenAI Whisper**: https://github.com/openai/whisper<br>2. **librosa**: https://librosa.org/ / **praat-parselmouth**: https://parselmouth.readthedocs.io/<br>3. **LLM (GPT-4/5)**: https://platform.openai.com/<br>4. **LayoutLM**: https://github.com/microsoft/unilm/blob/master/layoutlmv3/README.md |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 1. **OpenAI Whisper**: 리허설 발표 음성 업로드 → 텍스트 전사 생성 + 다국어 음성 인식(ASR), 발표 전사<br>2. **librosa**: 전사된 발표 음성 분석 → 말 빠르기·억양·발음 명료도 진단<br>3. **LLM (Gemini)**: 공고문 요약·Deck 매칭 → 부족 섹션 강조 + IR 질문 자동 생성<br>4. **LLM Fine-tuning**: 예상 질문 답변(음성) → 간결성·정확성·구조성 평가 + 투자자 Q&A 답변 평가<br>5. **LayoutLM**: 문서 레이아웃 파싱, IR 표준 항목 자동 라벨링<br>6. **LIME, SHAP**: 점수 결과 리포트 생성 → 점수 근거 문장·슬라이드 하이라이트 표시 + 점수 근거 설명(Explainability) |
+| 사용할 소프트웨어 패키지의 명칭과 URL | 1. **OpenAI Whisper**: https://github.com/openai/whisper<br>2. **librosa**: https://librosa.org/<br>3. **LLM (Gemini)**: https://platform.openai.com/<br>4. HuggingFace Transformers (Fine-tuning): https://huggingface.co/transformers/<br>5. **LayoutLM**: https://github.com/microsoft/unilm/blob/master/layoutlmv3/README.md<br>6. **LIME**: https://github.com/marcotcr/lime / **SHAP**: https://github.com/shap/shap |
 | 팀그라운드룰 | [GroundRule](https://github.com/Capstone-POKI/POKI/blob/main/GroudRuld.MD) |
-| 최종수정일 | 2025-09-30 |
+| 최종수정일 | 2025-10-22 |
 
 [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
