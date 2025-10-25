@@ -563,7 +563,7 @@
 | 프로젝트 키워드 | NVIDIA Jetson, Multimodal, Kernel Fusion, Embedded GPU Optimization |
 | 트랙 | 연구 |
 | 프로젝트 멤버 | 박세진, 박윤형, 강선화 |
-| 팀 지도교수 | 윤명국 |
+| 팀 지도교수 | 윤명국 교수님 |
 | 무엇을 만들고자 하는가 | Jetson Nano와 같은 임베디드 GPU 환경에서 실행되는 멀티모달 모델의 추론 과정 중 발생하는 GPU 리소스 병목을 분석하고 이를 Kernel Fusion 기법을 통해 최적화하는 시스템을 구축한다. |
 | 고객 | 컴퓨팅 자원이 제한된 소형 임베디드 GPU 환경에서 실시간 멀티모달 추론을 수행하고자 하는 연구원 및 개발자 |
 | Pain Point | 최근 Vision-Language (VL) 및 멀티모달 모델의 발전으로 엣지 환경에서도 실시간 멀티모달 인식이 요구되고 있다. 그러나 임베디드 GPU는 연산 자원과 메모리가 제한적이며, 멀티모달 모델 실행 시 다중 커널 병렬 수행 기능이 없어, context switching overhead와 낮은 GPU utilization이 발생한다. <br/>기존 연구들은 Knowledge Distillation, Pruning, Quantization 등 SW 수준의 모델 경량화에 초점을 맞췄지만, 실제 엣지 디바이스 상에서 HW-level 병목을 분석하고 커널 수준 최적화로 성능을 개선하는 접근은 부족하다. <br/> 따라서 본 연구는 Jetson의 하드웨어 구조적 특성을 고려해, profiling → kernel fusion → performance evaluation 단계를 통해 온디바이스 멀티모달 모델의 효율적 실행 전략을 제시하고자 한다. |
