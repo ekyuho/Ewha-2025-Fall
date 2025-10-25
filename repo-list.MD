@@ -28,7 +28,7 @@
 | 26 | TriAI | https://github.com/graduation-TriAI/TriAI  |
 | 27 | Matcha Tonic | https://github.com/cse2348/2025_MatchaTonic  |
 | 28 | PlanIT | https://github.com/smileblu/Capstone  |
-| 29 | Nitro | https://github.com/Nitro-Ewha/ai-accelerator.git  |
+| 29 | Nitro | https://github.com/Nitro-Ewha/Multimodal_on_Jetson  |
 | 30 | LGTM | https://github.com/2025-TEAM-LGTM|
 | 31 | 플랜B | https://github.com/PLAN-B-EWHA/Capstone-31  |
 | 32 | 올데이 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
