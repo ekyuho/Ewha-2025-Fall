@@ -63,8 +63,8 @@
 ## Team 2 MBP
 |항목|내용|
 |---|---|
-|프로젝트명|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
-|프로젝트 키워드|한국어 특화, 멀티모달, 메디컬 AI, 벤치마크 구축|
+|프로젝트명|실세계 소규모 의료 데이터 환경에서의 모델 평가 벤치마크|
+|프로젝트 키워드|멀티모달, 메디컬 AI, 연합 평가, Manifold Mixup, 벤치마크 구축|
 |트랙|연구|
 |프로젝트멤버|김채영, 박지호, 정지현|
 |팀지도교수|황의원|
@@ -74,7 +74,7 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score 등 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
 |사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score), [LLaVA-Med](https://github.com/microsoft/LLaVA-Med), [Med-Flamingo](https://github.com/snap-stanford/med-flamingo), [Qilin-Med](https://github.com/williamliujl/Qilin-Med-VL), [RadFM 영상](https://github.com/chaoyi-wu/RadFM), [PyTorch](https://github.com/pytorch/pytorch), [AI Hub](https://www.aihub.or.kr/aihubdata/data/list.do?currMenu=115&topMenu=100) [HIRA](https://opendata.hira.or.kr/home.do)|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
-|최종수정일|2025.09.30|
+|최종수정일|2025.11.11|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
