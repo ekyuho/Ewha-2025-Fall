@@ -138,17 +138,17 @@
 |항목|내용|
 |---|---|
 |프로젝트명|대형 CLIP 모델의 제로샷 일반화 능력 유지를 위해 이미지-텍스트 쌍의 대조적 임베딩 관계 구조를 그대로 전이하는 경량 멀티모달 모델 지식 증류 기법 제안|
-|프로젝트 키워드|Multi-modal AI(CLIP), 경량화(knowledge distillation), Loss Function, TinyCLIP|
+|프로젝트 키워드|Multi-modal AI(CLIP), 경량화(Knowledge Distillation), TinyCLIP, CLIP-KD, 임베딩 공간(Embedding Space)|
 |트랙|연구 트랙|
 |프로젝트멤버|양인경, 장한나, 정진이|
 |팀지도교수|심재형|
-|무엇을 만들고자 하는가|멀티모달 모델인 CLIP을 중심으로, 자원이 제한되는 환경에서도 성능은 유지할 수 있도록, knowledge distillation 기법을 적용하여 모델을 경량화하고자 합니다.|
-|고객|AI/ML 기술을 사용하는 스타트업 또는 기업: 데이터 용량이 제한적이거나, 실시간 응답 속도가 중요한 서비스를 개발하는 기업들은 가벼우면서도 성능이 우수한 모델이 필요로 합니다. 기존의 거대 Transformer 기반 멀티모달 모델은 높은 연산 비용과 느린 추론 속도 때문에 사용하기 어려워, 연구를 통해 빠르고 가벼운 CLIP 모델 제공하고자 합니다.|
-|Pain Point|최근 텍스트, 이미지, 음성 등 여러 종류의 데이터를 동시에 이해하고 처리하는 멀티모달(Multi-modal) 모델이 AI 기술의 새로운 핵심으로 부상하고 있습니다. 하지만 멀티모달 모델의 특성상 여러 인코더와 이를 통합하는 복잡한 아키텍처를 가지고, 이는 단일 모델보다 훨씬 더 큰 모델 크기와 많은 연산량을 요구합니다. 이는 곧 배포의 한계, 비용 부담, 환경 문제 등으로 이어지며 기술의 대중화와 실용화를 막는 걸림돌이 되고 있습니다.|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - pyTorch: 모델 학습 및 지식 증류 구현.<br>- CLIP : 멀티모달 모델. 지식 증류 과정에서의 교사 모델.<br>- Knowledge Distillation : KD Loss 함수 및 구현 참고.<br>- TinyCLIP: 지식 증류 과정에서의 학생 모델.<br>- Transformer: Text tokenization.<br>- SCIKIT-LEARN: zero-shot 평가 및 시각화.|
-|사용할 소프트웨어 패키지의 명칭과 URL| - pyTorch: https://pytorch.org<br>- CLIP : https://github.com/openai/CLIP<br>- Knowledge Distillation : https://tutorials.pytorch.kr/beginner/knowledge_distillation_tutorial.html<br>- TinyCLIP: https://github.com/microsoft/Cream/tree/main/TinyCLIP<br>- Transformer: https://github.com/huggingface/transformers<br>- SCIKIT-LEARN: https://scikit-learn.org/stable/|
+|무엇을 만들고자 하는가|대규모 모델을 최적화하는 지식 증류 기법을 사용하여, 대규모 멀티모달 모델인 CLIP을 경량화하는 모델을 제안하고자 합니다. 기존 연구들의 경량화된 CLIP 모델의 제약을 파악하고 더 효율적인 기법을 제안합니다. 이를 통해 일반적인 태스크(이미지-텍스트 검색, 제로샷 이미지-텍스트 분류 등)에서 정확도와 속도가 우수한 경량화된 모델을 보이고자 합니다.|
+|고객| **고객 1**: AI/ML 기술을 사용하는 스타트업 대표<br> 배경: 멀티모달 모델을 기반으로 한 서비스를 개발하고자 함. 그러나 CLIP 등 대규모 멀티모달 모델은 고성능 GPU 등 컴퓨팅 자원이 필요하여, 초기 자본이 제한적인 스타트업에게는 개발 과정에서 큰 제약으로 작용함.<br>**고객 2**: 대규모 멀티모달 모델을 임베디드 기기에 적용하려는 기업<br>배경: 멀티모달 모델의 우수한 성능을 기기에 탑재해 제품을 개발하고나 하나, 모델의 대규모 파라미터와 연산량으로 인해 실제 구현이 어려움<br>**공통 요구사항**:<br>- 파라미터 수와 연산량이 적은 멀티모달 모델을 선호<br>- 그러나 대규모 멀티모달 모델과 비슷한 수준의 성능을 요구<br>- 제한된 컴퓨팅 자원에서도 사전학습 또는 추론이 가능한 모델을 원함 <br>- 경량화된 모델을 활용해 효율적으로 서비스를 개발하기를 희망함|
+|Pain Point|최근 텍스트, 이미지, 음성 등 다양한 형태의 데이터를 동시에 이해하고 처리하는 멀티모달 모델이 AI 기술 발전의 핵심으로 주목받고 있습니다. 그러나 이러한 모델은 본질적으로 여러 인코더와 복잡한 통합 구조를 포함하고 있어, 단일 모달 모델에 비해 모델 크기와 연산량이 크게 증가합니다.<br>1. 컴퓨팅 자원의 한계: 고성능 GPU나 클러스터 환경이 필수적이어서, 초기 자본이 제한된 스타트업이나 소규모 기업은 접근이 어렵습니다.<br>2. 배포 및 응용 제약: 모델이 대규모일수록 임베디드 기기나 온디바이스 환경에 탑재하기가 어렵습니다.<br>3. 비용 및 지속 가능성 문제: 연산량이 많을수록 계산 비용이 급증하고 에너지 소비 증가로 인한 환경적 부담과 문제가 커집니다.<br>4. 대중화 지연: 기술적, 경제적 제약이 결국 멀티모달 AI의 실용화와 산업 적용을 가로막는 주요 장벽이 되고 있습니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| **소프트웨어 패키지**<br>- pyTorch: 모델 학습 및 지식 증류 구현<br>- OpenAI CLIP : 멀티모달(이미지-텍스트) 교사 모델.<br>- TinyCLIP/CLIP-KD: 경량화된 멀티모달 학생 모델<br>- Transformer: 텍스트 토큰화 및 임베딩 인코딩<br>- SCIKIT-LEARN: zero-shot 평가 및 성능 분석, 시각화.<br>**핵심 알고리즘 및 기법**<br>- Knowledge Distillation: 교사-학생 구조 기반의 모델 압축 및 성능 유지<br>- Teacher-Student Framework: 모델 간 지식 전달 구조 설계<br> - 대조 학습 기반 멀티모달 표현 학습: 텍스트-이미지 간 표현 정렬 및 의미적 매핑<br>**데이터셋**<br>- 사전학습 데이터셋: CC3M, CC12M, LAION-400M<br>- 성능 평가 데이터셋: CIFAR-10/100, Food101, Oxford Pets, Caltech 101, Flowers102, MNIST, STL10, EuroSAT, RESISC45, ImageNet 및 변형 데이터셋|
+|사용할 소프트웨어 패키지의 명칭과 URL| - pyTorch: https://pytorch.org<br>- CLIP : https://github.com/openai/CLIP<br>- Knowledge Distillation : https://tutorials.pytorch.kr/beginner/knowledge_distillation_tutorial.html<br>- TinyCLIP: https://github.com/microsoft/Cream/tree/main/TinyCLIP<br>- CLIP-KD: https://github.com/winycg/CLIP-KD<br>- Transformer: https://github.com/huggingface/transformers<br>- SCIKIT-LEARN: https://scikit-learn.org/stable/|
 |팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
-|최종수정일|2025.10.13|
+|최종수정일|2025.11.13|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
