@@ -459,7 +459,7 @@
 | 항목 | 내용 |
 | --- | --- |
 | 프로젝트명 | 다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
-| 프로젝트 키워드 | Knowledge Distillation, Model Partitioning, Scheduling, Multi-GPU Training, Distributed Optimization |
+| 프로젝트 키워드 | Knowledge Distillation, Model Partitioning, Scheduling, Multi-GPU Training, Distributed Optimization, Pipeline Parallelism |
 | 트랙 | 연구 |
 | 프로젝트 멤버 | 김현영, 문원정, 최지희 |
 | 팀지도 교수 | 심재형 |
@@ -469,7 +469,7 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | PyTorch: 기본 딥러닝 프레임워크. 모델 정의, 학습 루프 구현, GPU 연산 지원<br>DeepSpeed: 대규모 모델 학습 최적화. 파이프라인 병렬화, ZeRO 메모리 최적화, 분산 학습 지원<br> Hardware Environment: NVIDIA GeForce RTX 3090 × 4 (Single-node Multi-GPU) |
 | 사용할 소프트웨어 패키지의 명칭과 URL | PyTorch: https://pytorch.org/<br>DeepSpeed: https://www.deepspeed.ai/ |
 | 팀그라운드룰 | https://github.com/wonjungm/Synapse/blob/a5cbcfbee38afb6d1e9854926609495f76ede18b/GroundRule.md |
-| 최종수정일 | 2025.10.21 |
+| 최종수정일 | 2025.11.13 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
