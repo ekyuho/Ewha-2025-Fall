@@ -20,7 +20,7 @@
 |[17](#team-17-CtrlS)|CtrlS|난독 아동의 소리 내어 읽기 개선을 위한, 음성 인식 기반 읽기 오류 패턴 분석과 맞춤형 동화책 생성을 활용한 학습 시스템|
 |[18](#team-18-AIDERS)|AIDERS|K-pop 레이블 홍보팀을 위한 실시간 팬덤 이슈 감지·분석 및 대응 지원 AI Agent 서비스|
 |[19](#team-19-상킷)|상킷|Multimodal AI를 활용한 맞춤형 유튜브 썸네일·제목 컨설팅 시스템 |
-|[20](#team-20-POKI)|POKI|예비, 초기 장업자를 위한 멀티모달 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
+|[20](#team-20-POKI)|POKI|예비, 초기 창업자를 위한 멀티모달 AI 기반 IR 피칭 준비 플랫폼 PitchCoach|
 |[21](#team-21-봉원아사랑해)|봉원아사랑해|태아보험 특약 선택과 보장 범위 이해를 위한 산모 맞춤형 RAG 기반 보험 분석 서비스|
 |[22](#team-22-N0VA)|N0VA|계산과 실수가 버거운 니터를 위한 LLM 및 RAG 기반의 뜨개 의류 도안 변환 및 작업 보조 서비스|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
@@ -408,13 +408,13 @@
 | 트랙 | 산학 |
 | 프로젝트멤버 | 강민경, 김예린, 장현서 |
 | 팀지도교수 | 윤명국 |
-| 무엇을 만들고자 하는가 | 이 프로젝트는 **예비, 초기 스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, 1분 엘리베이터 피칭, 투자 유치 피칭, IR 피칭 등 **다양한 피칭 상황**에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다. |
+| 무엇을 만들고자 하는가 | 이 프로젝트는 **예비, 초기 스타트업 창업자**의 **투자자 피칭(IR)** 준비 전 과정(공고 분석 → Deck 분석 → 리허설(음성) → AI 리포트 → 수정 가이드 → 예상 Q&A 피드백 훈련)을 하나의 흐름으로 연결하여, 1분 엘리베이터 피칭, 투자 유치 피칭, 경진대회 등 **다양한 피칭 상황**에서 창업자가 보다 효율적이고 전문적으로 IR 피칭을 준비할 수 있게 돕는 **올인원 AI 코치** 입니다. |
 | 고객 | 투자 유치나 지원 사업 선발을 앞두고 있는 예비, 초기 창업자 |
 | Pain Point | 1. **평가 기준의 불확실성**: 사업 공고마다 시장성·팀 역량·기술성 등 평가  비중이 달라, 발표 준비가 전략적으로 이뤄지기 어려움<br>2. **훈련 환경의 제약**: 실제 연습 과정에서 시간 관리·자료 균형·발화 습관을  객관적으로 측정할 도구 부족<br>3. **실전 경험 부족**: 예비·초기 창업자는 실제 투자자나 심사위원 앞에서  발표할 기회가 많지 않아, 예상치 못한 질문이나 압박 상황에 대한  대응력 부족 |
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | 1. **OpenAI Whisper**: 리허설 발표 음성 업로드 → 텍스트 전사 생성 + 다국어 음성 인식(ASR), 발표 전사<br>2. **librosa**: 전사된 발표 음성 분석 → 말 빠르기·억양·발음 명료도 진단<br>3. **LLM (Gemini)**: 공고문 요약·Deck 매칭 → 부족 섹션 강조 + IR 질문 자동 생성<br>4. **LLM Fine-tuning**: 예상 질문 답변(음성) → 간결성·정확성·구조성 평가 + 투자자 Q&A 답변 평가<br>5. **LayoutLM**: 문서 레이아웃 파싱, IR 표준 항목 자동 라벨링<br>6. **LIME, SHAP**: 점수 결과 리포트 생성 → 점수 근거 문장·슬라이드 하이라이트 표시 + 점수 근거 설명(Explainability) |
 | 사용할 소프트웨어 패키지의 명칭과 URL | 1. **OpenAI Whisper**: https://github.com/openai/whisper<br>2. **librosa**: https://librosa.org/<br>3. **LLM (Gemini)**: https://platform.openai.com/<br>4. HuggingFace Transformers (Fine-tuning): https://huggingface.co/transformers/<br>5. **LayoutLM**: https://github.com/microsoft/unilm/blob/master/layoutlmv3/README.md<br>6. **LIME**: https://github.com/marcotcr/lime / **SHAP**: https://github.com/shap/shap |
 | 팀그라운드룰 | [GroundRule](https://github.com/Capstone-POKI/POKI/blob/main/GroudRuld.MD) |
-| 최종수정일 | 2025-10-22 |
+| 최종수정일 | 2025-11-13 |
 
 [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
