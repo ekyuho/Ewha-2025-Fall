@@ -32,7 +32,7 @@
 |[29](#team-29-Nitro)|Nitro| Kernel-Fused Parallel Execution for Accelerating Dual-Encoder Vision-Language Models |
 |[30](#team-30-lgtm)|LGTM|대학생을 위한 팀매칭 플랫폼|
 |[31](#team-31-플랜B)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
-|[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) 자영업자들을 위한 스마트 세무 자동화 비서 서비스 |
+|[32](#team-32-All-Day-Project)|All Day Project|Voice2Song: 딥러닝 기반 유저의 보컬과 어울리는 노래를 찾아주는 개인화 음악 추천 서비스 |
 |[33](#team-33-할수있다-능)|할수있다 능|해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스|
 |[34](#team-34-200OK)|200OK|교사가 AI를 통해 문제를 생성·분석해 게임에 접목하여 수업에 활용할 수 있는 교육용 AI 기반 게임형 학습 플랫폼|
 |[35](#team-35-EWIN)|EWIN|자기주도 학습을 하는 대학생을 위한, 강의자료를 분석하고 개인 맞춤형 질문을 생성하여 깊이 있는 학습을 유도하는 AI 튜터링 서비스|
@@ -620,7 +620,7 @@
 |---------|---------|
 | **프로젝트명** | **Voice2Song** : 딥러닝 기반 유저의 보컬과 어울리는 노래를 찾아주는 개인화 음악 추천 서비스 |
 | **프로젝트 키워드** | 🎤 Voice Analysis  🎧 Pitch (F0) Tracking  🧠 Speaker Embedding (ECAPA-TDNN)   |
-| **트랙** | 금융/세무 관리 자동화 서비스 개발 |
+| **트랙** | 산학 |
 | **프로젝트 멤버** | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)  <br> 👩‍💻 유서연 (Frontend, Data Visualization)  <br> 👩‍💻 이윤서 (AI, Audio Signal Processing, Recommendation) |
 | **팀지도교수** | 심재형 교수님 |
 | **무엇을 만들고자 하는가** | **Voice2Song**는 사용자가 직접 부른 한 소절 가창 음성을 분석하여, 해당 사용자의 음색·음역 특성에 가장 잘 어울리는 노래를 추천하는 가창 기반 음악 추천 웹 서비스입니다. <br><br> - 가창 음성 입력: 사용자가 웹에서 MR을 재생하며 20~30초 분량의 노래를 직접 녹음 <br> - 보컬 음성 분석: Demucs를 활용한 MR 제거 및 보컬 분리, Pitch(F0) 추적과 스펙트럼 분석 수행 <br> - 음색 임베딩 추출: SpeechBrain ECAPA-TDNN 기반 보컬 톤 임베딩 벡터 생성 <br> - 유사도 기반 추천: 사용자 음성과 노래 보컬 간 코사인 유사도 기반 비교 및 랭킹 생성 <br> - 개인화 순위 조정: Like / Dislike 피드백을 반영한 추천 결과 Re-ranking <br><br> → 목표: 사용자의 실제 가창 능력에 맞춰, <b> “내가 불렀을 때 가장 잘 어울리는 노래” </b>를 쉽고 직관적으로 찾을 수 있도록 지원 |
