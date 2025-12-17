@@ -173,7 +173,7 @@
 ## Team 8 SEAquence
 |항목|내용|
 |---|---|
-|프로젝트명| Talkativ; 다국적 사용자의 한국어 의사소통을 돕는 실시간 대화 중재 및 맥락 기반 대화 스크립트 생성 앱﻿ |
+|프로젝트명| Talkativ; 다국적 사용자의 한국어 의사소통을 돕는 실시간 대화 중재 및 맥락 기반  코칭 시스템 |
 |프로젝트 키워드| 머신러닝, 자연어처리, 다국적 커뮤니케이션, 대화 스크립트 생성, 한국어 표현, 높임말 정확성, 실시간 중재 |
 |트랙| 산학 |
 |프로젝트멤버| Siti Hajar Asyiqin Binti Fazillah / Heimvichit, Nunnalin / Yuzana Win |
@@ -182,9 +182,9 @@
 |고객| **페르소나 1: 사회적 불안이 있는 사용자**<br>이름/나이/직업: 민지 / 25 / 대학생<br>상황: 대화 주제 선택 시 긴장하고, 실수로 인해 상대에게 무례하게 보일까 걱정함. 존댓말과 반말 구분이 어려워 대화가 어색해질 때가 많음.<br>필요: 상대와의 상호 이해를 돕는 안전한 대화 주제 추천, 자연스러운 높임말 스크립트 생성, TTS 기반 발음 연습 및 간단한 문장 교정, 다문화 상황에서 외국인 친구들과 대화할 때 앱이 대화 의미를 쉽게 설명하거나 요약해 불안 완화<br><br>**페르소나 2: 유학생 (주요 유저)**<br>이름/나이/전공: 마이 / 21 / 컴퓨터공학<br>상황: 대화 중 주제 선택에 어려움을 느끼고, 한국어 존댓말/반말 사용에 대한 문화적 차이로 불안함. 대화 중 세부 내용을 잊거나 실시간 한국어 구사에 자신감이 부족함.<br>필요: 실시간 대화 중재 기능을 통해 대화 의미를 쉽고 정확한 한국어로 풀이해주고, 요청 시 자국어로 간단히 요약해주는 지원, 상황에 맞는 주제 추천과 자연스러운 한국어 스크립트 생성, 한국 생활 적응과 실시간 커뮤니케이션 도움<br><br>**페르소나 3: 내성적인 직장인**<br>이름/나이/직업: 준호 / 29 / 사무직<br>상황: 회식이나 모임에서 대화 주제 선택이 어렵고, 실수로 인해 어색한 분위기가 생김. 상대방의 직급이나 나이에 따라 높임말/반말 사용이 헷갈려서 대화가 부담스러움.<br>필요: 공손하고 명확한 업무 대화 스크립트 생성, 상황에 맞는 언어 톤 추천, 짧고 자연스러운 발화 연습을 도와주는 TTS 기능, 다언어 직장에서의 대화 중재 및 소통 지원 |
 |Pain Point| - 사회적 거리두기와 스트레스, 감염 경험 등으로 인해 인간 관계 단절이 심화되고 대화 자체가 두려워짐. <br> - 자신의 의도를 명확하게 전달하지 못할까 봐 부담을 느끼고, 중간에 말이 막히거나 내가 원하는 내용을 정확하게 표현하는 것이 어렵게 느껴짐. <br> - 대화 중 긴장으로 인해 상대와 어색해지고, 이로 인해 자존감이 심각하게 저하되기도 함. <br> - 대화를 피하다가 점차 자신감을 상실하고 사회적으로 고립되는 악순환에 빠짐. <br> - 불안이 심할 경우 공황 발작 같은 증상까지 경험하며, 일상적 대화 상황 자체가 큰 부담과 두려움으로 다가옴. |
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - React / TypeScript: 프론트엔드, 반응형 UI 및 타입 안전한 개발 <br> - Spring Boot: 개인/상대방 프로필 관리, 생성된 대화 이력 저장, 관계 기반 데이터 관리 <br> - FastAPI: ML 기반 추천 대화 주제, 대화 재생/음성화 API 엔드포인트 <br> - scikit-learn: 프로필·관계·트렌드 데이터 기반 추천 시스템 ML 구현 <br> - HyperCLOVA X: 한국어 맥락 이해/문장 생성, 자연스러운 맞춤 대화 스크립트 생산 <br> - CLOVA Voice: 텍스트-음성 변환(TTS), 대화 내용 실감 음성 재생 <br> - WebSocket: 실시간 그룹 대화·스크립트 동기화 <br> - Amazon RDS / MySQL: 대화 이력 및 사용 정보 안전 저장, 신속 조회 <br> - Papago API: 실시간 번역, 다국어 대화 동시 지원 |
-|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - TypeScript – https://www.typescriptlang.org/ <br> - Spring Boot – https://spring.io/projects/spring-boot <br> - FastAPI – https://fastapi.tiangolo.com/ko/ <br> - scikit-learn – https://scikit-learn.org/stable/index.html <br> - HyperCLOVA – https://clova.ai/ko/ <br> - CLOVA Voice – https://clova.ai/voice/ <br> - WebSocket - https://www.npmjs.com/package/ws <br> - Amazon RDS – https://aws.amazon.com/rds/ <br> - MySQL – https://www.mysql.com/ <br> - Papago API: https://developers.naver.com/docs/papago/papago-nmt-overview.md |
+|사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - TypeScript – https://www.typescriptlang.org/ <br> - Spring Boot – https://spring.io/projects/spring-boot <br> - FastAPI – https://fastapi.tiangolo.com/ko/ <br> - scikit-learn – https://scikit-learn.org/stable/index.html <br> - HyperCLOVA – https://clova.ai/ko/ <br> - CLOVA Voice – https://clova.ai/voice/ <br> - Amazon RDS – https://aws.amazon.com/rds/ <br> - MySQL – https://www.mysql.com/ <br> |
 |팀그라운드룰| [SEAquence's Team Ground Rules](https://github.com/HajarFazillah/SEAquence/blob/main/GroundRule.md) |
-|최종수정일| 2025-10-21 |
+|최종수정일| 2025-12-16 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
