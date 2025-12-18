@@ -32,7 +32,7 @@
 |[29](#team-29-Nitro)|Nitro| Kernel-Fused Parallel Execution for Accelerating Dual-Encoder Vision-Language Models |
 |[30](#team-30-lgtm)|LGTM|대학생을 위한 팀매칭 플랫폼|
 |[31](#team-31-플랜B)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
-|[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) 자영업자들을 위한 스마트 세무 자동화 비서 서비스 |
+|[32](#team-32-All-Day-Project)|All Day Project|Voice2Song: 딥러닝 기반 유저의 보컬과 어울리는 노래를 찾아주는 개인화 음악 추천 서비스 |
 |[33](#team-33-할수있다-능)|할수있다 능|해외여행자를 위한 머신러닝 기반 큐싱 URL 탐지 서비스|
 |[34](#team-34-200OK)|200OK|교사가 AI를 통해 문제를 생성·분석해 게임에 접목하여 수업에 활용할 수 있는 교육용 AI 기반 게임형 학습 플랫폼|
 |[35](#team-35-EWIN)|EWIN|자기주도 학습을 하는 대학생을 위한, 강의자료를 분석하고 개인 맞춤형 질문을 생성하여 깊이 있는 학습을 유도하는 AI 튜터링 서비스|
@@ -618,18 +618,18 @@
 
 | **항목** | **내용** |
 |---------|---------|
-| **프로젝트명** | **온세무 (OnTax)**  <br> 자영업자들을 위한 스마트 세무 자동화 비서 서비스 |
-| **프로젝트 키워드** | 🧾 세무관리  &nbsp; 💼 자영업  &nbsp; ⚙️ 자동화 |
-| **트랙** | 금융/세무 관리 자동화 서비스 개발 |
-| **프로젝트 멤버** | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)  <br> 👩‍💻 유서연 (Frontend, Data Visualization)  <br> 👩‍💻 이윤서 (AI, Frontend) |
+| **프로젝트명** | **Voice2Song** : 딥러닝 기반 유저의 보컬과 어울리는 노래를 찾아주는 개인화 음악 추천 서비스 |
+| **프로젝트 키워드** | 🎤 Voice Analysis  🎧 Pitch (F0) Tracking  🧠 Speaker Embedding (ECAPA-TDNN)   |
+| **트랙** | 산학 |
+| **프로젝트 멤버** | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)  <br> 👩‍💻 유서연 (Frontend, Data Visualization)  <br> 👩‍💻 이윤서 (AI, Audio Signal Processing, Recommendation) |
 | **팀지도교수** | 심재형 교수님 |
-| **무엇을 만들고자 하는가** | **온세무(OnTax)**는 자영업자의 세무 신고를 한 곳에서 간편하게 해결하는 올인원 플랫폼입니다. <br><br> - 자동 신고 프로세스: 카드·현금영수증·세금계산서 등 증빙 데이터를 **자동 수집 → 정리 → 신고서 자동 생성** <br> - 데이터 통합 관리: 여러 경로에 흩어진 매출·매입 데이터를 **API·OCR로 통합 관리** <br> - AI 세무 도우미: GPT-5 기반 챗봇이 세무 용어를 쉽게 설명하고 신고 절차 안내 <br> - 실시간 세무 대시보드: 예상 세액, 매출·비용 현황, 마감일 등을 시각화 <br><br> → **목표:** 세무 지식 없이도 빠르고 정확하게 신고하고, 본업에 집중할 수 있도록 지원 |
-| **고객** | - 초기 창업자(예: 음식점, 카페) <br> - 세무 지식이 부족한 개인사업자·소상공인 <br> - 홈택스가 익숙하지 않은 1인 사업자 |
-| **Pain Point** | **1️⃣ 끝없는 입력과 복잡한 절차** <br> - 수십 번 화면 전환·입력 <br> - 평균 30분 이상 소요 <br><br> **2️⃣ 흩어진 데이터로 인한 반복 작업** <br> - 카드사·홈택스·POS 등 다중 출처 <br> - 사용자가 직접 수집·입력 <br><br> **3️⃣ 전문 용어와 구조로 인한 진입장벽** <br> - 어려운 용어 <br> - 신고 절차 이해 어려움 <br> - 정확성·신뢰도 저하 |
-| **사용할 소프트웨어 패키지 (명칭·용도)** | - **React, TypeScript** → 프론트엔드 UI 개발 <br> - **Spring Boot** → 백엔드 서버·REST API <br> - **GPT-5** → AI 챗봇·설명 생성 <br> - **PostgreSQL + ClickHouse** → 운영 DB / 분석 DB <br> - **Redis** → 세션·캐시 저장 <br> - **LangChain** → AI 오케스트레이션 <br> - **MCP Server** → AI가 DB/OCR/Rule Engine과 통신하는 게이트웨이 |
-| **소프트웨어 패키지 URL** | - React: https://react.dev <br> - TypeScript: https://www.typescriptlang.org <br> - Spring Boot: https://spring.io/projects/spring-boot <br> - OpenAI GPT-5: https://platform.openai.com <br> - PostgreSQL: https://www.postgresql.org <br> - ClickHouse: https://clickhouse.com <br> - Redis: https://redis.io <br> - LangChain: https://www.langchain.com <br> - MCP: https://modelcontextprotocol.dev |
+| **무엇을 만들고자 하는가** | **Voice2Song**는 사용자가 직접 부른 한 소절 가창 음성을 분석하여, 해당 사용자의 음색·음역 특성에 가장 잘 어울리는 노래를 추천하는 가창 기반 음악 추천 웹 서비스입니다. <br><br> - 가창 음성 입력: 사용자가 웹에서 MR을 재생하며 20~30초 분량의 노래를 직접 녹음 <br> - 보컬 음성 분석: Demucs를 활용한 MR 제거 및 보컬 분리, Pitch(F0) 추적과 스펙트럼 분석 수행 <br> - 음색 임베딩 추출: SpeechBrain ECAPA-TDNN 기반 보컬 톤 임베딩 벡터 생성 <br> - 유사도 기반 추천: 사용자 음성과 노래 보컬 간 코사인 유사도 기반 비교 및 랭킹 생성 <br> - 개인화 순위 조정: Like / Dislike 피드백을 반영한 추천 결과 Re-ranking <br><br> → 목표: 사용자의 실제 가창 능력에 맞춰, <b> “내가 불렀을 때 가장 잘 어울리는 노래” </b>를 쉽고 직관적으로 찾을 수 있도록 지원 |
+| **고객** | - 노래방에서 무엇을 불러야 할지 고민하는 일반 사용자 (회식, 모임 등) <br> - 자신의 음색과 어울리는 인생 곡을 찾고 싶은 입문/취미 보컬리스트 <br> - “듣는 경험”을 넘어 “부르는 경험”으로 음악 소비를 확장하고 싶은 사용자 |
+| **Pain Point** | **1️⃣ 객관적인 음색 및 가창 특성 파악의 어려움**<br/>- 대부분의 사용자는 자신의 음역대, 보컬 톤, 가창 특성을 객관적인 지표로 확인하기 어려움 <br/> - 주관적인 감각이나 주변의 평가에 의존해 노래를 선택하는 경우가 많음<br/><br/>**2️⃣ ‘부르는 음악’ 관점의 추천 서비스 부재**<br/>- 현재 대중적인 음악 서비스는 청취 이력 기반 추천에 집중되어 있음<br/>- 사용자의 실제 가창 음성이나 발성 특성을 기반으로 ‘부르기 쉬운 노래’를 추천하는 서비스는 사실상 존재하지 않음<br/><br/>**3️⃣ 가창 경험 데이터의 축적 부재**<br/>- 노래방에서 무엇을 불렀고 잘 어울렸는지에 대한 데이터가 축적되지 않음<br/>- 이로 인해 개인의 가창 이력을 기반으로 한 분석이나 추천이 불가능함<br/><br/>**4️⃣ 높은 진입 장벽**<br/>- 자신의 목소리에 맞는 노래를 찾기 위해서는 보컬 트레이닝이나 전문적인 지식이 필요하다고 인식되는 경우가 많음<br/>- 일반 사용자가 가볍게 자신의 가창 특성을 분석해볼 수 있는 서비스가 부족함 |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오** | - React, TypeScript → 프론트엔드 UI 개발 및 사용자 인터랙션 구현 <br/> - Web Audio API → 브라우저 기반 음성 녹음 및 MR 재생 <br/> - SoundFile → 사용자 및 노래 보컬 오디오 WAV 저장 <br/> - FFmpeg → WAV / MP3 / M4A 등 오디오 포맷 변환 <br/> - Demucs → MR 제거 및 보컬 분리 (Music Source Separation) <br/> - PyTorch → 딥러닝 기반 음성 임베딩 모델 추론 <br/> - SpeechBrain (ECAPA-TDNN) → 보컬 톤·음색 임베딩 추출 <br/> - librosa → 피치(F0) 추적 및 스펙트럼 기반 음성 특징 분석 <br/> - NumPy / Math → 벡터 연산 및 거리 기반 점수 계산 <br/> - Spring Boot → 백엔드 서버 및 REST API 구현 <br/> - PostgreSQL → 사용자 음성 메타데이터 및 분석 결과 저장 <br/> - Redis → 세션 관리 및 추천 결과 캐싱 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | - React: https://react.dev <br/> - TypeScript: https://www.typescriptlang.org <br/> - Web Audio API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API <br/> - SoundFile: https://pysoundfile.readthedocs.io <br/> - FFmpeg: https://ffmpeg.org <br/> - Demucs: https://github.com/facebookresearch/demucs <br/> - PyTorch: https://pytorch.org <br/> - SpeechBrain: https://speechbrain.github.io <br/> - librosa: https://librosa.org <br/> - NumPy: https://numpy.org <br/> - Spring Boot: https://spring.io/projects/spring-boot <br/> - PostgreSQL: https://www.postgresql.org <br/> - Redis: https://redis.io 
 | **팀 그라운드룰 URL** | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md |
-| **최종 수정일** | 2025-10-30 |
+| **최종 수정일** | 2025-12-16 |
 
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
