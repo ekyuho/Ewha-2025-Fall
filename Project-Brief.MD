@@ -2,7 +2,7 @@
 |팀번호|팀명|프로젝트명|
 |:---|:---|:---|
 |[1](#team-1-Qubit)|Qubit|이온트랩 양자 컴퓨터에서 발생하는 측정 단계 노이즈를 효과적으로 완화하기 위한 전이학습/머신러닝 기반 솔루션 연구|
-|[2](#team-2-MBP)|MBP|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
+|[2](#team-2-MBP)|MBP|소규모 의료 데이터 환경에서의 효율적 AI 모델 평가 시스템: 합성 데이터와 연합 평가를 활용한 접근|
 |[3](#team-3-세얼간이)|세얼간이|대학생 개발자 팀의 효율적인 협업을 위한 회의록 기반의 지능형 진척 관리 및 피드백 시스템|
 |[4](#team-4-MedExplain)|MedExplain|진료 음성 기반 의료 설명 자동 요약 앱|
 |[5](#team-5-HiBee)|HiBee|과도한 디지털 자극에 노출된 현대인들을 위해 스마트폰 사용 패턴을 분석하여 무의식적인 충동 행동을 게임형 보상 시스템으로 개선하는 자기통제 어플리케이션|
@@ -63,16 +63,16 @@
 ## Team 2 MBP
 |항목|내용|
 |---|---|
-|프로젝트명|한국어 특화 의료 멀티모달 ai 벤치마크 개발|
-|프로젝트 키워드|한국어 특화, 멀티모달, 메디컬 AI, 벤치마크 구축|
+|프로젝트명|소규모 의료 데이터 환경에서의 효율적 AI 모델 평가 시스템: 합성 데이터와 연합 평가를 활용한 접근|
+|프로젝트 키워드|의료 AI, 소규모 의료 데이터, 데이터 편향, Manifold Mixup, 연합 평가(Federated Evaluation)|
 |트랙|연구|
 |프로젝트멤버|김채영, 박지호, 정지현|
 |팀지도교수|황의원|
-|무엇을 만들고자 하는가|한국 대학원·연구소의 의료 인공지능 연구자, 국내 AI 연구센터, 공공 연구기관들을 위해 국내 의료 환경에 맞춘 영상과 텍스트를 결합한 한국어 의료 데이터셋을 확보·전처리하고, 이에 기반한 태스크 정의·지표 설계·평가 코드·베이스라인 모델을 포함하는 표준 벤치마크를 구축한다.|
-|고객|대학병원/의료원 AI센터, 의료 AI 스타트업, 학계 연구실, 공공연구기관, 규제기관·심사평가원, 모델/플랫폼 사업자|
-|Pain Point|1. 한국어 데이터/지표 부재<br>- 영어 중심 글로벌 벤치마크와 국내 환경 괴리<br>- 한국어 기반 데이터셋과 지표 부족<br>2. 기관 간 불일치<br>- 병원별 데이터 라벨·형식 불일치 → 학습/평가 어려움<br>3. 규제/보안 제약<br>- 개인정보 보호, IRB 심사 등으로 데이터 접근 제한<br>4. 실제 임상과 괴리<br>- 현재 벤치마크 과업은 실제 임상질문과 불일치 → 연구 성과의 현장 적용성 낮음|
-|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score 등 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
-|사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score), [LLaVA-Med](https://github.com/microsoft/LLaVA-Med), [Med-Flamingo](https://github.com/snap-stanford/med-flamingo), [Qilin-Med](https://github.com/williamliujl/Qilin-Med-VL), [RadFM 영상](https://github.com/chaoyi-wu/RadFM), [PyTorch](https://github.com/pytorch/pytorch), [AI Hub](https://www.aihub.or.kr/aihubdata/data/list.do?currMenu=115&topMenu=100) [HIRA](https://opendata.hira.or.kr/home.do)|
+|무엇을 만들고자 하는가|데이터 반출이 불가능하고 데이터 규모가 작으며 병원별 편향이 강한 실제 의료 환경에서, 의료 AI 모델의 성능을 객관적으로 비교·검증하기 어려운 문제를 겪고 있는 의료 AI 연구자와 의료기관을 대상으로, 원본 의료 데이터를 외부로 공유하지 않으면서도 모델을 평가할 수 있도록 모델의 중간 레이어에서 생성한 합성 표현을 활용하는 Manifold Mixup 기법과 병원 내부 평가 결과만을 집계하는 연합 평가(Federated Evaluation) 구조를 결합한 평가 시스템을 구축 및 연구한다.|
+|고객|대학병원·의료원 AI센터, 의료 AI 연구실 및 대학원, 의료 AI 스타트업, 공공 연구기관, 의료 AI 검증·평가 기관, 의료 AI 모델 및 플랫폼 개발사|
+|Pain Point|1. 소규모·편향 의료 데이터 문제: 특정 질환·장비·시기에 집중된 데이터로 인해 모델 성능 평가가 불안정함<br>2. 기관 간 데이터 이질성: 병원별 촬영 장비, 라벨 기준, 데이터 분포 차이로 공정 비교가 어려움<br>3. 데이터 반출 및 보안 제약: 개인정보 보호법·IRB로 중앙 집중식 데이터셋 구축 불가<br>4. 기존 평가 방식의 한계: 대규모 공개 데이터 기반 평가는 실제 임상 환경을 충분히 반영하지 못함|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|• PyTorch: 의료 영상·멀티모달 모델 백본 구성 및 Manifold Mixup 커스텀 레이어 구현<br>• NumPy: Beta 분포 기반 혼합 비율 샘플링 및 대규모 벡터 연산 처리<br>• VLMEvalKit: 의료 멀티모달(VLM/LLM) 모델 평가 파이프라인 표준화 및 자동화<br>• MedicalEval QA Score: 의료 VQA 태스크 특화 정량 평가 지표 산출<br>• 사전 학습 의료 모델(LLaVA-Med, Med-Flamingo, Qilin-Med, BioViL 등): 베이스라인 및 비교 실험용|
+|사용할 소프트웨어 패키지의 명칭과 URL|PyTorch: https://github.com/pytorch/pytorch<br>VLMEvalKit: https://github.com/open-compass/VLMEvalKit<br>MedicalEval QA Score: https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score<br>LLaVA-Med: https://github.com/microsoft/LLaVA-Med<br>Med-Flamingo: https://github.com/snap-stanford/med-flamingo<br>Qilin-Med: https://github.com/williamliujl/Qilin-Med-VL<br>BioViL: https://github.com/microsoft/BioViL|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
 |최종수정일|2025.09.30|
 
